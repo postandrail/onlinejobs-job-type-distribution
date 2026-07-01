@@ -1,0 +1,3484 @@
+{
+  "generated_at": "2026-07-01T19:04:51",
+  "database": "/Users/gaul/Documents/Codex/shared/onlinejobs/jobs.sqlite",
+  "date_filter": {
+    "field": "date_updated",
+    "start_inclusive": "2026-06-24",
+    "end_inclusive": "2026-07-01"
+  },
+  "criteria": {
+    "employment": "Full Time only",
+    "company_requirement": "business/contact exposed or company/domain inferred from saved job text",
+    "target_profile": "early-career Arca graduate trained on Claude Code, AI video, websites, landing pages, dashboards, funnels, automation, sales, and lead-list building",
+    "target_budget": "$4-$6/hour, roughly $1,000/month"
+  },
+  "qualified_job_posts": 354,
+  "qualified_companies": 263,
+  "top_companies": [
+    {
+      "external_id": "1680127",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Claude-CoworkLovable-Expert-100-Remote-1680127",
+      "title": "Virtual Assistant (Claude Cowork/Lovable Expert) \u2014 100% Remote",
+      "company_name": "Snappyvas",
+      "company_url": "https://snappyvas.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "35",
+      "salary": "up to 650 monthly",
+      "estimated_monthly_usd": 650.0,
+      "pay_note": "up to 650 monthly treated as monthly",
+      "skill_requirement": "Email Marketing AI Tools AI Automation",
+      "score": 77,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, claude code, lovable, chatgpt, ai tools",
+        "Websites, landing pages, dashboards: landing page, landing pages",
+        "Funnels, CRM, automations: ghl, zapier, n8n, automation, workflow",
+        "Sales, outbound, lead lists: lead generation, lead gen, prospecting",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+        "Budget fit: listed around $650/month"
+      ],
+      "concerns": [
+        "May be too senior: lead, director, expert, advanced"
+      ],
+      "summary": "AI First. If you didn't start reading this ad already thinking about how you'd automate it \u2014 this role probably isn't for you. But if you live and breathe AI, keep reading. We're SnappyVAS (snappyvas.com) \u2014 an AI-first company and a no-code platform for...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1680127",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Claude-CoworkLovable-Expert-100-Remote-1680127",
+          "title": "Virtual Assistant (Claude Cowork/Lovable Expert) \u2014 100% Remote",
+          "company_name": "Snappyvas",
+          "company_url": "https://snappyvas.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "35",
+          "salary": "up to 650 monthly",
+          "estimated_monthly_usd": 650.0,
+          "pay_note": "up to 650 monthly treated as monthly",
+          "skill_requirement": "Email Marketing AI Tools AI Automation",
+          "score": 77,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, claude code, lovable, chatgpt, ai tools",
+            "Websites, landing pages, dashboards: landing page, landing pages",
+            "Funnels, CRM, automations: ghl, zapier, n8n, automation, workflow",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Budget fit: listed around $650/month"
+          ],
+          "concerns": [
+            "May be too senior: lead, director, expert, advanced"
+          ],
+          "summary": "AI First. If you didn't start reading this ad already thinking about how you'd automate it \u2014 this role probably isn't for you. But if you live and breathe AI, keep reading. We're SnappyVAS (snappyvas.com) \u2014 an AI-first company and a no-code platform for..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1665101",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/GoHighLevel-Specialist-WebsiteVideo-Social-Media-Creator-1665101",
+      "title": "GoHighLevel Specialist + Website+Video & Social Media Creator",
+      "company_name": "Healthy Vision Institute",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "45",
+      "salary": "$600-$750 base + huge bonus",
+      "estimated_monthly_usd": 750.0,
+      "pay_note": "$600-$750 base + huge bonus treated as monthly",
+      "skill_requirement": "Social Media Content Creation Google Sites AI Automation",
+      "score": 76,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: ai automation, capcut, canva",
+        "Websites, landing pages, dashboards: website, landing page, landing pages, dashboard, dashboards",
+        "Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, make.com",
+        "Early-career friendly language: will train, va, sop, templates",
+        "Strong budget fit: listed around $750/month"
+      ],
+      "concerns": [
+        "May be too senior: senior, manager, lead, advanced"
+      ],
+      "summary": "GoHighLevel Specialist + Website+Video & Social Media Creator Remote \u00b7 Full-Time \u00b7 US Eye-Care Medical Group (Florida) Base $700\u2013$1,100 USD/month + uncapped new-patient bonuses that can DOUBLE your base. Read This First This is not a generic VA job. We are...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1665101",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/GoHighLevel-Specialist-WebsiteVideo-Social-Media-Creator-1665101",
+          "title": "GoHighLevel Specialist + Website+Video & Social Media Creator",
+          "company_name": "Healthy Vision Institute",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "45",
+          "salary": "$600-$750 base + huge bonus",
+          "estimated_monthly_usd": 750.0,
+          "pay_note": "$600-$750 base + huge bonus treated as monthly",
+          "skill_requirement": "Social Media Content Creation Google Sites AI Automation",
+          "score": 76,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: ai automation, capcut, canva",
+            "Websites, landing pages, dashboards: website, landing page, landing pages, dashboard, dashboards",
+            "Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, make.com",
+            "Early-career friendly language: will train, va, sop, templates",
+            "Strong budget fit: listed around $750/month"
+          ],
+          "concerns": [
+            "May be too senior: senior, manager, lead, advanced"
+          ],
+          "summary": "GoHighLevel Specialist + Website+Video & Social Media Creator Remote \u00b7 Full-Time \u00b7 US Eye-Care Medical Group (Florida) Base $700\u2013$1,100 USD/month + uncapped new-patient bonuses that can DOUBLE your base. Read This First This is not a generic VA job. We are..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1666840",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Growth-Marketing-Manager-1666840",
+      "title": "Senior Growth Marketing Manager",
+      "company_name": "Cynergists AI",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "$8",
+      "estimated_monthly_usd": 8.0,
+      "pay_note": "$8 treated as monthly",
+      "skill_requirement": "",
+      "score": 75,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, heygen, veo",
+        "Websites, landing pages, dashboards: landing page, dashboard, dashboards",
+        "Funnels, CRM, automations: gohighlevel, ghl, funnel, automation, crm",
+        "Sales, outbound, lead lists: lead generation, lead gen, linkedin",
+        "Early-career friendly language: va",
+        "Budget fit: listed around $8/month"
+      ],
+      "concerns": [
+        "May be too senior: senior, manager, lead"
+      ],
+      "summary": "Senior Growth Marketing Manager (Google Ads, AI Creative & Demand Generation) About Cynergists AI Cynergists AI is building the future of business operations through an Agentic CRM, AI Agents, automation, voice, SMS, email, customer intelligence, and...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1666840",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Growth-Marketing-Manager-1666840",
+          "title": "Senior Growth Marketing Manager",
+          "company_name": "Cynergists AI",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$8",
+          "estimated_monthly_usd": 8.0,
+          "pay_note": "$8 treated as monthly",
+          "skill_requirement": "",
+          "score": 75,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, heygen, veo",
+            "Websites, landing pages, dashboards: landing page, dashboard, dashboards",
+            "Funnels, CRM, automations: gohighlevel, ghl, funnel, automation, crm",
+            "Sales, outbound, lead lists: lead generation, lead gen, linkedin",
+            "Early-career friendly language: va",
+            "Budget fit: listed around $8/month"
+          ],
+          "concerns": [
+            "May be too senior: senior, manager, lead"
+          ],
+          "summary": "Senior Growth Marketing Manager (Google Ads, AI Creative & Demand Generation) About Cynergists AI Cynergists AI is building the future of business operations through an Agentic CRM, AI Agents, automation, voice, SMS, email, customer intelligence, and..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1664942",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/HubSpot-CMS-UXUI-Web-Developer-1664942",
+      "title": "HubSpot CMS & UX/UI Web Developer",
+      "company_name": "Set 2 Close",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "40",
+      "salary": "$8-$12",
+      "estimated_monthly_usd": 12.0,
+      "pay_note": "$8-$12 treated as monthly",
+      "skill_requirement": "",
+      "score": 74,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: canva",
+        "Websites, landing pages, dashboards: website, web design, landing page, landing pages, dashboard",
+        "Funnels, CRM, automations: automation, workflow, crm, hubspot",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: va, templates",
+        "Budget fit: listed around $12/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead"
+      ],
+      "summary": "HubSpot CMS & UX/UI Web Developer Location: Remote Employment Type: Full-Time Contract Work Schedule: Must be available to work during Pacific Standard Time business hours Compensation: $8\u2013$12 per hour USD, depending on experience and skill set About Set 2...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1664942",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/HubSpot-CMS-UXUI-Web-Developer-1664942",
+          "title": "HubSpot CMS & UX/UI Web Developer",
+          "company_name": "Set 2 Close",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "$8-$12",
+          "estimated_monthly_usd": 12.0,
+          "pay_note": "$8-$12 treated as monthly",
+          "skill_requirement": "",
+          "score": 74,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: canva",
+            "Websites, landing pages, dashboards: website, web design, landing page, landing pages, dashboard",
+            "Funnels, CRM, automations: automation, workflow, crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: va, templates",
+            "Budget fit: listed around $12/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead"
+          ],
+          "summary": "HubSpot CMS & UX/UI Web Developer Location: Remote Employment Type: Full-Time Contract Work Schedule: Must be available to work during Pacific Standard Time business hours Compensation: $8\u2013$12 per hour USD, depending on experience and skill set About Set 2..."
+        },
+        {
+          "external_id": "1678915",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/HubSpot-CMS-UXUI-Web-Developer-1678915",
+          "title": "HubSpot CMS & UX/UI Web Developer",
+          "company_name": "Set 2 Close",
+          "company_url": "https://set2close.io",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$8-$12",
+          "estimated_monthly_usd": 12.0,
+          "pay_note": "$8-$12 treated as monthly",
+          "skill_requirement": "",
+          "score": 74,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: canva",
+            "Websites, landing pages, dashboards: website, web design, landing page, landing pages, dashboard",
+            "Funnels, CRM, automations: automation, workflow, crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: va, templates",
+            "Budget fit: listed around $12/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead"
+          ],
+          "summary": "HubSpot CMS & UX/UI Web Developer Location: Remote Employment Type: Full-Time Contract Work Schedule: Must be available to work during Pacific Standard Time business hours Compensation: $8\u2013$12 per hour USD, depending on experience and skill set About Set 2..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1678141",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Claude-AI-Specialist-Cowork-Code-Full-Time-Long-Term-1678141",
+      "title": "Claude AI Specialist (Cowork / Code) | Full-Time, Long-Term",
+      "company_name": "Leadflow Consulting",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 28, 2026",
+      "hours_per_week": "40",
+      "salary": "800",
+      "estimated_monthly_usd": 800.0,
+      "pay_note": "800 treated as monthly",
+      "skill_requirement": "AI Tools AI Automation",
+      "score": 73,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, claude code, ai tools, ai automation",
+        "Websites, landing pages, dashboards: dashboard, dashboards",
+        "Funnels, CRM, automations: make.com, zapier, n8n, automation, workflow",
+        "Early-career friendly language: assistant, va, virtual assistant, templates",
+        "Strong budget fit: listed around $800/month"
+      ],
+      "concerns": [
+        "May be too senior: lead, expert, advanced"
+      ],
+      "summary": "**About the role** I run a fast-growing AI consulting business serving high-profile entrepreneurs in the German-speaking market. We help them work with Claude (Cowork) and we build the setups and skills that run their business. We already run client Claude...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678141",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Claude-AI-Specialist-Cowork-Code-Full-Time-Long-Term-1678141",
+          "title": "Claude AI Specialist (Cowork / Code) | Full-Time, Long-Term",
+          "company_name": "Leadflow Consulting",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 28, 2026",
+          "hours_per_week": "40",
+          "salary": "800",
+          "estimated_monthly_usd": 800.0,
+          "pay_note": "800 treated as monthly",
+          "skill_requirement": "AI Tools AI Automation",
+          "score": 73,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, claude code, ai tools, ai automation",
+            "Websites, landing pages, dashboards: dashboard, dashboards",
+            "Funnels, CRM, automations: make.com, zapier, n8n, automation, workflow",
+            "Early-career friendly language: assistant, va, virtual assistant, templates",
+            "Strong budget fit: listed around $800/month"
+          ],
+          "concerns": [
+            "May be too senior: lead, expert, advanced"
+          ],
+          "summary": "**About the role** I run a fast-growing AI consulting business serving high-profile entrepreneurs in the German-speaking market. We help them work with Claude (Cowork) and we build the setups and skills that run their business. We already run client Claude..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1676548",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Research-Data-Mining-Specialist-Full-Time-1676548",
+      "title": "AI Research & Data Mining Specialist (Full-Time)",
+      "company_name": "SMB Solutions",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "$500",
+      "estimated_monthly_usd": 500.0,
+      "pay_note": "$500 treated as monthly",
+      "skill_requirement": "Admin Data Processing Market Research Data Gathering",
+      "score": 72,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+        "Websites, landing pages, dashboards: website",
+        "Funnels, CRM, automations: ghl, automation, crm, api",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Budget fit: listed around $500/month"
+      ],
+      "concerns": [
+        "May be too senior: lead, director"
+      ],
+      "summary": "AI Research & Data Mining Specialist (Full-Time) Salary $80 to $125 USD per week Based on experience and demonstrated skill. Schedule Full-Time Monday through Friday 40 Hours Per Week Location Remote ? About SMB Solutions We are an AI automation and digital...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1676548",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Research-Data-Mining-Specialist-Full-Time-1676548",
+          "title": "AI Research & Data Mining Specialist (Full-Time)",
+          "company_name": "SMB Solutions",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$500",
+          "estimated_monthly_usd": 500.0,
+          "pay_note": "$500 treated as monthly",
+          "skill_requirement": "Admin Data Processing Market Research Data Gathering",
+          "score": 72,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Websites, landing pages, dashboards: website",
+            "Funnels, CRM, automations: ghl, automation, crm, api",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Budget fit: listed around $500/month"
+          ],
+          "concerns": [
+            "May be too senior: lead, director"
+          ],
+          "summary": "AI Research & Data Mining Specialist (Full-Time) Salary $80 to $125 USD per week Based on experience and demonstrated skill. Schedule Full-Time Monday through Friday 40 Hours Per Week Location Remote ? About SMB Solutions We are an AI automation and digital..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678990",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Development-Representative-VA-DMN-1678990",
+      "title": "Sales Development Representative VA - DMN",
+      "company_name": "Vruum",
+      "company_url": "https://vruum.ai",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "PHP40,000",
+      "estimated_monthly_usd": 689.66,
+      "pay_note": "PHP40,000 treated as monthly",
+      "skill_requirement": "CRM Outbound Sales Sales Management",
+      "score": 71,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools",
+        "Websites, landing pages, dashboards: website",
+        "Funnels, CRM, automations: crm, hubspot, sms",
+        "Sales, outbound, lead lists: lead generation, lead gen, lead list, outbound, cold email",
+        "Early-career friendly language: va, coachable",
+        "Budget fit: listed around $690/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Remote SDR support for lead generation, outreach, CRM management, and appointment setting Remote role | Full-time or part-time Schedule to be aligned with the closer\u2019s time zone and outreach needs Daily reporting is required Key Responsibilities \u2022 Execute...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678990",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Development-Representative-VA-DMN-1678990",
+          "title": "Sales Development Representative VA - DMN",
+          "company_name": "Vruum",
+          "company_url": "https://vruum.ai",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "PHP40,000",
+          "estimated_monthly_usd": 689.66,
+          "pay_note": "PHP40,000 treated as monthly",
+          "skill_requirement": "CRM Outbound Sales Sales Management",
+          "score": 71,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools",
+            "Websites, landing pages, dashboards: website",
+            "Funnels, CRM, automations: crm, hubspot, sms",
+            "Sales, outbound, lead lists: lead generation, lead gen, lead list, outbound, cold email",
+            "Early-career friendly language: va, coachable",
+            "Budget fit: listed around $690/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Remote SDR support for lead generation, outreach, CRM management, and appointment setting Remote role | Full-time or part-time Schedule to be aligned with the closer\u2019s time zone and outreach needs Daily reporting is required Key Responsibilities \u2022 Execute..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1680040",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-GHL-Customer-Support-Phone-CallEmailText-1680040",
+      "title": "Associate Administrative Assistant | GHL + Customer Support [Phone Call/Email/Text]",
+      "company_name": "ZT (A Tutoring Company)",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "40",
+      "salary": "$7/Hour",
+      "estimated_monthly_usd": 1212.4,
+      "pay_note": "$7/Hour normalized as hourly",
+      "skill_requirement": "Customer Service GoHighLevel AI Automation",
+      "score": 69,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, ai automation, canva",
+        "Funnels, CRM, automations: gohighlevel, ghl, automation, crm",
+        "Early-career friendly language: assistant, va, coachable",
+        "Near budget: listed around $1,212/month"
+      ],
+      "concerns": [],
+      "summary": "We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1680040",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-GHL-Customer-Support-Phone-CallEmailText-1680040",
+          "title": "Associate Administrative Assistant | GHL + Customer Support [Phone Call/Email/Text]",
+          "company_name": "ZT (A Tutoring Company)",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "40",
+          "salary": "$7/Hour",
+          "estimated_monthly_usd": 1212.4,
+          "pay_note": "$7/Hour normalized as hourly",
+          "skill_requirement": "Customer Service GoHighLevel AI Automation",
+          "score": 69,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation, canva",
+            "Funnels, CRM, automations: gohighlevel, ghl, automation, crm",
+            "Early-career friendly language: assistant, va, coachable",
+            "Near budget: listed around $1,212/month"
+          ],
+          "concerns": [],
+          "summary": "We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1679498",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Business-Funding-SDR-Cold-Caller-GoHighLevel-CRM-1679498",
+      "title": "Business Funding SDR | Cold Caller | GoHighLevel CRM",
+      "company_name": "Ascend Capital LLC",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "$3-$5",
+      "estimated_monthly_usd": 5.0,
+      "pay_note": "$3-$5 treated as monthly",
+      "skill_requirement": "CRM Cold Calling Sales",
+      "score": 68,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: gohighlevel, ghl, crm, api",
+        "Sales, outbound, lead lists: outbound, cold calling, appointment setting, sdr, sales development",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Budget fit: listed around $5/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "# Business Funding Sales Development Representative (SDR) | Cold Caller | GoHighLevel CRM ## About Ascend Capital LLC Ascend Capital LLC helps businesses across the United States access the capital they need to grow. We specialize in business funding...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679498",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Business-Funding-SDR-Cold-Caller-GoHighLevel-CRM-1679498",
+          "title": "Business Funding SDR | Cold Caller | GoHighLevel CRM",
+          "company_name": "Ascend Capital LLC",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$3-$5",
+          "estimated_monthly_usd": 5.0,
+          "pay_note": "$3-$5 treated as monthly",
+          "skill_requirement": "CRM Cold Calling Sales",
+          "score": 68,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: gohighlevel, ghl, crm, api",
+            "Sales, outbound, lead lists: outbound, cold calling, appointment setting, sdr, sales development",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Budget fit: listed around $5/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "# Business Funding Sales Development Representative (SDR) | Cold Caller | GoHighLevel CRM ## About Ascend Capital LLC Ascend Capital LLC helps businesses across the United States access the capital they need to grow. We specialize in business funding..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1592540",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Coder-Needed-Dance-Academy-1592540",
+      "title": "Coder Needed | Dance Academy",
+      "company_name": "MaS Dance Academy",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "40",
+      "salary": "$$$ Salary To Be Determined",
+      "estimated_monthly_usd": null,
+      "pay_note": "salary unclear",
+      "skill_requirement": "Javascript Virtual Assistant AI Automation",
+      "score": 68,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, claude code, cursor, ai automation",
+        "Websites, landing pages, dashboards: website, html, css, react",
+        "Funnels, CRM, automations: zapier, n8n, automation, workflow, crm",
+        "Early-career friendly language: assistant, va, virtual assistant, templates",
+        "Budget likely reviewable: salary unclear"
+      ],
+      "concerns": [
+        "May be too senior: senior, lead"
+      ],
+      "summary": "Full-time, long-term opportunity. Environment here is CREATIVE and FUN. YOUR FOCUS: You'll be building systems for explosive growth in 2026 and 2027. Examples: \u2022 Building Automations (n8n, Zapier, A.I. Tools etc.) \u2022 Website Development (HTML, CSS, Javascript...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1592540",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Coder-Needed-Dance-Academy-1592540",
+          "title": "Coder Needed | Dance Academy",
+          "company_name": "MaS Dance Academy",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "$$$ Salary To Be Determined",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "Javascript Virtual Assistant AI Automation",
+          "score": 68,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, claude code, cursor, ai automation",
+            "Websites, landing pages, dashboards: website, html, css, react",
+            "Funnels, CRM, automations: zapier, n8n, automation, workflow, crm",
+            "Early-career friendly language: assistant, va, virtual assistant, templates",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: senior, lead"
+          ],
+          "summary": "Full-time, long-term opportunity. Environment here is CREATIVE and FUN. YOUR FOCUS: You'll be building systems for explosive growth in 2026 and 2027. Examples: \u2022 Building Automations (n8n, Zapier, A.I. Tools etc.) \u2022 Website Development (HTML, CSS, Javascript..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678791",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Automation-Specialist-Executive-Operations-Assistant-1678791",
+      "title": "AI Automation Specialist / Executive Operations Assistant",
+      "company_name": "S2F Worldwide Enterprises",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "$400/month",
+      "estimated_monthly_usd": 400.0,
+      "pay_note": "$400/month treated as monthly",
+      "skill_requirement": "CRM Lead Generation AI Automation",
+      "score": 67,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+        "Funnels, CRM, automations: gohighlevel, ghl, zapier, automation, workflow",
+        "Sales, outbound, lead lists: lead generation, lead gen, appointment setting",
+        "Early-career friendly language: assistant, va, templates",
+        "Budget fit: listed around $400/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead",
+        "Specialized/non-Arca fit: compliance"
+      ],
+      "summary": "I am hiring a full-time AI Automation Specialist to help run and improve a fast-moving sales and lead generation operation. This is not a basic VA role. I need someone who is highly experienced with AI tools, automation tools, CRM systems, and workflow...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678791",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Automation-Specialist-Executive-Operations-Assistant-1678791",
+          "title": "AI Automation Specialist / Executive Operations Assistant",
+          "company_name": "S2F Worldwide Enterprises",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$400/month",
+          "estimated_monthly_usd": 400.0,
+          "pay_note": "$400/month treated as monthly",
+          "skill_requirement": "CRM Lead Generation AI Automation",
+          "score": 67,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Funnels, CRM, automations: gohighlevel, ghl, zapier, automation, workflow",
+            "Sales, outbound, lead lists: lead generation, lead gen, appointment setting",
+            "Early-career friendly language: assistant, va, templates",
+            "Budget fit: listed around $400/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead",
+            "Specialized/non-Arca fit: compliance"
+          ],
+          "summary": "I am hiring a full-time AI Automation Specialist to help run and improve a fast-moving sales and lead generation operation. This is not a basic VA role. I need someone who is highly experienced with AI tools, automation tools, CRM systems, and workflow..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678921",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Ecommerce-Growth-Market-Specialist-SEO-PPC-Marketing-1678921",
+      "title": "Ecommerce Growth Market Specialist - SEO, PPC, Marketing...",
+      "company_name": "Vici Trading Co LTD",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "45",
+      "salary": "$1200/month",
+      "estimated_monthly_usd": 1200.0,
+      "pay_note": "$1200/month treated as monthly",
+      "skill_requirement": "PPC SEO Amazon PPC",
+      "score": 67,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: chatgpt, ai tools, canva",
+        "Websites, landing pages, dashboards: website, landing page, shopify",
+        "Funnels, CRM, automations: funnel, automation, workflow",
+        "Sales, outbound, lead lists: linkedin",
+        "Early-career friendly language: va, sop, sops",
+        "Near budget: listed around $1,200/month"
+      ],
+      "concerns": [],
+      "summary": "Growth Marketing Specialist We are looking for a proactive, commercially minded Growth Marketing Specialist to help scale our online sales across our website and multiple marketplaces. This is a hands-on, all-round digital marketing role covering SEO, PPC...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678921",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Ecommerce-Growth-Market-Specialist-SEO-PPC-Marketing-1678921",
+          "title": "Ecommerce Growth Market Specialist - SEO, PPC, Marketing...",
+          "company_name": "Vici Trading Co LTD",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "45",
+          "salary": "$1200/month",
+          "estimated_monthly_usd": 1200.0,
+          "pay_note": "$1200/month treated as monthly",
+          "skill_requirement": "PPC SEO Amazon PPC",
+          "score": 67,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: chatgpt, ai tools, canva",
+            "Websites, landing pages, dashboards: website, landing page, shopify",
+            "Funnels, CRM, automations: funnel, automation, workflow",
+            "Sales, outbound, lead lists: linkedin",
+            "Early-career friendly language: va, sop, sops",
+            "Near budget: listed around $1,200/month"
+          ],
+          "concerns": [],
+          "summary": "Growth Marketing Specialist We are looking for a proactive, commercially minded Growth Marketing Specialist to help scale our online sales across our website and multiple marketplaces. This is a hands-on, all-round digital marketing role covering SEO, PPC..."
+        },
+        {
+          "external_id": "1678925",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Ecommerce-Merchandising-Marketplace-Product-listing-Specialist-1678925",
+          "title": "Ecommerce Merchandising, Marketplace & Product listing Specialist",
+          "company_name": "Vici Trading Co LTD",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "45",
+          "salary": "$1000/month",
+          "estimated_monthly_usd": 1000.0,
+          "pay_note": "$1000/month treated as monthly",
+          "skill_requirement": "Amazon Shopify Product Listing",
+          "score": 60,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: chatgpt, ai tools, canva",
+            "Websites, landing pages, dashboards: website, landing page, landing pages, shopify",
+            "Funnels, CRM, automations: automation",
+            "Early-career friendly language: va, sop, sops",
+            "Strong budget fit: listed around $1,000/month"
+          ],
+          "concerns": [
+            "Specialized/non-Arca fit: compliance"
+          ],
+          "summary": "Ecommerce Merchandising & Marketplace Specialist Location: Remote About the Role We are looking for an experienced Ecommerce Merchandising & Marketplace Specialist to take ownership of our products across our ecommerce website and multiple online..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1677874",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Funnel-Builder-Full-Stack-Advertorial-Funnels-for-Dutch-eCommerce-1677874",
+      "title": "Funnel Builder (Full-Stack) \u2014 Advertorial Funnels for Dutch eCommerce",
+      "company_name": "Velura Group",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 27, 2026",
+      "hours_per_week": "40",
+      "salary": "$7",
+      "estimated_monthly_usd": 7.0,
+      "pay_note": "$7 treated as monthly",
+      "skill_requirement": "Clickfunnels Website Copywriting Funnelish",
+      "score": 65,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: website, landing page, landing pages, shopify",
+        "Funnels, CRM, automations: funnel, funnels, api",
+        "Early-career friendly language: junior, va, sop, sops",
+        "Budget fit: listed around $7/month"
+      ],
+      "concerns": [
+        "Specialized/non-Arca fit: claims"
+      ],
+      "summary": "We run a 7-figure health & wellness eCommerce brand selling to the Netherlands. We're looking for an experienced, autonomous funnel builder who can take a product and ship a complete, high-converting advertorial funnel \u2014 build, copy, and tracking \u2014 without...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677874",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Funnel-Builder-Full-Stack-Advertorial-Funnels-for-Dutch-eCommerce-1677874",
+          "title": "Funnel Builder (Full-Stack) \u2014 Advertorial Funnels for Dutch eCommerce",
+          "company_name": "Velura Group",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 27, 2026",
+          "hours_per_week": "40",
+          "salary": "$7",
+          "estimated_monthly_usd": 7.0,
+          "pay_note": "$7 treated as monthly",
+          "skill_requirement": "Clickfunnels Website Copywriting Funnelish",
+          "score": 65,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: website, landing page, landing pages, shopify",
+            "Funnels, CRM, automations: funnel, funnels, api",
+            "Early-career friendly language: junior, va, sop, sops",
+            "Budget fit: listed around $7/month"
+          ],
+          "concerns": [
+            "Specialized/non-Arca fit: claims"
+          ],
+          "summary": "We run a 7-figure health & wellness eCommerce brand selling to the Netherlands. We're looking for an experienced, autonomous funnel builder who can take a product and ship a complete, high-converting advertorial funnel \u2014 build, copy, and tracking \u2014 without..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1679545",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Backend-Focused-WordPress-Developer-Needed-for-Custom-Elementor-Pro-Websites-1679545",
+      "title": "Backend-Focused WordPress Developer Needed for Custom Elementor Pro Websites",
+      "company_name": "100Bmod",
+      "company_url": "https://100bmod.org",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "STARTING AT $640 per month",
+      "estimated_monthly_usd": 640.0,
+      "pay_note": "STARTING AT $640 per month treated as monthly",
+      "skill_requirement": "PHP Wordpress Javascript",
+      "score": 64,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: website, front-end, wordpress, html, css",
+        "Funnels, CRM, automations: ghl, automation, workflow, api, webhook",
+        "Early-career friendly language: va, templates",
+        "Budget fit: listed around $640/month"
+      ],
+      "concerns": [
+        "May be too senior: advanced, architect"
+      ],
+      "summary": "BACKEND-FIRST WORDPRESS DEVELOPER REQUIRED \u2014 PLEASE READ BEFORE APPLYING This is not a basic Elementor design role. We are looking for a highly skilled WordPress developer with strong backend development, troubleshooting, custom PHP, webhook integration...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679545",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Backend-Focused-WordPress-Developer-Needed-for-Custom-Elementor-Pro-Websites-1679545",
+          "title": "Backend-Focused WordPress Developer Needed for Custom Elementor Pro Websites",
+          "company_name": "100Bmod",
+          "company_url": "https://100bmod.org",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "STARTING AT $640 per month",
+          "estimated_monthly_usd": 640.0,
+          "pay_note": "STARTING AT $640 per month treated as monthly",
+          "skill_requirement": "PHP Wordpress Javascript",
+          "score": 64,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: website, front-end, wordpress, html, css",
+            "Funnels, CRM, automations: ghl, automation, workflow, api, webhook",
+            "Early-career friendly language: va, templates",
+            "Budget fit: listed around $640/month"
+          ],
+          "concerns": [
+            "May be too senior: advanced, architect"
+          ],
+          "summary": "BACKEND-FIRST WORDPRESS DEVELOPER REQUIRED \u2014 PLEASE READ BEFORE APPLYING This is not a basic Elementor design role. We are looking for a highly skilled WordPress developer with strong backend development, troubleshooting, custom PHP, webhook integration..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1680284",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Detail-Oriented-Virtual-Assistant-Full-Time-Remote-EST-Hours-1680284",
+      "title": "Detail-Oriented Virtual Assistant (Full Time | Remote | EST Hours)",
+      "company_name": "Lumesales",
+      "company_url": "https://lumesales.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "40",
+      "salary": "5-6",
+      "estimated_monthly_usd": 6.0,
+      "pay_note": "5-6 treated as monthly",
+      "skill_requirement": "Attention to Detail Organization Time Managment",
+      "score": 62,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: website, wordpress",
+        "Funnels, CRM, automations: ghl, workflow",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+        "Budget fit: listed around $6/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "We are a fast-growing U.S. based digital marketing agency specializing in SEO, content marketing, Google Business Profile management, PPC, and lead generation for home service businesses. We are not looking for a generic virtual assistant. We are looking for...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1680284",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Detail-Oriented-Virtual-Assistant-Full-Time-Remote-EST-Hours-1680284",
+          "title": "Detail-Oriented Virtual Assistant (Full Time | Remote | EST Hours)",
+          "company_name": "Lumesales",
+          "company_url": "https://lumesales.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "40",
+          "salary": "5-6",
+          "estimated_monthly_usd": 6.0,
+          "pay_note": "5-6 treated as monthly",
+          "skill_requirement": "Attention to Detail Organization Time Managment",
+          "score": 62,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: website, wordpress",
+            "Funnels, CRM, automations: ghl, workflow",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Budget fit: listed around $6/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We are a fast-growing U.S. based digital marketing agency specializing in SEO, content marketing, Google Business Profile management, PPC, and lead generation for home service businesses. We are not looking for a generic virtual assistant. We are looking for..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1614377",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Local-SEO-Specialist-With-AI-1614377",
+      "title": "Local SEO Specialist - With AI",
+      "company_name": "Makarios Marketing - Jaso",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "29",
+      "salary": "800-1200",
+      "estimated_monthly_usd": 1200.0,
+      "pay_note": "800-1200 treated as monthly",
+      "skill_requirement": "Local SEO AI Tools AI Automation",
+      "score": 62,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, claude code, ai tools, ai automation",
+        "Websites, landing pages, dashboards: dashboard, dashboards",
+        "Funnels, CRM, automations: n8n, automation, workflow",
+        "Early-career friendly language: junior, va",
+        "Near budget: listed around $1,200/month"
+      ],
+      "concerns": [
+        "May be too senior: head of"
+      ],
+      "summary": "Local SEO Specialist (MUST HAVE AI AUTOMATION SKILLS IN LOCAL SEO) Full-Time - Makarios Marketing | [Remote] About the Role We're not looking for a traditional SEO hire. We're looking for a rare hybrid: someone who lives and breathes local SEO and thinks like...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1614377",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Local-SEO-Specialist-With-AI-1614377",
+          "title": "Local SEO Specialist - With AI",
+          "company_name": "Makarios Marketing - Jaso",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "29",
+          "salary": "800-1200",
+          "estimated_monthly_usd": 1200.0,
+          "pay_note": "800-1200 treated as monthly",
+          "skill_requirement": "Local SEO AI Tools AI Automation",
+          "score": 62,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, claude code, ai tools, ai automation",
+            "Websites, landing pages, dashboards: dashboard, dashboards",
+            "Funnels, CRM, automations: n8n, automation, workflow",
+            "Early-career friendly language: junior, va",
+            "Near budget: listed around $1,200/month"
+          ],
+          "concerns": [
+            "May be too senior: head of"
+          ],
+          "summary": "Local SEO Specialist (MUST HAVE AI AUTOMATION SKILLS IN LOCAL SEO) Full-Time - Makarios Marketing | [Remote] About the Role We're not looking for a traditional SEO hire. We're looking for a rare hybrid: someone who lives and breathes local SEO and thinks like..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1680404",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Builder-Support-Lead-1680404",
+      "title": "AI Builder + Support Lead",
+      "company_name": "Revivepaintingang",
+      "company_url": "https://revivepaintingang.uk",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "40",
+      "salary": "50,000-70,000 PHP / month",
+      "estimated_monthly_usd": 1206.9,
+      "pay_note": "50,000-70,000 PHP / month treated as monthly",
+      "skill_requirement": "Google Suite Zapier AI Automation",
+      "score": 62,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+        "Funnels, CRM, automations: zapier, n8n, automation, workflow, crm",
+        "Early-career friendly language: va, sop, sops",
+        "Near budget: listed around $1,207/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Job Title Full-Time AI Builder for Trades Software Startup (ChatGPT, Claude, Zapier) Job Type Full-time, long-term remote role. Philippines only. Compensation PHP 50,000\u201370,000/month, depending on experience and fit, plus performance-based bonuses as the...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1680404",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Builder-Support-Lead-1680404",
+          "title": "AI Builder + Support Lead",
+          "company_name": "Revivepaintingang",
+          "company_url": "https://revivepaintingang.uk",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "40",
+          "salary": "50,000-70,000 PHP / month",
+          "estimated_monthly_usd": 1206.9,
+          "pay_note": "50,000-70,000 PHP / month treated as monthly",
+          "skill_requirement": "Google Suite Zapier AI Automation",
+          "score": 62,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Funnels, CRM, automations: zapier, n8n, automation, workflow, crm",
+            "Early-career friendly language: va, sop, sops",
+            "Near budget: listed around $1,207/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Job Title Full-Time AI Builder for Trades Software Startup (ChatGPT, Claude, Zapier) Job Type Full-time, long-term remote role. Philippines only. Compensation PHP 50,000\u201370,000/month, depending on experience and fit, plus performance-based bonuses as the..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678113",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Retail-Dispensary-Operations-1678113",
+      "title": "Virtual Assistant \u2013 Retail & Dispensary Operations",
+      "company_name": "Kluglino LLC",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 28, 2026",
+      "hours_per_week": "40",
+      "salary": "$1000/month",
+      "estimated_monthly_usd": 1000.0,
+      "pay_note": "$1000/month treated as monthly",
+      "skill_requirement": "",
+      "score": 61,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: chatgpt, ai tools",
+        "Funnels, CRM, automations: ghl, zapier, workflow, crm, api",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+        "Strong budget fit: listed around $1,000/month"
+      ],
+      "concerns": [
+        "Specialized/non-Arca fit: payroll, compliance"
+      ],
+      "summary": "Virtual Assistant \u2013 Retail & Dispensary Operations About Us We are a fast-growing retail and cannabis company operating multiple dynamic businesses. We are building a strong operational team to support continued growth, maintain compliance, and ensure...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678113",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Retail-Dispensary-Operations-1678113",
+          "title": "Virtual Assistant \u2013 Retail & Dispensary Operations",
+          "company_name": "Kluglino LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 28, 2026",
+          "hours_per_week": "40",
+          "salary": "$1000/month",
+          "estimated_monthly_usd": 1000.0,
+          "pay_note": "$1000/month treated as monthly",
+          "skill_requirement": "",
+          "score": 61,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: chatgpt, ai tools",
+            "Funnels, CRM, automations: ghl, zapier, workflow, crm, api",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Strong budget fit: listed around $1,000/month"
+          ],
+          "concerns": [
+            "Specialized/non-Arca fit: payroll, compliance"
+          ],
+          "summary": "Virtual Assistant \u2013 Retail & Dispensary Operations About Us We are a fast-growing retail and cannabis company operating multiple dynamic businesses. We are building a strong operational team to support continued growth, maintain compliance, and ensure..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1679663",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Revenue-Operations-Home-Services-1679663",
+      "title": "Revenue Operations (Home Services)",
+      "company_name": "Caliberworkforce",
+      "company_url": "https://caliberworkforce.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "TBD",
+      "estimated_monthly_usd": null,
+      "pay_note": "salary unclear",
+      "skill_requirement": "",
+      "score": 60,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt",
+        "Funnels, CRM, automations: zapier, automation, workflow, crm, hubspot",
+        "Sales, outbound, lead lists: lead generation, lead gen, outbound",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, templates",
+        "Budget likely reviewable: salary unclear"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Caliber Workforce | Revenue Operations (Home Services) APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don't place generic virtual assistants. We...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679663",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Revenue-Operations-Home-Services-1679663",
+          "title": "Revenue Operations (Home Services)",
+          "company_name": "Caliberworkforce",
+          "company_url": "https://caliberworkforce.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "TBD",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "",
+          "score": 60,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt",
+            "Funnels, CRM, automations: zapier, automation, workflow, crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, outbound",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, templates",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Caliber Workforce | Revenue Operations (Home Services) APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don't place generic virtual assistants. We..."
+        },
+        {
+          "external_id": "1679577",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Executive-Integrator-1679577",
+          "title": "Executive Integrator",
+          "company_name": "Caliberworkforce",
+          "company_url": "https://caliberworkforce.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "N/A",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "",
+          "score": 56,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt",
+            "Funnels, CRM, automations: zapier, automation, workflow, sms, api",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [],
+          "summary": "Caliber Workforce | Executive Integrator APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don't place generic virtual assistants. We place vetted..."
+        },
+        {
+          "external_id": "1679654",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Marketing-Operator-1679654",
+          "title": "Marketing Operator",
+          "company_name": "Caliberworkforce",
+          "company_url": "https://caliberworkforce.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "TBD",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "",
+          "score": 51,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt",
+            "Funnels, CRM, automations: zapier, automation, workflow, crm, hubspot",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Caliber Workforce | Marketing Operator APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don't place generic virtual assistants. We place vetted..."
+        },
+        {
+          "external_id": "1679659",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Operations-Architect-Home-Services-1679659",
+          "title": "Operations Architect (Home Services)",
+          "company_name": "Caliberworkforce",
+          "company_url": "https://caliberworkforce.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "TBD",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "",
+          "score": 51,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt",
+            "Funnels, CRM, automations: zapier, automation, workflow, sms, api",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: architect"
+          ],
+          "summary": "Caliber Workforce | Operations Architect (Home Services) APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don't place generic virtual assistants. We..."
+        },
+        {
+          "external_id": "1679671",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Senior-Systems-Builder-Home-Services-1679671",
+          "title": "Senior Systems Builder (Home Services)",
+          "company_name": "Caliberworkforce",
+          "company_url": "https://caliberworkforce.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "TBD",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "",
+          "score": 33,
+          "fit_band": "Good",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt",
+            "Funnels, CRM, automations: zapier, automation, workflow, crm, sms",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, templates",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: senior, lead, 5+ years, architect"
+          ],
+          "summary": "Caliber Workforce | Senior Systems Builder (Home Services) APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don't place generic virtual assistants..."
+        }
+      ],
+      "job_count": 5
+    },
+    {
+      "external_id": "1677893",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Junior-Virtual-Assistant-1677893",
+      "title": "Junior Virtual Assistant",
+      "company_name": "GRACE INSPIRED LIFE",
+      "company_url": "https://16personalities.com",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 28, 2026",
+      "hours_per_week": "40",
+      "salary": "$550 a month",
+      "estimated_monthly_usd": 550.0,
+      "pay_note": "$550 a month treated as monthly",
+      "skill_requirement": "Amazon Wordpress Youtube Marketing",
+      "score": 60,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, canva",
+        "Websites, landing pages, dashboards: website, wordpress",
+        "Funnels, CRM, automations: ghl, workflow",
+        "Early-career friendly language: entry-level, junior, training provided, assistant, va",
+        "Budget fit: listed around $550/month"
+      ],
+      "concerns": [
+        "Specialized/non-Arca fit: compliance"
+      ],
+      "summary": "We're hiring a Junior Virtual Assistant to support Grace Inspired Life \u2014 an Amazon Influencer brand built around authentic product reviews, affiliate content, and a growing niche media portfolio. This is an entry-level, long-term, full-time remote role (40...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677893",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Junior-Virtual-Assistant-1677893",
+          "title": "Junior Virtual Assistant",
+          "company_name": "GRACE INSPIRED LIFE",
+          "company_url": "https://16personalities.com",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 28, 2026",
+          "hours_per_week": "40",
+          "salary": "$550 a month",
+          "estimated_monthly_usd": 550.0,
+          "pay_note": "$550 a month treated as monthly",
+          "skill_requirement": "Amazon Wordpress Youtube Marketing",
+          "score": 60,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, canva",
+            "Websites, landing pages, dashboards: website, wordpress",
+            "Funnels, CRM, automations: ghl, workflow",
+            "Early-career friendly language: entry-level, junior, training provided, assistant, va",
+            "Budget fit: listed around $550/month"
+          ],
+          "concerns": [
+            "Specialized/non-Arca fit: compliance"
+          ],
+          "summary": "We're hiring a Junior Virtual Assistant to support Grace Inspired Life \u2014 an Amazon Influencer brand built around authentic product reviews, affiliate content, and a growing niche media portfolio. This is an entry-level, long-term, full-time remote role (40..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1663225",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Asset-Recovery-Specialist-1663225",
+      "title": "Asset Recovery Specialist",
+      "company_name": "Legacy Asset Recovery Group",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "$5/hour",
+      "estimated_monthly_usd": 866.0,
+      "pay_note": "$5/hour normalized as hourly",
+      "skill_requirement": "CRM Cold Calling English Speaking",
+      "score": 60,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot",
+        "Sales, outbound, lead lists: lead generation, lead gen, outbound, cold calling",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Strong budget fit: listed around $866/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "About Us: We are a fast-growing asset recovery company focused on helping individuals recover unclaimed funds, surplus proceeds, and other recoverable assets. We are looking for a highly organized, results-driven Virtual Assistant to support lead generation...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1663225",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Asset-Recovery-Specialist-1663225",
+          "title": "Asset Recovery Specialist",
+          "company_name": "Legacy Asset Recovery Group",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$5/hour",
+          "estimated_monthly_usd": 866.0,
+          "pay_note": "$5/hour normalized as hourly",
+          "skill_requirement": "CRM Cold Calling English Speaking",
+          "score": 60,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, outbound, cold calling",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Strong budget fit: listed around $866/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "About Us: We are a fast-growing asset recovery company focused on helping individuals recover unclaimed funds, surplus proceeds, and other recoverable assets. We are looking for a highly organized, results-driven Virtual Assistant to support lead generation..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1676482",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Notion-Systems-Specialist-Automation-1676482",
+      "title": "Notion Systems Specialist + Automation",
+      "company_name": "Moon Media",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "$1,000-$1,300",
+      "estimated_monthly_usd": 1300.0,
+      "pay_note": "$1,000-$1,300 treated as monthly",
+      "skill_requirement": "Creative Problem Solving Notion AI Automation",
+      "score": 60,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, ai tools, ai automation",
+        "Websites, landing pages, dashboards: dashboard, dashboards",
+        "Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, zapier",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+        "Near budget: listed around $1,300/month"
+      ],
+      "concerns": [
+        "May be too senior: senior, lead, head of, expert"
+      ],
+      "summary": "Company: Moon Media Location: Remote Type: Full-Time Working Hours: Monday-Friday, 9:00 AM - 5:00 PM EST Experience Level: Mid-Senior --- About Moon Media We're a fast-growing creative agency that helps brands dominate short-form content. Our clients include...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1676482",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Notion-Systems-Specialist-Automation-1676482",
+          "title": "Notion Systems Specialist + Automation",
+          "company_name": "Moon Media",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$1,000-$1,300",
+          "estimated_monthly_usd": 1300.0,
+          "pay_note": "$1,000-$1,300 treated as monthly",
+          "skill_requirement": "Creative Problem Solving Notion AI Automation",
+          "score": 60,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, ai tools, ai automation",
+            "Websites, landing pages, dashboards: dashboard, dashboards",
+            "Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, zapier",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Near budget: listed around $1,300/month"
+          ],
+          "concerns": [
+            "May be too senior: senior, lead, head of, expert"
+          ],
+          "summary": "Company: Moon Media Location: Remote Type: Full-Time Working Hours: Monday-Friday, 9:00 AM - 5:00 PM EST Experience Level: Mid-Senior --- About Moon Media We're a fast-growing creative agency that helps brands dominate short-form content. Our clients include..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1679447",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Member-Success-Enrollment-Coordinator-Community-Lead-Follow-Up-1679447",
+      "title": "Member Success & Enrollment Coordinator (Community & Lead Follow-Up)",
+      "company_name": "Us Boss Builder Academy",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "$5 per hour",
+      "estimated_monthly_usd": 866.0,
+      "pay_note": "$5 per hour normalized as hourly",
+      "skill_requirement": "Community Moderation Customer Service Appointment Setting",
+      "score": 60,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: ai tools",
+        "Funnels, CRM, automations: gohighlevel, ghl, automation, crm, sms",
+        "Sales, outbound, lead lists: appointment setting",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+        "Strong budget fit: listed around $866/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Member Success & Enrollment Coordinator About Us Boss Builder Academy is a growing online business education and entrepreneur community helping people build businesses, create multiple income streams, leverage AI and automation, improve their finances, and...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679447",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Member-Success-Enrollment-Coordinator-Community-Lead-Follow-Up-1679447",
+          "title": "Member Success & Enrollment Coordinator (Community & Lead Follow-Up)",
+          "company_name": "Us Boss Builder Academy",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$5 per hour",
+          "estimated_monthly_usd": 866.0,
+          "pay_note": "$5 per hour normalized as hourly",
+          "skill_requirement": "Community Moderation Customer Service Appointment Setting",
+          "score": 60,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: ai tools",
+            "Funnels, CRM, automations: gohighlevel, ghl, automation, crm, sms",
+            "Sales, outbound, lead lists: appointment setting",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Strong budget fit: listed around $866/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Member Success & Enrollment Coordinator About Us Boss Builder Academy is a growing online business education and entrepreneur community helping people build businesses, create multiple income streams, leverage AI and automation, improve their finances, and..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1627647",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/B2B-Business-Development-Manager-Lead-Generation-Full-Time-Performance-Bonuses-Long-Term-Role-1627647",
+      "title": "B2B Business Development Manager \u2013 Lead Generation Full-Time | Performance Bonuses | Long-Term Role",
+      "company_name": "CONTACT MARKETERS LLC",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "40",
+      "salary": "$3-5 PER HOUR PLUS MONTHLY BONUSES!",
+      "estimated_monthly_usd": 866.0,
+      "pay_note": "$3-5 PER HOUR PLUS MONTHLY BONUSES! normalized as hourly",
+      "skill_requirement": "Email Marketing LinkedIn Marketing Business development",
+      "score": 59,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: crm, hubspot",
+        "Sales, outbound, lead lists: lead generation, lead gen, prospecting, outbound, cold email",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Strong budget fit: listed around $866/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead"
+      ],
+      "summary": "B2B Business Development Manager \u2013 Lead Generation Full-Time | Performance Bonuses | Long-Term Role Overview We are hiring a B2B Business Development Manager to generate qualified leads through LinkedIn outreach, cold email campaigns, and outbound calling. A...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1627647",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/B2B-Business-Development-Manager-Lead-Generation-Full-Time-Performance-Bonuses-Long-Term-Role-1627647",
+          "title": "B2B Business Development Manager \u2013 Lead Generation Full-Time | Performance Bonuses | Long-Term Role",
+          "company_name": "CONTACT MARKETERS LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "$3-5 PER HOUR PLUS MONTHLY BONUSES!",
+          "estimated_monthly_usd": 866.0,
+          "pay_note": "$3-5 PER HOUR PLUS MONTHLY BONUSES! normalized as hourly",
+          "skill_requirement": "Email Marketing LinkedIn Marketing Business development",
+          "score": 59,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, outbound, cold email",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Strong budget fit: listed around $866/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead"
+          ],
+          "summary": "B2B Business Development Manager \u2013 Lead Generation Full-Time | Performance Bonuses | Long-Term Role Overview We are hiring a B2B Business Development Manager to generate qualified leads through LinkedIn outreach, cold email campaigns, and outbound calling. A..."
+        },
+        {
+          "external_id": "1625682",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Google-Ads-Manager-Lead-Generation-Full-Time-Performance-Bonuses-Long-Term-Role-1625682",
+          "title": "Google Ads Manager \u2013 Lead Generation Full-Time | Performance Bonuses | Long-Term Role",
+          "company_name": "Contact Marketers LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "$5+ per hour with monthly bonuses!",
+          "estimated_monthly_usd": 866.0,
+          "pay_note": "$5+ per hour with monthly bonuses! normalized as hourly",
+          "skill_requirement": "Google Analytics Google Ads Search Engine Marketing",
+          "score": 43,
+          "fit_band": "Strong",
+          "positives": [
+            "Websites, landing pages, dashboards: landing page",
+            "Funnels, CRM, automations: funnel, funnels, crm",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: va",
+            "Strong budget fit: listed around $866/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead",
+            "Specialized/non-Arca fit: legal"
+          ],
+          "summary": "Google Ads Manager \u2013 Lead Generation Full-Time | Performance Bonuses | Long-Term Role Overview We are hiring a Google Ads Manager to drive lead generation through Google Ads, Meta Ads, and pay-per-lead vendors across primarily legal clients, with additional..."
+        },
+        {
+          "external_id": "1678375",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Physician-Liaison-Licensed-Medical-Doctor-MD-Non-Clinical-Healthcare-Medical-Devices-1678375",
+          "title": "Remote Physician Liaison (Licensed Medical Doctor, MD) | Non-Clinical | Healthcare & Medical Devices",
+          "company_name": "Contact Marketers LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "TBD",
+          "salary": "$5+ per hour plus monthly bonuses",
+          "estimated_monthly_usd": 866.0,
+          "pay_note": "$5+ per hour plus monthly bonuses normalized as hourly",
+          "skill_requirement": "Medical Services Medical Knowledge Medical Virtual Assistant",
+          "score": 42,
+          "fit_band": "Strong",
+          "positives": [
+            "Funnels, CRM, automations: ghl",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Strong budget fit: listed around $866/month"
+          ],
+          "concerns": [],
+          "summary": "Remote Physician Liaison (Licensed Medical Doctor, MD) | Physician Relations | Healthcare & Medical Devices Full-Time | Remote | Long-Term Opportunity | Monthly Performance Bonuses Licensed Medical Doctors (MD) in the Philippines are encouraged to apply..."
+        },
+        {
+          "external_id": "1678379",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Legal-Liaison-Licensed-Lawyer-Attorney-Law-Firm-Relations-Legal-Services-1678379",
+          "title": "Remote Legal Liaison | Licensed Lawyer / Attorney | Law Firm Relations | Legal Services",
+          "company_name": "Contact Marketers LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$5+ per hour plus monthly bonuses",
+          "estimated_monthly_usd": 866.0,
+          "pay_note": "$5+ per hour plus monthly bonuses normalized as hourly",
+          "skill_requirement": "Legal Services Legal Research Legal Writing",
+          "score": 30,
+          "fit_band": "Good",
+          "positives": [
+            "Funnels, CRM, automations: ghl",
+            "Early-career friendly language: va",
+            "Strong budget fit: listed around $866/month"
+          ],
+          "concerns": [
+            "Specialized/non-Arca fit: legal"
+          ],
+          "summary": "Remote Legal Liaison | Licensed Lawyer / Attorney | Law Firm Relations | Legal Services Full-Time | Remote | Long-Term Opportunity | Monthly Performance Bonuses Licensed Lawyers and Attorneys in the Philippines are encouraged to apply. OVERVIEW We are seeking..."
+        }
+      ],
+      "job_count": 4
+    },
+    {
+      "external_id": "1677879",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/operations-coordinator-1677879",
+      "title": "operations - coordinator",
+      "company_name": "Covrix",
+      "company_url": "https://covrix.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 27, 2026",
+      "hours_per_week": "40",
+      "salary": "750",
+      "estimated_monthly_usd": 750.0,
+      "pay_note": "750 treated as monthly",
+      "skill_requirement": "",
+      "score": 58,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: dashboard, dashboards",
+        "Funnels, CRM, automations: zapier, automation, workflow, api",
+        "Early-career friendly language: assistant, va, virtual assistant, coachable, sop",
+        "Strong budget fit: listed around $750/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead"
+      ],
+      "summary": "Virtual Assistant / Success Manager StoicForge | Multi-Brand Ecommerce We Need Someone Who Keeps the Machine Running We're StoicForge - a growing ecommerce company running multiple brands in health, beauty, and personal care. We have the products, the...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677879",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/operations-coordinator-1677879",
+          "title": "operations - coordinator",
+          "company_name": "Covrix",
+          "company_url": "https://covrix.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 27, 2026",
+          "hours_per_week": "40",
+          "salary": "750",
+          "estimated_monthly_usd": 750.0,
+          "pay_note": "750 treated as monthly",
+          "skill_requirement": "",
+          "score": 58,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: dashboard, dashboards",
+            "Funnels, CRM, automations: zapier, automation, workflow, api",
+            "Early-career friendly language: assistant, va, virtual assistant, coachable, sop",
+            "Strong budget fit: listed around $750/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead"
+          ],
+          "summary": "Virtual Assistant / Success Manager StoicForge | Multi-Brand Ecommerce We Need Someone Who Keeps the Machine Running We're StoicForge - a growing ecommerce company running multiple brands in health, beauty, and personal care. We have the products, the..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1675778",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Marketing-Operations-Systems-Manager-Salesforce-Left-Main-1675778",
+      "title": "Marketing Operations & Systems Manager (Salesforce / Left Main)",
+      "company_name": "Southcorp Group, Inc",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 24, 2026",
+      "hours_per_week": "40",
+      "salary": "$8-$11/ hour",
+      "estimated_monthly_usd": 11.0,
+      "pay_note": "$8-$11/ hour treated as monthly",
+      "skill_requirement": "",
+      "score": 58,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: dashboard, dashboards",
+        "Funnels, CRM, automations: zapier, automation, workflow, crm, api",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Budget fit: listed around $11/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead, advanced"
+      ],
+      "summary": "About the Role We are a U.S.-based real estate investment company seeking a Marketing Operations & Systems Manager to oversee the technology, marketing systems, lead flow, reporting, and CRM infrastructure that drives our acquisitions business. This role owns...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1675778",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Marketing-Operations-Systems-Manager-Salesforce-Left-Main-1675778",
+          "title": "Marketing Operations & Systems Manager (Salesforce / Left Main)",
+          "company_name": "Southcorp Group, Inc",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 24, 2026",
+          "hours_per_week": "40",
+          "salary": "$8-$11/ hour",
+          "estimated_monthly_usd": 11.0,
+          "pay_note": "$8-$11/ hour treated as monthly",
+          "skill_requirement": "",
+          "score": 58,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: dashboard, dashboards",
+            "Funnels, CRM, automations: zapier, automation, workflow, crm, api",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Budget fit: listed around $11/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead, advanced"
+          ],
+          "summary": "About the Role We are a U.S.-based real estate investment company seeking a Marketing Operations & Systems Manager to oversee the technology, marketing systems, lead flow, reporting, and CRM infrastructure that drives our acquisitions business. This role owns..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678036",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Content-creatoreditor-Social-Media-Growth-Manager-1678036",
+      "title": "Content creator/editor Social Media Growth Manager",
+      "company_name": "Us Kwackers Kitchen & Sports Bar",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 28, 2026",
+      "hours_per_week": "40",
+      "salary": "7",
+      "estimated_monthly_usd": 7.0,
+      "pay_note": "7 treated as monthly",
+      "skill_requirement": "Social Media Content Creation Social Media Management Social Media Video Editing",
+      "score": 58,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: chatgpt, ai tools, capcut, canva",
+        "Websites, landing pages, dashboards: website, dashboard, dashboards, react",
+        "Funnels, CRM, automations: ghl",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: va",
+        "Budget fit: listed around $7/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead"
+      ],
+      "summary": "Full-Time | Remote | Philippines | UK Hours Salary: Competitive (Based on Experience) Hours: 40 hours per week Location: Remote (Philippines) Working Hours: UK Time (Flexibility required for major sporting events and campaigns) About Us Kwackers Kitchen &...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678036",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Content-creatoreditor-Social-Media-Growth-Manager-1678036",
+          "title": "Content creator/editor Social Media Growth Manager",
+          "company_name": "Us Kwackers Kitchen & Sports Bar",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 28, 2026",
+          "hours_per_week": "40",
+          "salary": "7",
+          "estimated_monthly_usd": 7.0,
+          "pay_note": "7 treated as monthly",
+          "skill_requirement": "Social Media Content Creation Social Media Management Social Media Video Editing",
+          "score": 58,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: chatgpt, ai tools, capcut, canva",
+            "Websites, landing pages, dashboards: website, dashboard, dashboards, react",
+            "Funnels, CRM, automations: ghl",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: va",
+            "Budget fit: listed around $7/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead"
+          ],
+          "summary": "Full-Time | Remote | Philippines | UK Hours Salary: Competitive (Based on Experience) Hours: 40 hours per week Location: Remote (Philippines) Working Hours: UK Time (Flexibility required for major sporting events and campaigns) About Us Kwackers Kitchen &..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1677983",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Digital-Marketing-Generalist-For-Marketing-Agency-in-Singapore-SGD800-1200-1677983",
+      "title": "Digital Marketing Generalist For Marketing Agency in Singapore (SGD800 - 1,200)",
+      "company_name": "US Meander Digital",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 28, 2026",
+      "hours_per_week": "40",
+      "salary": "SGD800 - 1200",
+      "estimated_monthly_usd": 1200.0,
+      "pay_note": "SGD800 - 1200 treated as monthly",
+      "skill_requirement": "Copywriting Social Media Content Creation Digital Marketing",
+      "score": 58,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: ai tools, capcut, canva",
+        "Websites, landing pages, dashboards: website, landing page, landing pages",
+        "Funnels, CRM, automations: workflow",
+        "Sales, outbound, lead lists: lead generation, lead gen, linkedin",
+        "Early-career friendly language: assistant, va, sop, sops",
+        "Near budget: listed around $1,200/month"
+      ],
+      "concerns": [
+        "May be too senior: lead, expert"
+      ],
+      "summary": "Content, Creative & Operations Support \u2014 for a Growing Singapore-based Digital Agency In plain terms: a hands-on, do-a-bit-of-everything marketer \u2014 copywriting-led, with design, video, and light ops support \u2014 who helps a lean agency run and grow. Full-Time \u2022...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677983",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Digital-Marketing-Generalist-For-Marketing-Agency-in-Singapore-SGD800-1200-1677983",
+          "title": "Digital Marketing Generalist For Marketing Agency in Singapore (SGD800 - 1,200)",
+          "company_name": "US Meander Digital",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 28, 2026",
+          "hours_per_week": "40",
+          "salary": "SGD800 - 1200",
+          "estimated_monthly_usd": 1200.0,
+          "pay_note": "SGD800 - 1200 treated as monthly",
+          "skill_requirement": "Copywriting Social Media Content Creation Digital Marketing",
+          "score": 58,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: ai tools, capcut, canva",
+            "Websites, landing pages, dashboards: website, landing page, landing pages",
+            "Funnels, CRM, automations: workflow",
+            "Sales, outbound, lead lists: lead generation, lead gen, linkedin",
+            "Early-career friendly language: assistant, va, sop, sops",
+            "Near budget: listed around $1,200/month"
+          ],
+          "concerns": [
+            "May be too senior: lead, expert"
+          ],
+          "summary": "Content, Creative & Operations Support \u2014 for a Growing Singapore-based Digital Agency In plain terms: a hands-on, do-a-bit-of-everything marketer \u2014 copywriting-led, with design, video, and light ops support \u2014 who helps a lean agency run and grow. Full-Time \u2022..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1668948",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Executive-Assistant-to-the-CEO-1668948",
+      "title": "Virtual Executive Assistant to the CEO",
+      "company_name": "Brandm3Dia",
+      "company_url": "https://brandm3dia.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "35,000-45,000",
+      "estimated_monthly_usd": 775.86,
+      "pay_note": "35,000-45,000 treated as monthly",
+      "skill_requirement": "",
+      "score": 57,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools",
+        "Websites, landing pages, dashboards: website",
+        "Funnels, CRM, automations: ghl, automation, workflow, api",
+        "Sales, outbound, lead lists: linkedin",
+        "Early-career friendly language: assistant, va",
+        "Strong budget fit: listed around $776/month"
+      ],
+      "concerns": [
+        "May be too senior: senior, lead"
+      ],
+      "summary": "Virtual Executive Assistant to the CEO Part-Time and Full-Time Opportunities Available About the Role Brand M3dia is seeking a highly organized, proactive, and tech-savvy Virtual Executive Assistant to support our CEO in managing day-to-day operations...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1668948",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Executive-Assistant-to-the-CEO-1668948",
+          "title": "Virtual Executive Assistant to the CEO",
+          "company_name": "Brandm3Dia",
+          "company_url": "https://brandm3dia.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "35,000-45,000",
+          "estimated_monthly_usd": 775.86,
+          "pay_note": "35,000-45,000 treated as monthly",
+          "skill_requirement": "",
+          "score": 57,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools",
+            "Websites, landing pages, dashboards: website",
+            "Funnels, CRM, automations: ghl, automation, workflow, api",
+            "Sales, outbound, lead lists: linkedin",
+            "Early-career friendly language: assistant, va",
+            "Strong budget fit: listed around $776/month"
+          ],
+          "concerns": [
+            "May be too senior: senior, lead"
+          ],
+          "summary": "Virtual Executive Assistant to the CEO Part-Time and Full-Time Opportunities Available About the Role Brand M3dia is seeking a highly organized, proactive, and tech-savvy Virtual Executive Assistant to support our CEO in managing day-to-day operations..."
+        },
+        {
+          "external_id": "1680299",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Executive-Assistant-to-the-CEO-1680299",
+          "title": "Virtual Executive Assistant to the CEO",
+          "company_name": "Brandm3Dia",
+          "company_url": "https://brandm3dia.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "40",
+          "salary": "PHP 35000-45000",
+          "estimated_monthly_usd": 775.86,
+          "pay_note": "PHP 35000-45000 treated as monthly",
+          "skill_requirement": "",
+          "score": 57,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools",
+            "Websites, landing pages, dashboards: website",
+            "Funnels, CRM, automations: ghl, automation, workflow, api",
+            "Sales, outbound, lead lists: linkedin",
+            "Early-career friendly language: assistant, va",
+            "Strong budget fit: listed around $776/month"
+          ],
+          "concerns": [
+            "May be too senior: senior, lead"
+          ],
+          "summary": "Virtual Executive Assistant to the CEO Part-Time and Full-Time Opportunities Available About the Role Brand M3dia is seeking a highly organized, proactive, and tech-savvy Virtual Executive Assistant to support our CEO in managing day-to-day operations..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1680315",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Experienced-Sales-Marketing-Customer-Support-Virtual-Assistant-Experience-Required-1680315",
+      "title": "Experienced Sales, Marketing & Customer Support Virtual Assistant | Experience Required",
+      "company_name": "Yobbr",
+      "company_url": "https://yobbr.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "40",
+      "salary": "Peso 25,000/month",
+      "estimated_monthly_usd": 431.03,
+      "pay_note": "Peso 25,000/month treated as monthly",
+      "skill_requirement": "Customer Support Lead Generation Sales",
+      "score": 57,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: gohighlevel, ghl, crm, sms, api",
+        "Sales, outbound, lead lists: lead generation, lead gen, outbound",
+        "Early-career friendly language: entry-level, assistant, va, virtual assistant",
+        "Budget fit: listed around $431/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "We are hiring an Experienced Sales, Marketing & Customer Support Virtual Assistant. Please apply only if you have previous experience in sales, customer support, lead follow-up, customer communication, and working with US-based clients. This is not an...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1680315",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Experienced-Sales-Marketing-Customer-Support-Virtual-Assistant-Experience-Required-1680315",
+          "title": "Experienced Sales, Marketing & Customer Support Virtual Assistant | Experience Required",
+          "company_name": "Yobbr",
+          "company_url": "https://yobbr.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "40",
+          "salary": "Peso 25,000/month",
+          "estimated_monthly_usd": 431.03,
+          "pay_note": "Peso 25,000/month treated as monthly",
+          "skill_requirement": "Customer Support Lead Generation Sales",
+          "score": 57,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: gohighlevel, ghl, crm, sms, api",
+            "Sales, outbound, lead lists: lead generation, lead gen, outbound",
+            "Early-career friendly language: entry-level, assistant, va, virtual assistant",
+            "Budget fit: listed around $431/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We are hiring an Experienced Sales, Marketing & Customer Support Virtual Assistant. Please apply only if you have previous experience in sales, customer support, lead follow-up, customer communication, and working with US-based clients. This is not an..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1677373",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-Remote-Position-1677373",
+      "title": "Associate Administrative Assistant | Remote Position",
+      "company_name": "ZT (Tutoring Company)",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "40",
+      "salary": "$7/Hour",
+      "estimated_monthly_usd": 1212.4,
+      "pay_note": "$7/Hour normalized as hourly",
+      "skill_requirement": "Customer Service Executive Assistance AI Automation",
+      "score": 57,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+        "Funnels, CRM, automations: gohighlevel, ghl, automation, crm",
+        "Early-career friendly language: assistant, va, coachable",
+        "Near budget: listed around $1,212/month"
+      ],
+      "concerns": [],
+      "summary": "We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677373",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-Remote-Position-1677373",
+          "title": "Associate Administrative Assistant | Remote Position",
+          "company_name": "ZT (Tutoring Company)",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "$7/Hour",
+          "estimated_monthly_usd": 1212.4,
+          "pay_note": "$7/Hour normalized as hourly",
+          "skill_requirement": "Customer Service Executive Assistance AI Automation",
+          "score": 57,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Funnels, CRM, automations: gohighlevel, ghl, automation, crm",
+            "Early-career friendly language: assistant, va, coachable",
+            "Near budget: listed around $1,212/month"
+          ],
+          "concerns": [],
+          "summary": "We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to..."
+        },
+        {
+          "external_id": "1676786",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-Full-Time-Remote-Role-1676786",
+          "title": "Associate Administrative Assistant | Full-Time Remote Role",
+          "company_name": "ZT (Tutoring Company)",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$7",
+          "estimated_monthly_usd": 7.0,
+          "pay_note": "$7 treated as monthly",
+          "skill_requirement": "Customer Service GoHighLevel Executive Assistance",
+          "score": 52,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools",
+            "Funnels, CRM, automations: gohighlevel, ghl, crm",
+            "Early-career friendly language: assistant, va, coachable",
+            "Budget fit: listed around $7/month"
+          ],
+          "concerns": [],
+          "summary": "We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1669120",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Lead-Acquisition-Management-Specialist-1669120",
+      "title": "Lead Acquisition & Management Specialist",
+      "company_name": "GES Inc",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "50",
+      "salary": "$1000 monthly",
+      "estimated_monthly_usd": 1000.0,
+      "pay_note": "$1000 monthly treated as monthly",
+      "skill_requirement": "CRM Lead Generation English Speaking",
+      "score": 56,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: gohighlevel, ghl, automation, workflow, crm",
+        "Sales, outbound, lead lists: lead generation, lead gen, outbound, appointment setting",
+        "Early-career friendly language: va",
+        "Strong budget fit: listed around $1,000/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Now hiring Lead acquisition & management specialist Los Angeles, CA \u2014 Remote (PST hours required) \u00b7 Full-time Compensation $1,000/mo Hours 8 AM \u2013 5 PM PST Schedule Mon \u2013 Fri Timezone Pacific (PST) About the role We are a Los Angeles\u2013based company looking for...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1669120",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Lead-Acquisition-Management-Specialist-1669120",
+          "title": "Lead Acquisition & Management Specialist",
+          "company_name": "GES Inc",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "50",
+          "salary": "$1000 monthly",
+          "estimated_monthly_usd": 1000.0,
+          "pay_note": "$1000 monthly treated as monthly",
+          "skill_requirement": "CRM Lead Generation English Speaking",
+          "score": 56,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: gohighlevel, ghl, automation, workflow, crm",
+            "Sales, outbound, lead lists: lead generation, lead gen, outbound, appointment setting",
+            "Early-career friendly language: va",
+            "Strong budget fit: listed around $1,000/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Now hiring Lead acquisition & management specialist Los Angeles, CA \u2014 Remote (PST hours required) \u00b7 Full-time Compensation $1,000/mo Hours 8 AM \u2013 5 PM PST Schedule Mon \u2013 Fri Timezone Pacific (PST) About the role We are a Los Angeles\u2013based company looking for..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678610",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Virtual-Assistant-Phone-Calls-Lead-Follow-Up-1678610",
+      "title": "Sales Virtual Assistant (Phone Calls & Lead Follow-Up)",
+      "company_name": "Gostaffify",
+      "company_url": "https://gostaffify.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "$960",
+      "estimated_monthly_usd": 960.0,
+      "pay_note": "$960 treated as monthly",
+      "skill_requirement": "Sales Management Cold Calling Sales",
+      "score": 56,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot",
+        "Sales, outbound, lead lists: outbound, cold calling, appointment setting",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Strong budget fit: listed around $960/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Location: Remote Job Type: Full-Time / Part-Time Salary: Competitive, based on experience About the Role We are looking for a confident and results-driven Sales Virtual Assistant to join our team. The ideal candidate is comfortable making outbound phone...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678610",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Sales-Virtual-Assistant-Phone-Calls-Lead-Follow-Up-1678610",
+          "title": "Sales Virtual Assistant (Phone Calls & Lead Follow-Up)",
+          "company_name": "Gostaffify",
+          "company_url": "https://gostaffify.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$960",
+          "estimated_monthly_usd": 960.0,
+          "pay_note": "$960 treated as monthly",
+          "skill_requirement": "Sales Management Cold Calling Sales",
+          "score": 56,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot",
+            "Sales, outbound, lead lists: outbound, cold calling, appointment setting",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Strong budget fit: listed around $960/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Location: Remote Job Type: Full-Time / Part-Time Salary: Competitive, based on experience About the Role We are looking for a confident and results-driven Sales Virtual Assistant to join our team. The ideal candidate is comfortable making outbound phone..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1668943",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Recruiting-Specialist-1668943",
+      "title": "Recruiting Specialist",
+      "company_name": "Leverage Agent LLC",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "$6 to $7/ hour",
+      "estimated_monthly_usd": 7.0,
+      "pay_note": "$6 to $7/ hour treated as monthly",
+      "skill_requirement": "",
+      "score": 56,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: dashboard, dashboards",
+        "Funnels, CRM, automations: ghl, funnel, crm",
+        "Sales, outbound, lead lists: lead generation, lead gen, prospecting, outbound, linkedin",
+        "Early-career friendly language: va, coachable",
+        "Budget fit: listed around $7/month"
+      ],
+      "concerns": [
+        "May be too senior: lead",
+        "Specialized/non-Arca fit: compliance"
+      ],
+      "summary": "Oz Group | eXp Realty Help Build One of the Fastest-Growing Real Estate Teams in New Jersey Oz Group is on a mission to redefine agent growth and success in real estate. Led by Joe Oz, a member of Zillow's Agent Advisory Board, Oz Group is one of New Jersey's...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1668943",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Recruiting-Specialist-1668943",
+          "title": "Recruiting Specialist",
+          "company_name": "Leverage Agent LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$6 to $7/ hour",
+          "estimated_monthly_usd": 7.0,
+          "pay_note": "$6 to $7/ hour treated as monthly",
+          "skill_requirement": "",
+          "score": 56,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: dashboard, dashboards",
+            "Funnels, CRM, automations: ghl, funnel, crm",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, outbound, linkedin",
+            "Early-career friendly language: va, coachable",
+            "Budget fit: listed around $7/month"
+          ],
+          "concerns": [
+            "May be too senior: lead",
+            "Specialized/non-Arca fit: compliance"
+          ],
+          "summary": "Oz Group | eXp Realty Help Build One of the Fastest-Growing Real Estate Teams in New Jersey Oz Group is on a mission to redefine agent growth and success in real estate. Led by Joe Oz, a member of Zillow's Agent Advisory Board, Oz Group is one of New Jersey's..."
+        },
+        {
+          "external_id": "1660357",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Construction-Company-Bookkeeper-Executive-Assistant-1660357",
+          "title": "Construction Company Bookkeeper / Executive Assistant",
+          "company_name": "Leverage Agent LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$6-$7/ hour",
+          "estimated_monthly_usd": 7.0,
+          "pay_note": "$6-$7/ hour treated as monthly",
+          "skill_requirement": "",
+          "score": 35,
+          "fit_band": "Good",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt",
+            "Funnels, CRM, automations: ghl, make.com, zapier, automation, workflow",
+            "Early-career friendly language: assistant, va, sop, sops",
+            "Budget fit: listed around $7/month"
+          ],
+          "concerns": [
+            "May be too senior: lead",
+            "Specialized/non-Arca fit: bookkeeper, payroll, compliance"
+          ],
+          "summary": "Now Hiring: Full-Time Executive Assistant & Bookkeeper (US Construction Company) Remote | Full-Time | US Business Hours This is a long-term opportunity for someone who enjoys wearing multiple hats, solving problems, and taking ownership of both executive..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1677959",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Growth-Marketing-Specialist-1677959",
+      "title": "Full-Time Growth & Marketing Specialist",
+      "company_name": "Quiresoft Technologies Inc",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "$600-$900 CAD/Month",
+      "estimated_monthly_usd": 900.0,
+      "pay_note": "$600-$900 CAD/Month treated as monthly",
+      "skill_requirement": "Email Marketing Cold Calling Digital Marketing",
+      "score": 56,
+      "fit_band": "Excellent",
+      "positives": [
+        "Websites, landing pages, dashboards: web design",
+        "Funnels, CRM, automations: gohighlevel, ghl, automation, workflow, crm",
+        "Sales, outbound, lead lists: lead generation, lead gen, outbound, cold calling",
+        "Early-career friendly language: va",
+        "Strong budget fit: listed around $900/month"
+      ],
+      "concerns": [
+        "May be too senior: lead, 5+ years"
+      ],
+      "summary": "Job Title: Full-Time Growth & Marketing Specialist Company: Quiresoft Technologies Inc. Location: Remote (Philippines-based), working full-time on PST (Pacific Standard Time) hours Type: Full-time, long-term, exclusive (no other clients or side engagements)...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677959",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Growth-Marketing-Specialist-1677959",
+          "title": "Full-Time Growth & Marketing Specialist",
+          "company_name": "Quiresoft Technologies Inc",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600-$900 CAD/Month",
+          "estimated_monthly_usd": 900.0,
+          "pay_note": "$600-$900 CAD/Month treated as monthly",
+          "skill_requirement": "Email Marketing Cold Calling Digital Marketing",
+          "score": 56,
+          "fit_band": "Excellent",
+          "positives": [
+            "Websites, landing pages, dashboards: web design",
+            "Funnels, CRM, automations: gohighlevel, ghl, automation, workflow, crm",
+            "Sales, outbound, lead lists: lead generation, lead gen, outbound, cold calling",
+            "Early-career friendly language: va",
+            "Strong budget fit: listed around $900/month"
+          ],
+          "concerns": [
+            "May be too senior: lead, 5+ years"
+          ],
+          "summary": "Job Title: Full-Time Growth & Marketing Specialist Company: Quiresoft Technologies Inc. Location: Remote (Philippines-based), working full-time on PST (Pacific Standard Time) hours Type: Full-time, long-term, exclusive (no other clients or side engagements)..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1676535",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Graphic-Designer-Tech-AI-Savvy-1676535",
+      "title": "Full-Time Graphic Designer (Tech & AI Savvy)",
+      "company_name": "Whoo Marketing",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "$400",
+      "estimated_monthly_usd": 400.0,
+      "pay_note": "$400 treated as monthly",
+      "skill_requirement": "Graphic Design Packaging & Brand Idenity Design",
+      "score": 56,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: canva",
+        "Websites, landing pages, dashboards: website, web design, wordpress",
+        "Funnels, CRM, automations: ghl, workflow",
+        "Early-career friendly language: va",
+        "Budget fit: listed around $400/month"
+      ],
+      "concerns": [],
+      "summary": "JOB TITLE: Full-Time Graphic Designer SHIFT: 8:20 AM EST \u2013 4:20 PM EST (Monday\u2013Friday) Note: The 8:20 AM EST clock-in time is strict and essential for this role. HOURS: 40 Hours per Week SALARY: $400 USD per Month ABOUT THE ROLE: We are a US-based digital...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1676535",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Graphic-Designer-Tech-AI-Savvy-1676535",
+          "title": "Full-Time Graphic Designer (Tech & AI Savvy)",
+          "company_name": "Whoo Marketing",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$400",
+          "estimated_monthly_usd": 400.0,
+          "pay_note": "$400 treated as monthly",
+          "skill_requirement": "Graphic Design Packaging & Brand Idenity Design",
+          "score": 56,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: canva",
+            "Websites, landing pages, dashboards: website, web design, wordpress",
+            "Funnels, CRM, automations: ghl, workflow",
+            "Early-career friendly language: va",
+            "Budget fit: listed around $400/month"
+          ],
+          "concerns": [],
+          "summary": "JOB TITLE: Full-Time Graphic Designer SHIFT: 8:20 AM EST \u2013 4:20 PM EST (Monday\u2013Friday) Note: The 8:20 AM EST clock-in time is strict and essential for this role. HOURS: 40 Hours per Week SALARY: $400 USD per Month ABOUT THE ROLE: We are a US-based digital..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1599985",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-100-WFH-1599985",
+      "title": "Lead Generation Specialist (100% WFH)",
+      "company_name": "Acadium",
+      "company_url": "https://acadium.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "$600/month + commission",
+      "estimated_monthly_usd": 600.0,
+      "pay_note": "$600/month + commission treated as monthly",
+      "skill_requirement": "LinkedIn Marketing Sales Digital Marketing",
+      "score": 55,
+      "fit_band": "Excellent",
+      "positives": [
+        "Funnels, CRM, automations: crm, hubspot",
+        "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+        "Early-career friendly language: entry-level, va",
+        "Budget fit: listed around $600/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "We\u2019re looking for a motivated and results-driven Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1599985",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-100-WFH-1599985",
+          "title": "Lead Generation Specialist (100% WFH)",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "LinkedIn Marketing Sales Digital Marketing",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and..."
+        },
+        {
+          "external_id": "1599984",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-Business-Development-Representative-1599984",
+          "title": "Lead Generation Specialist / Business Development Representative",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation Sales Business development",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and..."
+        },
+        {
+          "external_id": "1602671",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-Business-Development-Representative-1602671",
+          "title": "Lead Generation Specialist / Business Development Representative",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation LinkedIn Marketing Prospecting",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and..."
+        },
+        {
+          "external_id": "1561942",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Non-voice-Business-Development-Representative-Lead-Generation-Specialist-100-WFH-1561942",
+          "title": "Non-voice Business Development Representative / Lead Generation Specialist (100% WFH)",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation LinkedIn Marketing Sales",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven BDR / Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and..."
+        },
+        {
+          "external_id": "1602669",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Non-voice-Business-Development-Representative-Lead-Generation-Specialist-100-WFH-1602669",
+          "title": "Non-voice Business Development Representative / Lead Generation Specialist (100% WFH)",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation Prospecting Sales",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven BDR / Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and..."
+        },
+        {
+          "external_id": "1587071",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Lead-Generation-Specialist-1587071",
+          "title": "Remote Lead Generation Specialist",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation Sales Business development",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and..."
+        },
+        {
+          "external_id": "1599987",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-B2B-Business-Development-Representative-1599987",
+          "title": "Remote B2B Business Development Representative",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation LinkedIn Marketing Sales",
+          "score": 47,
+          "fit_band": "Strong",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven Business Development Representative to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads..."
+        },
+        {
+          "external_id": "1587068",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-B2B-Business-Development-Representative-1587068",
+          "title": "Remote B2B Business Development Representative",
+          "company_name": "Acadium",
+          "company_url": "https://acadium.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$600/month + commission",
+          "estimated_monthly_usd": 600.0,
+          "pay_note": "$600/month + commission treated as monthly",
+          "skill_requirement": "Lead Generation LinkedIn Marketing Sales",
+          "score": 47,
+          "fit_band": "Strong",
+          "positives": [
+            "Funnels, CRM, automations: crm, hubspot",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin",
+            "Early-career friendly language: entry-level, va",
+            "Budget fit: listed around $600/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We\u2019re looking for a motivated and results-driven Business Development Representative to help grow our sales pipeline and expand our customer base. As a BDR, you\u2019ll be on the front lines of our sales efforts, identifying potential clients, generating leads..."
+        }
+      ],
+      "job_count": 8
+    },
+    {
+      "external_id": "1679334",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Recruitment-Marketing-Talent-Acquisition-Specialist-Healthcare-Recruitment-1679334",
+      "title": "Recruitment Marketing & Talent Acquisition Specialist (Healthcare Recruitment)",
+      "company_name": "Beyond Brighter Minds, Inc",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "$8/hour-$10/hour",
+      "estimated_monthly_usd": 1732.0,
+      "pay_note": "$8/hour-$10/hour normalized as hourly",
+      "skill_requirement": "Facebook Ads US recruiting Lead Generation",
+      "score": 55,
+      "fit_band": "Excellent",
+      "positives": [
+        "Modern AI/tooling: chatgpt, ai tools, capcut, canva",
+        "Websites, landing pages, dashboards: landing page, landing pages, dashboard, dashboards",
+        "Funnels, CRM, automations: ghl, funnel, funnels, crm, api",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: va"
+      ],
+      "concerns": [
+        "Above Arca budget: listed around $1,732/month",
+        "May be too senior: manager, lead"
+      ],
+      "summary": "Employment Type: Full-time (40 hours/ week from 9 am to 5 pm M-F Pacific Standard Time Initial Engagement: 90-day performance-based contract with the opportunity to transition into a permanent full-time position based on results. Bonuses are available for...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679334",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Recruitment-Marketing-Talent-Acquisition-Specialist-Healthcare-Recruitment-1679334",
+          "title": "Recruitment Marketing & Talent Acquisition Specialist (Healthcare Recruitment)",
+          "company_name": "Beyond Brighter Minds, Inc",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$8/hour-$10/hour",
+          "estimated_monthly_usd": 1732.0,
+          "pay_note": "$8/hour-$10/hour normalized as hourly",
+          "skill_requirement": "Facebook Ads US recruiting Lead Generation",
+          "score": 55,
+          "fit_band": "Excellent",
+          "positives": [
+            "Modern AI/tooling: chatgpt, ai tools, capcut, canva",
+            "Websites, landing pages, dashboards: landing page, landing pages, dashboard, dashboards",
+            "Funnels, CRM, automations: ghl, funnel, funnels, crm, api",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: va"
+          ],
+          "concerns": [
+            "Above Arca budget: listed around $1,732/month",
+            "May be too senior: manager, lead"
+          ],
+          "summary": "Employment Type: Full-time (40 hours/ week from 9 am to 5 pm M-F Pacific Standard Time Initial Engagement: 90-day performance-based contract with the opportunity to transition into a permanent full-time position based on results. Bonuses are available for..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678202",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Video-Creator-Prompt-Engineer-Video-Editor-1-Week-Full-Time-Project-1678202",
+      "title": "AI Video Creator / Prompt Engineer / Video Editor \u2013 1-Week Full-Time Project",
+      "company_name": "Apps",
+      "company_url": "https://apps.apple.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 28, 2026",
+      "hours_per_week": "40",
+      "salary": "100 usd",
+      "estimated_monthly_usd": 100.0,
+      "pay_note": "100 usd treated as monthly",
+      "skill_requirement": "Prompt Engineering AI Video Generation AI Video Creation",
+      "score": 54,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: chatgpt, ai tools, veo, runway, elevenlabs",
+        "Funnels, CRM, automations: ghl",
+        "Early-career friendly language: va",
+        "Budget fit: listed around $100/month"
+      ],
+      "concerns": [],
+      "summary": "We are looking for a highly skilled AI Video Creator who can help us create a large number of short-form videos for our travel app. This is a 1-week full-time project, starting ASAP. Salary: USD 100 for 1 week of full-time work. About Us We are InfoAlanya, a...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678202",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Video-Creator-Prompt-Engineer-Video-Editor-1-Week-Full-Time-Project-1678202",
+          "title": "AI Video Creator / Prompt Engineer / Video Editor \u2013 1-Week Full-Time Project",
+          "company_name": "Apps",
+          "company_url": "https://apps.apple.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 28, 2026",
+          "hours_per_week": "40",
+          "salary": "100 usd",
+          "estimated_monthly_usd": 100.0,
+          "pay_note": "100 usd treated as monthly",
+          "skill_requirement": "Prompt Engineering AI Video Generation AI Video Creation",
+          "score": 54,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: chatgpt, ai tools, veo, runway, elevenlabs",
+            "Funnels, CRM, automations: ghl",
+            "Early-career friendly language: va",
+            "Budget fit: listed around $100/month"
+          ],
+          "concerns": [],
+          "summary": "We are looking for a highly skilled AI Video Creator who can help us create a large number of short-form videos for our travel app. This is a 1-week full-time project, starting ASAP. Salary: USD 100 for 1 week of full-time work. About Us We are InfoAlanya, a..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1665784",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Front-End-Developer-1665784",
+      "title": "Remote Front End Developer",
+      "company_name": "Testedrecruits",
+      "company_url": "https://testedrecruits.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "$$$",
+      "estimated_monthly_usd": null,
+      "pay_note": "salary unclear",
+      "skill_requirement": "SCSS HTML PSD to HTML",
+      "score": 54,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: cursor, ai tools",
+        "Websites, landing pages, dashboards: website, frontend, wordpress, shopify, html",
+        "Funnels, CRM, automations: ghl, workflow, api",
+        "Early-career friendly language: va, templates",
+        "Budget likely reviewable: salary unclear"
+      ],
+      "concerns": [
+        "May be too senior: expert"
+      ],
+      "summary": "You must apply via the link to be considered for the role: app.testedrecruits.com/posting/16636 WHY YOU SHOULD APPLY: Coalition Technologies is devoted to delivering clients the highest quality work while providing our team a fun, thriving, and innovative...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1665784",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Front-End-Developer-1665784",
+          "title": "Remote Front End Developer",
+          "company_name": "Testedrecruits",
+          "company_url": "https://testedrecruits.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$$$",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "SCSS HTML PSD to HTML",
+          "score": 54,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: cursor, ai tools",
+            "Websites, landing pages, dashboards: website, frontend, wordpress, shopify, html",
+            "Funnels, CRM, automations: ghl, workflow, api",
+            "Early-career friendly language: va, templates",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: expert"
+          ],
+          "summary": "You must apply via the link to be considered for the role: app.testedrecruits.com/posting/16636 WHY YOU SHOULD APPLY: Coalition Technologies is devoted to delivering clients the highest quality work while providing our team a fun, thriving, and innovative..."
+        },
+        {
+          "external_id": "1665777",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Web-Designer-1665777",
+          "title": "Remote Web Designer",
+          "company_name": "Testedrecruits",
+          "company_url": "https://testedrecruits.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$$$",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "Design Web Design & Page Layout Figma",
+          "score": 46,
+          "fit_band": "Strong",
+          "positives": [
+            "Websites, landing pages, dashboards: website, web design, dashboard, dashboards, html",
+            "Funnels, CRM, automations: ghl, api",
+            "Early-career friendly language: va",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: senior"
+          ],
+          "summary": "You must apply via the link to be considered for the role: app.testedrecruits.com/posting/16640 WHY YOU SHOULD APPLY: Coalition Technologies is devoted to delivering clients the highest quality work while providing our team a fun, thriving, and innovative..."
+        },
+        {
+          "external_id": "1665809",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-SEO-Analyst-1665809",
+          "title": "Remote SEO Analyst",
+          "company_name": "Testedrecruits",
+          "company_url": "https://testedrecruits.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$$$",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "SEO Semrush Keyword Research",
+          "score": 31,
+          "fit_band": "Good",
+          "positives": [
+            "Websites, landing pages, dashboards: website, html, css",
+            "Funnels, CRM, automations: ghl, api",
+            "Early-career friendly language: va",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [
+            "May be too senior: architect"
+          ],
+          "summary": "You must apply via the link to be considered: app.testedrecruits.com/posting/16648 WHY YOU SHOULD APPLY: Coalition Technologies is devoted to delivering clients the highest quality work while providing our team a fun, thriving, and innovative environment..."
+        },
+        {
+          "external_id": "1665801",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Remote-Graphic-Designer-1665801",
+          "title": "Remote Graphic Designer",
+          "company_name": "Testedrecruits",
+          "company_url": "https://testedrecruits.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$$$",
+          "estimated_monthly_usd": null,
+          "pay_note": "salary unclear",
+          "skill_requirement": "Adobe Logo Design Graphic Design",
+          "score": 30,
+          "fit_band": "Good",
+          "positives": [
+            "Websites, landing pages, dashboards: website, web design",
+            "Funnels, CRM, automations: ghl",
+            "Sales, outbound, lead lists: linkedin",
+            "Early-career friendly language: va",
+            "Budget likely reviewable: salary unclear"
+          ],
+          "concerns": [],
+          "summary": "You must apply via the link to be considered for the role: app.testedrecruits.com/posting/16638 WHY YOU SHOULD APPLY The most competitive profit-sharing bonus plan in the industry, paying up to 50% of company profits to full-time employees each month! A..."
+        }
+      ],
+      "job_count": 4
+    },
+    {
+      "external_id": "1592068",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Real-Estate-Marketing-Operations-Virtual-Assistant-1592068",
+      "title": "Full-Time Real Estate Marketing & Operations Virtual Assistant",
+      "company_name": "Virtual Luxe Solutions, LLC",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "960",
+      "estimated_monthly_usd": 960.0,
+      "pay_note": "960 treated as monthly",
+      "skill_requirement": "Real Estate Marketing Operation Management Executive Assistance",
+      "score": 54,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: canva",
+        "Websites, landing pages, dashboards: website",
+        "Funnels, CRM, automations: ghl, workflow, crm",
+        "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+        "Strong budget fit: listed around $960/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Virtual Luxe Solutions is seeking a highly organized, proactive Real Estate Marketing & Operations Virtual Assistant to support a growing realtor in FL. This is a full-time, long-term opportunity for someone who thrives in real estate, loves structure, and...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1592068",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Full-Time-Real-Estate-Marketing-Operations-Virtual-Assistant-1592068",
+          "title": "Full-Time Real Estate Marketing & Operations Virtual Assistant",
+          "company_name": "Virtual Luxe Solutions, LLC",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "960",
+          "estimated_monthly_usd": 960.0,
+          "pay_note": "960 treated as monthly",
+          "skill_requirement": "Real Estate Marketing Operation Management Executive Assistance",
+          "score": 54,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: canva",
+            "Websites, landing pages, dashboards: website",
+            "Funnels, CRM, automations: ghl, workflow, crm",
+            "Early-career friendly language: assistant, va, virtual assistant, sop, sops",
+            "Strong budget fit: listed around $960/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Virtual Luxe Solutions is seeking a highly organized, proactive Real Estate Marketing & Operations Virtual Assistant to support a growing realtor in FL. This is a full-time, long-term opportunity for someone who thrives in real estate, loves structure, and..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1678646",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Real-Estate-Virtual-Assistant-1678646",
+      "title": "Real Estate - Virtual Assistant",
+      "company_name": "123Test",
+      "company_url": "https://123test.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "$400-$900 / Month",
+      "estimated_monthly_usd": 900.0,
+      "pay_note": "$400-$900 / Month treated as monthly",
+      "skill_requirement": "Email Marketing Real Estate Marketing Local SEO",
+      "score": 53,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, canva",
+        "Funnels, CRM, automations: crm",
+        "Early-career friendly language: assistant, va, virtual assistant, templates",
+        "Strong budget fit: listed around $900/month"
+      ],
+      "concerns": [],
+      "summary": "I run a real estate brokerage in San Antonio, TX helping military families relocate. Air Force veteran \u2014 I move fast and run tight systems. I need a sharp, creative operator who can run my systems, use AI to do the heavy lifting, and deliver marketing that...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678646",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Real-Estate-Virtual-Assistant-1678646",
+          "title": "Real Estate - Virtual Assistant",
+          "company_name": "123Test",
+          "company_url": "https://123test.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$400-$900 / Month",
+          "estimated_monthly_usd": 900.0,
+          "pay_note": "$400-$900 / Month treated as monthly",
+          "skill_requirement": "Email Marketing Real Estate Marketing Local SEO",
+          "score": 53,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, canva",
+            "Funnels, CRM, automations: crm",
+            "Early-career friendly language: assistant, va, virtual assistant, templates",
+            "Strong budget fit: listed around $900/month"
+          ],
+          "concerns": [],
+          "summary": "I run a real estate brokerage in San Antonio, TX helping military families relocate. Air Force veteran \u2014 I move fast and run tight systems. I need a sharp, creative operator who can run my systems, use AI to do the heavy lifting, and deliver marketing that..."
+        },
+        {
+          "external_id": "1677172",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Automation-Workflow-Development-Specialist-1677172",
+          "title": "AI Automation & Workflow Development Specialist",
+          "company_name": "123Test",
+          "company_url": "https://123test.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "$8",
+          "estimated_monthly_usd": 8.0,
+          "pay_note": "$8 treated as monthly",
+          "skill_requirement": "API Development Software Development Project Manager AI Automation",
+          "score": 39,
+          "fit_band": "Good",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Funnels, CRM, automations: automation, workflow, crm, api",
+            "Early-career friendly language: assistant, va",
+            "Budget fit: listed around $8/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead, architect",
+            "Specialized/non-Arca fit: payroll, compliance"
+          ],
+          "summary": "About the Role We are looking for an AI Automation & Workflow Development Specialist to design, build, and maintain the systems that power our internal operations. This is a hands-on technical role for someone who can architect real solutions \u2014 not simply..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1676754",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Business-Operations-Manager-AI-Augmented-Studio-Full-Time-Remote-1676754",
+      "title": "Business Operations Manager \u2014 AI-Augmented Studio (Full-Time, Remote)",
+      "company_name": "A boutique luxury fine-art photography studio in New York City",
+      "company_url": "",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jun 25, 2026",
+      "hours_per_week": "40",
+      "salary": "$10 or more based on skills",
+      "estimated_monthly_usd": 10.0,
+      "pay_note": "$10 or more based on skills treated as monthly",
+      "skill_requirement": "",
+      "score": 53,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+        "Websites, landing pages, dashboards: webflow",
+        "Funnels, CRM, automations: automation, workflow, crm",
+        "Early-career friendly language: va",
+        "Budget fit: listed around $10/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead"
+      ],
+      "summary": "APPLY : docs.google.com/forms/d/e/1FAIpQLSfaJ5r-r9_3NSiesN0eT8j-HR0_3oIAwQ8AqqMpo5niIMS1Qw/viewform?usp=sharing&ouid=112704830944857851752 Project Management \u00b7 Asana \u00b7 Operations Management \u00b7 Team Management \u00b7 AI Tools \u00b7 Prompt Writing \u00b7 Task Delegation \u00b7...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1676754",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Business-Operations-Manager-AI-Augmented-Studio-Full-Time-Remote-1676754",
+          "title": "Business Operations Manager \u2014 AI-Augmented Studio (Full-Time, Remote)",
+          "company_name": "A boutique luxury fine-art photography studio in New York City",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$10 or more based on skills",
+          "estimated_monthly_usd": 10.0,
+          "pay_note": "$10 or more based on skills treated as monthly",
+          "skill_requirement": "",
+          "score": 53,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Websites, landing pages, dashboards: webflow",
+            "Funnels, CRM, automations: automation, workflow, crm",
+            "Early-career friendly language: va",
+            "Budget fit: listed around $10/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead"
+          ],
+          "summary": "APPLY : docs.google.com/forms/d/e/1FAIpQLSfaJ5r-r9_3NSiesN0eT8j-HR0_3oIAwQ8AqqMpo5niIMS1Qw/viewform?usp=sharing&ouid=112704830944857851752 Project Management \u00b7 Asana \u00b7 Operations Management \u00b7 Team Management \u00b7 AI Tools \u00b7 Prompt Writing \u00b7 Task Delegation \u00b7..."
+        },
+        {
+          "external_id": "1663077",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Business-Operations-Manager-AI-Augmented-Studio-Full-Time-Remote-1663077",
+          "title": "Business Operations Manager \u2014 AI-Augmented Studio (Full-Time, Remote)",
+          "company_name": "A boutique luxury fine-art photography studio in New York City",
+          "company_url": "",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jun 25, 2026",
+          "hours_per_week": "40",
+          "salary": "$13 per hour + sale percentage",
+          "estimated_monthly_usd": 2251.6,
+          "pay_note": "$13 per hour + sale percentage normalized as hourly",
+          "skill_requirement": "Project Management Operation Management AI Automation",
+          "score": 33,
+          "fit_band": "Good",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, ai automation",
+            "Websites, landing pages, dashboards: webflow",
+            "Funnels, CRM, automations: automation, workflow, crm",
+            "Early-career friendly language: va"
+          ],
+          "concerns": [
+            "Above Arca budget: listed around $2,252/month",
+            "May be too senior: manager, lead"
+          ],
+          "summary": "APPLY : docs.google.com/forms/d/e/1FAIpQLSfaJ5r-r9_3NSiesN0eT8j-HR0_3oIAwQ8AqqMpo5niIMS1Qw/viewform?usp=sharing&ouid=112704830944857851752 Project Management \u00b7 Asana \u00b7 Operations Management \u00b7 Team Management \u00b7 AI Tools \u00b7 Prompt Writing \u00b7 Task Delegation \u00b7..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1173851",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-VA-for-Customer-ResponseLead-Generation-1173851",
+      "title": "Virtual Assistant (VA) for Customer Response/Lead Generation",
+      "company_name": "JESSE",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "48",
+      "salary": "$300-1000/month + commission",
+      "estimated_monthly_usd": 1000.0,
+      "pay_note": "$300-1000/month + commission treated as monthly",
+      "skill_requirement": "Social Media Management Lead Generation Customer Service",
+      "score": 53,
+      "fit_band": "Strong",
+      "positives": [
+        "Funnels, CRM, automations: crm",
+        "Sales, outbound, lead lists: lead generation, lead gen, prospecting, linkedin",
+        "Early-career friendly language: assistant, va, virtual assistant",
+        "Strong budget fit: listed around $1,000/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "Key Responsibilities: 1. Market Expansion and Customer Maintenance Proactively search for potential customers through trade platforms, search engines, and other channels, and send out prospecting emails Regularly update content on social media platforms like...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1173851",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-VA-for-Customer-ResponseLead-Generation-1173851",
+          "title": "Virtual Assistant (VA) for Customer Response/Lead Generation",
+          "company_name": "JESSE",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "48",
+          "salary": "$300-1000/month + commission",
+          "estimated_monthly_usd": 1000.0,
+          "pay_note": "$300-1000/month + commission treated as monthly",
+          "skill_requirement": "Social Media Management Lead Generation Customer Service",
+          "score": 53,
+          "fit_band": "Strong",
+          "positives": [
+            "Funnels, CRM, automations: crm",
+            "Sales, outbound, lead lists: lead generation, lead gen, prospecting, linkedin",
+            "Early-career friendly language: assistant, va, virtual assistant",
+            "Strong budget fit: listed around $1,000/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "Key Responsibilities: 1. Market Expansion and Customer Maintenance Proactively search for potential customers through trade platforms, search engines, and other channels, and send out prospecting emails Regularly update content on social media platforms like..."
+        },
+        {
+          "external_id": "1164073",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Digital-Marketing-Assistant-for-Leads-Generation-1164073",
+          "title": "Digital Marketing Assistant for Leads Generation",
+          "company_name": "JESSE",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "48",
+          "salary": "$300/month",
+          "estimated_monthly_usd": 300.0,
+          "pay_note": "$300/month treated as monthly",
+          "skill_requirement": "Email Marketing Lead Generation Social Media Marketing",
+          "score": 30,
+          "fit_band": "Good",
+          "positives": [
+            "Websites, landing pages, dashboards: website",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: assistant, va",
+            "Budget fit: listed around $300/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "We are seeking a proactive and detail-oriented Digital Marketing Assistant to help identify and engage potential clients through various online channels, including Google, websites, and social media platforms. The ideal candidate will possess strong research..."
+        }
+      ],
+      "job_count": 2
+    },
+    {
+      "external_id": "1678875",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Growth-Marketing-Lead-Outbound-Paid-Ads-GTM-1678875",
+      "title": "Growth Marketing Lead \u2014 Outbound, Paid Ads & GTM",
+      "company_name": "TBD",
+      "company_url": "https://apollo.io",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "45",
+      "salary": "$1,500+/month (fixed + variable)",
+      "estimated_monthly_usd": 1500.0,
+      "pay_note": "$1,500+/month (fixed + variable) treated as monthly",
+      "skill_requirement": "Copywriting Lead Generation Digital Marketing",
+      "score": 53,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: claude",
+        "Websites, landing pages, dashboards: landing page, landing pages, webflow",
+        "Funnels, CRM, automations: automation, workflow, crm, hubspot, email sequence",
+        "Sales, outbound, lead lists: lead generation, lead gen, outbound, cold email, linkedin",
+        "Early-career friendly language: va"
+      ],
+      "concerns": [
+        "Above Arca budget: listed around $1,500/month",
+        "May be too senior: manager, lead, expert"
+      ],
+      "summary": "GROWTH MARKETING LEAD \u2014 OUTBOUND, PAID ADS & GTM Full-time | Remote | Base + Variable | PST hours + weekends as needed ABOUT THIS ROLE You will join our outbound and paid acquisition team\u2014 finding the right people, reaching them fast, and converting attention...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1678875",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Growth-Marketing-Lead-Outbound-Paid-Ads-GTM-1678875",
+          "title": "Growth Marketing Lead \u2014 Outbound, Paid Ads & GTM",
+          "company_name": "TBD",
+          "company_url": "https://apollo.io",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "45",
+          "salary": "$1,500+/month (fixed + variable)",
+          "estimated_monthly_usd": 1500.0,
+          "pay_note": "$1,500+/month (fixed + variable) treated as monthly",
+          "skill_requirement": "Copywriting Lead Generation Digital Marketing",
+          "score": 53,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude",
+            "Websites, landing pages, dashboards: landing page, landing pages, webflow",
+            "Funnels, CRM, automations: automation, workflow, crm, hubspot, email sequence",
+            "Sales, outbound, lead lists: lead generation, lead gen, outbound, cold email, linkedin",
+            "Early-career friendly language: va"
+          ],
+          "concerns": [
+            "Above Arca budget: listed around $1,500/month",
+            "May be too senior: manager, lead, expert"
+          ],
+          "summary": "GROWTH MARKETING LEAD \u2014 OUTBOUND, PAID ADS & GTM Full-time | Remote | Base + Variable | PST hours + weekends as needed ABOUT THIS ROLE You will join our outbound and paid acquisition team\u2014 finding the right people, reaching them fast, and converting attention..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1679911",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Content-Social-Media-Marketer-1679911",
+      "title": "Content & Social Media Marketer",
+      "company_name": "TIA The Investors Agency",
+      "company_url": "https://theinvestorsagency.com.au",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "TBD",
+      "salary": "?60000",
+      "estimated_monthly_usd": 1034.48,
+      "pay_note": "?60000 treated as monthly",
+      "skill_requirement": "Content Creation Social Media Management Digital Marketing",
+      "score": 53,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: claude, lovable, chatgpt, capcut, canva",
+        "Websites, landing pages, dashboards: website, landing page, landing pages, react",
+        "Funnels, CRM, automations: gohighlevel, ghl, funnel, automation, workflow",
+        "Sales, outbound, lead lists: linkedin",
+        "Early-career friendly language: va",
+        "Near budget: listed around $1,034/month"
+      ],
+      "concerns": [
+        "May be too senior: senior, manager, lead, head of",
+        "Specialized/non-Arca fit: compliance"
+      ],
+      "summary": "About TIA The Investors Agency is a buyers agency that helps everyday Australians build wealth through strategic property investment. We've helped hundreds of clients secure investment properties across the country, and our marketing reaches tens of thousands...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679911",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Content-Social-Media-Marketer-1679911",
+          "title": "Content & Social Media Marketer",
+          "company_name": "TIA The Investors Agency",
+          "company_url": "https://theinvestorsagency.com.au",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "TBD",
+          "salary": "?60000",
+          "estimated_monthly_usd": 1034.48,
+          "pay_note": "?60000 treated as monthly",
+          "skill_requirement": "Content Creation Social Media Management Digital Marketing",
+          "score": 53,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, lovable, chatgpt, capcut, canva",
+            "Websites, landing pages, dashboards: website, landing page, landing pages, react",
+            "Funnels, CRM, automations: gohighlevel, ghl, funnel, automation, workflow",
+            "Sales, outbound, lead lists: linkedin",
+            "Early-career friendly language: va",
+            "Near budget: listed around $1,034/month"
+          ],
+          "concerns": [
+            "May be too senior: senior, manager, lead, head of",
+            "Specialized/non-Arca fit: compliance"
+          ],
+          "summary": "About TIA The Investors Agency is a buyers agency that helps everyday Australians build wealth through strategic property investment. We've helped hundreds of clients secure investment properties across the country, and our marketing reaches tens of thousands..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1679156",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Prompt-Engineer-Creative-Product-1679156",
+      "title": "AI Prompt Engineer \u2014 Creative & Product",
+      "company_name": "Aurify",
+      "company_url": "https://aurify.com",
+      "company_source": "inferred_from_domain",
+      "date_updated": "Jun 30, 2026",
+      "hours_per_week": "40",
+      "salary": "$5-7",
+      "estimated_monthly_usd": 7.0,
+      "pay_note": "$5-7 treated as monthly",
+      "skill_requirement": "Influencer Content Creation Ads Creation AI Video Creation",
+      "score": 52,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: ai tools, higgsfield, elevenlabs",
+        "Funnels, CRM, automations: workflow, api",
+        "Early-career friendly language: va, templates",
+        "Budget fit: listed around $7/month"
+      ],
+      "concerns": [],
+      "summary": "About the Role Aurify is looking for a Creative AI Prompt Engineer to join our product team. You'll build and refine prompts and workflows across generative AI tools (Higgsfield, ElevenLabs, image/video/voice models, and more) to produce content with real...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1679156",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/AI-Prompt-Engineer-Creative-Product-1679156",
+          "title": "AI Prompt Engineer \u2014 Creative & Product",
+          "company_name": "Aurify",
+          "company_url": "https://aurify.com",
+          "company_source": "inferred_from_domain",
+          "date_updated": "Jun 30, 2026",
+          "hours_per_week": "40",
+          "salary": "$5-7",
+          "estimated_monthly_usd": 7.0,
+          "pay_note": "$5-7 treated as monthly",
+          "skill_requirement": "Influencer Content Creation Ads Creation AI Video Creation",
+          "score": 52,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: ai tools, higgsfield, elevenlabs",
+            "Funnels, CRM, automations: workflow, api",
+            "Early-career friendly language: va, templates",
+            "Budget fit: listed around $7/month"
+          ],
+          "concerns": [],
+          "summary": "About the Role Aurify is looking for a Creative AI Prompt Engineer to join our product team. You'll build and refine prompts and workflows across generative AI tools (Higgsfield, ElevenLabs, image/video/voice models, and more) to produce content with real..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1680053",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Marketing-Sales-Representative-1680053",
+      "title": "Virtual Marketing & Sales Representative",
+      "company_name": "Bodhitree Property Group",
+      "company_url": "https://bodhitreegroup.com.au",
+      "company_source": "inferred_from_description",
+      "date_updated": "Jul 1, 2026",
+      "hours_per_week": "45",
+      "salary": "Aus $1000",
+      "estimated_monthly_usd": 1000.0,
+      "pay_note": "Aus $1000 treated as monthly",
+      "skill_requirement": "Email Marketing English Sales",
+      "score": 52,
+      "fit_band": "Strong",
+      "positives": [
+        "Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot, api",
+        "Sales, outbound, lead lists: outbound, cold calling, linkedin",
+        "Early-career friendly language: va",
+        "Strong budget fit: listed around $1,000/month"
+      ],
+      "concerns": [
+        "May be too senior: lead"
+      ],
+      "summary": "# Virtual Marketing & Sales Representative (Property Management) Location:Remote (Work from Home) Company: Bodhitree Property Group (Australia) Our goal is to help you earn AUD $1,500\u2013$2,000+ per month\u2014and even more as you grow with us.** * **Base Salary:**...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1680053",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Virtual-Marketing-Sales-Representative-1680053",
+          "title": "Virtual Marketing & Sales Representative",
+          "company_name": "Bodhitree Property Group",
+          "company_url": "https://bodhitreegroup.com.au",
+          "company_source": "inferred_from_description",
+          "date_updated": "Jul 1, 2026",
+          "hours_per_week": "45",
+          "salary": "Aus $1000",
+          "estimated_monthly_usd": 1000.0,
+          "pay_note": "Aus $1000 treated as monthly",
+          "skill_requirement": "Email Marketing English Sales",
+          "score": 52,
+          "fit_band": "Strong",
+          "positives": [
+            "Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot, api",
+            "Sales, outbound, lead lists: outbound, cold calling, linkedin",
+            "Early-career friendly language: va",
+            "Strong budget fit: listed around $1,000/month"
+          ],
+          "concerns": [
+            "May be too senior: lead"
+          ],
+          "summary": "# Virtual Marketing & Sales Representative (Property Management) Location:Remote (Work from Home) Company: Bodhitree Property Group (Australia) Our goal is to help you earn AUD $1,500\u2013$2,000+ per month\u2014and even more as you grow with us.** * **Base Salary:**..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1677263",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Graphic-Designer-SEO-Minded-Web-Builder-Full-Time-1677263",
+      "title": "Graphic Designer & SEO-Minded Web Builder (Full-Time)",
+      "company_name": "Jason - Makarios Marketing",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 26, 2026",
+      "hours_per_week": "40",
+      "salary": "1000",
+      "estimated_monthly_usd": 1000.0,
+      "pay_note": "1000 treated as monthly",
+      "skill_requirement": "Graphic Design Packaging & Brand Idenity Design Web Design & Page Layout",
+      "score": 52,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: claude",
+        "Websites, landing pages, dashboards: website, web design, wordpress, shopify, wix",
+        "Funnels, CRM, automations: workflow",
+        "Early-career friendly language: va",
+        "Strong budget fit: listed around $1,000/month"
+      ],
+      "concerns": [
+        "May be too senior: lead, expert"
+      ],
+      "summary": "Makarios Marketing \u2014 Remote About the Role Makarios Marketing is an SEO agency serving local service businesses and ecommerce brands across the US. We're hiring a full-time Graphic Designer who can build beautiful, conversion-focused websites and brand assets...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1677263",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Graphic-Designer-SEO-Minded-Web-Builder-Full-Time-1677263",
+          "title": "Graphic Designer & SEO-Minded Web Builder (Full-Time)",
+          "company_name": "Jason - Makarios Marketing",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 26, 2026",
+          "hours_per_week": "40",
+          "salary": "1000",
+          "estimated_monthly_usd": 1000.0,
+          "pay_note": "1000 treated as monthly",
+          "skill_requirement": "Graphic Design Packaging & Brand Idenity Design Web Design & Page Layout",
+          "score": 52,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude",
+            "Websites, landing pages, dashboards: website, web design, wordpress, shopify, wix",
+            "Funnels, CRM, automations: workflow",
+            "Early-career friendly language: va",
+            "Strong budget fit: listed around $1,000/month"
+          ],
+          "concerns": [
+            "May be too senior: lead, expert"
+          ],
+          "summary": "Makarios Marketing \u2014 Remote About the Role Makarios Marketing is an SEO agency serving local service businesses and ecommerce brands across the US. We're hiring a full-time Graphic Designer who can build beautiful, conversion-focused websites and brand assets..."
+        }
+      ],
+      "job_count": 1
+    },
+    {
+      "external_id": "1667197",
+      "job_url": "https://www.onlinejobs.ph/jobseekers/job/Experienced-Social-Media-Manager-Community-Manager-Car-Rental-Automotive-Niche-Full-Time-Long-Term-1667197",
+      "title": "Experienced Social Media Manager & Community Manager \u2014 Car Rental / Automotive Niche (Full-Time, Long-Term)",
+      "company_name": "Keys 2 Freedom",
+      "company_url": "",
+      "company_source": "exposed_company_or_brand",
+      "date_updated": "Jun 29, 2026",
+      "hours_per_week": "40",
+      "salary": "$480 - $640 Month",
+      "estimated_monthly_usd": 640.0,
+      "pay_note": "$480 - $640 Month treated as monthly",
+      "skill_requirement": "Content Creation Social Media Management Community Moderation",
+      "score": 52,
+      "fit_band": "Strong",
+      "positives": [
+        "Modern AI/tooling: claude, chatgpt, ai tools, capcut, canva",
+        "Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, automation",
+        "Sales, outbound, lead lists: lead generation, lead gen",
+        "Early-career friendly language: va, templates",
+        "Budget fit: listed around $640/month"
+      ],
+      "concerns": [
+        "May be too senior: manager, lead, head of, advanced"
+      ],
+      "summary": "ABOUT US: We run a fast-growing economy car rental business in Dallas, TX that rents vehicles to rideshare and gig economy workers (Uber, Lyft, Amazon Flex, medical couriers). We also run a coaching/education brand teaching others how to build the same...",
+      "all_jobs_for_company": [
+        {
+          "external_id": "1667197",
+          "job_url": "https://www.onlinejobs.ph/jobseekers/job/Experienced-Social-Media-Manager-Community-Manager-Car-Rental-Automotive-Niche-Full-Time-Long-Term-1667197",
+          "title": "Experienced Social Media Manager & Community Manager \u2014 Car Rental / Automotive Niche (Full-Time, Long-Term)",
+          "company_name": "Keys 2 Freedom",
+          "company_url": "",
+          "company_source": "exposed_company_or_brand",
+          "date_updated": "Jun 29, 2026",
+          "hours_per_week": "40",
+          "salary": "$480 - $640 Month",
+          "estimated_monthly_usd": 640.0,
+          "pay_note": "$480 - $640 Month treated as monthly",
+          "skill_requirement": "Content Creation Social Media Management Community Moderation",
+          "score": 52,
+          "fit_band": "Strong",
+          "positives": [
+            "Modern AI/tooling: claude, chatgpt, ai tools, capcut, canva",
+            "Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, automation",
+            "Sales, outbound, lead lists: lead generation, lead gen",
+            "Early-career friendly language: va, templates",
+            "Budget fit: listed around $640/month"
+          ],
+          "concerns": [
+            "May be too senior: manager, lead, head of, advanced"
+          ],
+          "summary": "ABOUT US: We run a fast-growing economy car rental business in Dallas, TX that rents vehicles to rideshare and gig economy workers (Uber, Lyft, Amazon Flex, medical couriers). We also run a coaching/education brand teaching others how to build the same..."
+        }
+      ],
+      "job_count": 1
+    }
+  ]
+}

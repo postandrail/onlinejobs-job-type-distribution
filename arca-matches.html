@@ -1,0 +1,1915 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arca Graduate Company Matches</title>
+  <style>
+    :root {
+      --ink:#17202a;
+      --muted:#5d6875;
+      --line:#d9e1ea;
+      --paper:#f7f9fb;
+      --blue:#2e639b;
+      --green:#28775b;
+      --gold:#9a6a19;
+      --red:#a34747;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0;
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color:var(--ink);
+      background:var(--paper);
+      line-height:1.45;
+    }
+    header {
+      background:#fff;
+      border-bottom:1px solid var(--line);
+      padding:36px 5vw 24px;
+    }
+    main { padding:24px 5vw 48px; }
+    h1 { margin:0 0 10px; font-size:clamp(30px, 4vw, 52px); letter-spacing:0; }
+    h2 { margin:32px 0 14px; font-size:24px; letter-spacing:0; }
+    h3, h4, h5 { letter-spacing:0; }
+    h3 { margin:0; font-size:20px; }
+    h4 { margin:10px 0 8px; font-size:17px; }
+    h5 { margin:0 0 8px; font-size:13px; text-transform:uppercase; color:var(--muted); }
+    p { margin:0; color:var(--muted); max-width:980px; }
+    a { color:var(--blue); text-decoration:none; font-weight:700; }
+    .metrics {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(190px, 1fr));
+      gap:12px;
+      margin-top:22px;
+    }
+    .metric {
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:14px;
+    }
+    .metric strong { display:block; font-size:30px; color:var(--ink); }
+    .metric span { color:var(--muted); font-size:13px; }
+    .criteria {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:16px;
+    }
+    .criteria span, .skill {
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:6px 10px;
+      background:#fff;
+      color:var(--muted);
+      font-size:12px;
+    }
+    .match-card {
+      display:grid;
+      grid-template-columns:58px 1fr;
+      gap:14px;
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:16px;
+      margin-bottom:14px;
+    }
+    .rank {
+      font-size:20px;
+      font-weight:800;
+      color:var(--blue);
+      padding-top:4px;
+    }
+    .card-top {
+      display:flex;
+      gap:16px;
+      justify-content:space-between;
+      align-items:flex-start;
+    }
+    .source { font-size:12px; margin-top:3px; text-transform:capitalize; }
+    .score {
+      min-width:74px;
+      text-align:center;
+      border-radius:8px;
+      border:1px solid var(--line);
+      padding:8px;
+      background:#f3f6f9;
+    }
+    .score strong { display:block; font-size:24px; }
+    .score span { display:block; font-size:12px; color:var(--muted); }
+    .score.excellent { border-color:#a8d4c5; background:#effaf5; }
+    .score.strong { border-color:#c8d9ed; background:#f0f6fd; }
+    .score.good { border-color:#ead59e; background:#fff9eb; }
+    .meta {
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:8px 0 12px;
+    }
+    .meta span {
+      background:#eef2f6;
+      border-radius:999px;
+      padding:5px 9px;
+      color:var(--muted);
+      font-size:12px;
+    }
+    .signals { display:flex; flex-wrap:wrap; gap:6px; margin:12px 0; }
+    .columns {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+      gap:16px;
+      margin-top:12px;
+    }
+    ul { margin:0; padding-left:18px; }
+    li { margin-bottom:6px; }
+    details { margin-top:12px; }
+    summary { cursor:pointer; color:var(--blue); font-weight:700; }
+    .links a { margin-right:14px; }
+    @media (max-width:720px) {
+      header, main { padding-left:16px; padding-right:16px; }
+      .match-card { grid-template-columns:1fr; }
+      .rank { padding-top:0; }
+      .card-top { flex-direction:column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arca Graduate Company Matches</h1>
+    <p>Top 50 full-time OnlineJobs.ph companies from Jun 24, 2026 through Jul 1, 2026 that look best matched to early-career Arca graduates trained on Claude Code, AI video, websites, landing pages, dashboards, funnels, automations, sales, and lead-list building.</p>
+    <div class="metrics">
+      <div class="metric"><strong>354</strong><span>Qualified full-time job posts with company signal</span></div>
+      <div class="metric"><strong>263</strong><span>Matched companies after dedupe</span></div>
+      <div class="metric"><strong>50</strong><span>Companies shown for review</span></div>
+      <div class="metric"><strong>$4-$6/hr</strong><span>Arca budget lens, roughly $1k/month</span></div>
+    </div>
+    <div class="criteria">
+      <span>Full-time only</span>
+      <span>Company exposed or inferred</span>
+      <span>Early-career weighted</span>
+      <span>Modern tool fit</span>
+      <span>Budget-aware</span>
+    </div>
+    <p class="links" style="margin-top:16px;">
+      <a href="./onlinejobs_arca_graduate_company_matches.json">JSON data</a>
+      <a href="./onlinejobs_arca_graduate_company_matches.csv">CSV export</a>
+      <a href="./index.html">Distribution report</a>
+    </p>
+  </header>
+  <main>
+    <h2>Top 50 Company Matches</h2>
+    
+            <article class="match-card">
+              <div class="rank">#1</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://snappyvas.com" target="_blank" rel="noopener">Snappyvas</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>77</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Claude-CoworkLovable-Expert-100-Remote-1680127" target="_blank" rel="noopener">Virtual Assistant (Claude Cowork/Lovable Expert) — 100% Remote</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>35 hrs/week</span>
+                  <span>up to 650 monthly</span>
+                  <span>$650/mo est.</span>
+                </div>
+                <p>AI First. If you didn&#x27;t start reading this ad already thinking about how you&#x27;d automate it — this role probably isn&#x27;t for you. But if you live and breathe AI, keep reading. We&#x27;re SnappyVAS (snappyvas.com) — an AI-first company and a no-code platform for...</p>
+                <div class="signals">
+                  <span class="skill">Email</span><span class="skill">Marketing</span><span class="skill">AI</span><span class="skill">Tools</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, claude code, lovable, chatgpt, ai tools</li><li>Websites, landing pages, dashboards: landing page, landing pages</li><li>Funnels, CRM, automations: ghl, zapier, n8n, automation, workflow</li><li>Sales, outbound, lead lists: lead generation, lead gen, prospecting</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, sops</li><li>Budget fit: listed around $650/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead, director, expert, advanced</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#2</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Healthy Vision Institute</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>76</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/GoHighLevel-Specialist-WebsiteVideo-Social-Media-Creator-1665101" target="_blank" rel="noopener">GoHighLevel Specialist + Website+Video &amp; Social Media Creator</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>45 hrs/week</span>
+                  <span>$600-$750 base + huge bonus</span>
+                  <span>$750/mo est.</span>
+                </div>
+                <p>GoHighLevel Specialist + Website+Video &amp; Social Media Creator Remote · Full-Time · US Eye-Care Medical Group (Florida) Base $700–$1,100 USD/month + uncapped new-patient bonuses that can DOUBLE your base. Read This First This is not a generic VA job. We are...</p>
+                <div class="signals">
+                  <span class="skill">Social</span><span class="skill">Media</span><span class="skill">Content</span><span class="skill">Creation</span><span class="skill">Google</span><span class="skill">Sites</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: ai automation, capcut, canva</li><li>Websites, landing pages, dashboards: website, landing page, landing pages, dashboard, dashboards</li><li>Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, make.com</li><li>Early-career friendly language: will train, va, sop, templates</li><li>Strong budget fit: listed around $750/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: senior, manager, lead, advanced</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#3</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Cynergists AI</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>75</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Senior-Growth-Marketing-Manager-1666840" target="_blank" rel="noopener">Senior Growth Marketing Manager</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$8</span>
+                  <span>$8/mo est.</span>
+                </div>
+                <p>Senior Growth Marketing Manager (Google Ads, AI Creative &amp; Demand Generation) About Cynergists AI Cynergists AI is building the future of business operations through an Agentic CRM, AI Agents, automation, voice, SMS, email, customer intelligence, and...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, heygen, veo</li><li>Websites, landing pages, dashboards: landing page, dashboard, dashboards</li><li>Funnels, CRM, automations: gohighlevel, ghl, funnel, automation, crm</li><li>Sales, outbound, lead lists: lead generation, lead gen, linkedin</li><li>Early-career friendly language: va</li><li>Budget fit: listed around $8/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: senior, manager, lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#4</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Set 2 Close</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>74</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/HubSpot-CMS-UXUI-Web-Developer-1664942" target="_blank" rel="noopener">HubSpot CMS &amp; UX/UI Web Developer</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$8-$12</span>
+                  <span>$12/mo est.</span>
+                </div>
+                <p>HubSpot CMS &amp; UX/UI Web Developer Location: Remote Employment Type: Full-Time Contract Work Schedule: Must be available to work during Pacific Standard Time business hours Compensation: $8–$12 per hour USD, depending on experience and skill set About Set 2...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: canva</li><li>Websites, landing pages, dashboards: website, web design, landing page, landing pages, dashboard</li><li>Funnels, CRM, automations: automation, workflow, crm, hubspot</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: va, templates</li><li>Budget fit: listed around $12/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/HubSpot-CMS-UXUI-Web-Developer-1678915" target="_blank" rel="noopener">HubSpot CMS &amp; UX/UI Web Developer</a> <span>Jun 29, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#5</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Leadflow Consulting</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>73</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Claude-AI-Specialist-Cowork-Code-Full-Time-Long-Term-1678141" target="_blank" rel="noopener">Claude AI Specialist (Cowork / Code) | Full-Time, Long-Term</a></h4>
+                <div class="meta">
+                  <span>Jun 28, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>800</span>
+                  <span>$800/mo est.</span>
+                </div>
+                <p>**About the role** I run a fast-growing AI consulting business serving high-profile entrepreneurs in the German-speaking market. We help them work with Claude (Cowork) and we build the setups and skills that run their business. We already run client Claude...</p>
+                <div class="signals">
+                  <span class="skill">AI</span><span class="skill">Tools</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, claude code, ai tools, ai automation</li><li>Websites, landing pages, dashboards: dashboard, dashboards</li><li>Funnels, CRM, automations: make.com, zapier, n8n, automation, workflow</li><li>Early-career friendly language: assistant, va, virtual assistant, templates</li><li>Strong budget fit: listed around $800/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead, expert, advanced</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#6</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>SMB Solutions</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>72</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/AI-Research-Data-Mining-Specialist-Full-Time-1676548" target="_blank" rel="noopener">AI Research &amp; Data Mining Specialist (Full-Time)</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$500</span>
+                  <span>$500/mo est.</span>
+                </div>
+                <p>AI Research &amp; Data Mining Specialist (Full-Time) Salary $80 to $125 USD per week Based on experience and demonstrated skill. Schedule Full-Time Monday through Friday 40 Hours Per Week Location Remote ? About SMB Solutions We are an AI automation and digital...</p>
+                <div class="signals">
+                  <span class="skill">Admin</span><span class="skill">Data</span><span class="skill">Processing</span><span class="skill">Market</span><span class="skill">Research</span><span class="skill">Data</span><span class="skill">Gathering</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, ai automation</li><li>Websites, landing pages, dashboards: website</li><li>Funnels, CRM, automations: ghl, automation, crm, api</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Budget fit: listed around $500/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead, director</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#7</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://vruum.ai" target="_blank" rel="noopener">Vruum</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>71</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Sales-Development-Representative-VA-DMN-1678990" target="_blank" rel="noopener">Sales Development Representative VA - DMN</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>PHP40,000</span>
+                  <span>$690/mo est.</span>
+                </div>
+                <p>Remote SDR support for lead generation, outreach, CRM management, and appointment setting Remote role | Full-time or part-time Schedule to be aligned with the closer’s time zone and outreach needs Daily reporting is required Key Responsibilities • Execute...</p>
+                <div class="signals">
+                  <span class="skill">CRM</span><span class="skill">Outbound</span><span class="skill">Sales</span><span class="skill">Sales</span><span class="skill">Management</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools</li><li>Websites, landing pages, dashboards: website</li><li>Funnels, CRM, automations: crm, hubspot, sms</li><li>Sales, outbound, lead lists: lead generation, lead gen, lead list, outbound, cold email</li><li>Early-career friendly language: va, coachable</li><li>Budget fit: listed around $690/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#8</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>ZT (A Tutoring Company)</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>69</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-GHL-Customer-Support-Phone-CallEmailText-1680040" target="_blank" rel="noopener">Associate Administrative Assistant | GHL + Customer Support [Phone Call/Email/Text]</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$7/Hour</span>
+                  <span>$1,212/mo est.</span>
+                </div>
+                <p>We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to...</p>
+                <div class="signals">
+                  <span class="skill">Customer</span><span class="skill">Service</span><span class="skill">GoHighLevel</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, ai automation, canva</li><li>Funnels, CRM, automations: gohighlevel, ghl, automation, crm</li><li>Early-career friendly language: assistant, va, coachable</li><li>Near budget: listed around $1,212/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#9</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Ascend Capital LLC</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>68</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Business-Funding-SDR-Cold-Caller-GoHighLevel-CRM-1679498" target="_blank" rel="noopener">Business Funding SDR | Cold Caller | GoHighLevel CRM</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$3-$5</span>
+                  <span>$5/mo est.</span>
+                </div>
+                <p># Business Funding Sales Development Representative (SDR) | Cold Caller | GoHighLevel CRM ## About Ascend Capital LLC Ascend Capital LLC helps businesses across the United States access the capital they need to grow. We specialize in business funding...</p>
+                <div class="signals">
+                  <span class="skill">CRM</span><span class="skill">Cold</span><span class="skill">Calling</span><span class="skill">Sales</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: gohighlevel, ghl, crm, api</li><li>Sales, outbound, lead lists: outbound, cold calling, appointment setting, sdr, sales development</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Budget fit: listed around $5/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#10</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>MaS Dance Academy</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>68</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Coder-Needed-Dance-Academy-1592540" target="_blank" rel="noopener">Coder Needed | Dance Academy</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$$$ Salary To Be Determined</span>
+                  <span>Salary unclear</span>
+                </div>
+                <p>Full-time, long-term opportunity. Environment here is CREATIVE and FUN. YOUR FOCUS: You&#x27;ll be building systems for explosive growth in 2026 and 2027. Examples: • Building Automations (n8n, Zapier, A.I. Tools etc.) • Website Development (HTML, CSS, Javascript...</p>
+                <div class="signals">
+                  <span class="skill">Javascript</span><span class="skill">Virtual</span><span class="skill">Assistant</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, claude code, cursor, ai automation</li><li>Websites, landing pages, dashboards: website, html, css, react</li><li>Funnels, CRM, automations: zapier, n8n, automation, workflow, crm</li><li>Early-career friendly language: assistant, va, virtual assistant, templates</li><li>Budget likely reviewable: salary unclear</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: senior, lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#11</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>S2F Worldwide Enterprises</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>67</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/AI-Automation-Specialist-Executive-Operations-Assistant-1678791" target="_blank" rel="noopener">AI Automation Specialist / Executive Operations Assistant</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$400/month</span>
+                  <span>$400/mo est.</span>
+                </div>
+                <p>I am hiring a full-time AI Automation Specialist to help run and improve a fast-moving sales and lead generation operation. This is not a basic VA role. I need someone who is highly experienced with AI tools, automation tools, CRM systems, and workflow...</p>
+                <div class="signals">
+                  <span class="skill">CRM</span><span class="skill">Lead</span><span class="skill">Generation</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, ai automation</li><li>Funnels, CRM, automations: gohighlevel, ghl, zapier, automation, workflow</li><li>Sales, outbound, lead lists: lead generation, lead gen, appointment setting</li><li>Early-career friendly language: assistant, va, templates</li><li>Budget fit: listed around $400/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead</li><li>Specialized/non-Arca fit: compliance</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#12</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Vici Trading Co LTD</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>67</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Ecommerce-Growth-Market-Specialist-SEO-PPC-Marketing-1678921" target="_blank" rel="noopener">Ecommerce Growth Market Specialist - SEO, PPC, Marketing...</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>45 hrs/week</span>
+                  <span>$1200/month</span>
+                  <span>$1,200/mo est.</span>
+                </div>
+                <p>Growth Marketing Specialist We are looking for a proactive, commercially minded Growth Marketing Specialist to help scale our online sales across our website and multiple marketplaces. This is a hands-on, all-round digital marketing role covering SEO, PPC...</p>
+                <div class="signals">
+                  <span class="skill">PPC</span><span class="skill">SEO</span><span class="skill">Amazon</span><span class="skill">PPC</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: chatgpt, ai tools, canva</li><li>Websites, landing pages, dashboards: website, landing page, shopify</li><li>Funnels, CRM, automations: funnel, automation, workflow</li><li>Sales, outbound, lead lists: linkedin</li><li>Early-career friendly language: va, sop, sops</li><li>Near budget: listed around $1,200/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Ecommerce-Merchandising-Marketplace-Product-listing-Specialist-1678925" target="_blank" rel="noopener">Ecommerce Merchandising, Marketplace &amp; Product listing Specialist</a> <span>Jun 29, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#13</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Velura Group</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>65</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Funnel-Builder-Full-Stack-Advertorial-Funnels-for-Dutch-eCommerce-1677874" target="_blank" rel="noopener">Funnel Builder (Full-Stack) — Advertorial Funnels for Dutch eCommerce</a></h4>
+                <div class="meta">
+                  <span>Jun 27, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$7</span>
+                  <span>$7/mo est.</span>
+                </div>
+                <p>We run a 7-figure health &amp; wellness eCommerce brand selling to the Netherlands. We&#x27;re looking for an experienced, autonomous funnel builder who can take a product and ship a complete, high-converting advertorial funnel — build, copy, and tracking — without...</p>
+                <div class="signals">
+                  <span class="skill">Clickfunnels</span><span class="skill">Website</span><span class="skill">Copywriting</span><span class="skill">Funnelish</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: website, landing page, landing pages, shopify</li><li>Funnels, CRM, automations: funnel, funnels, api</li><li>Early-career friendly language: junior, va, sop, sops</li><li>Budget fit: listed around $7/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>Specialized/non-Arca fit: claims</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#14</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://100bmod.org" target="_blank" rel="noopener">100Bmod</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>64</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Backend-Focused-WordPress-Developer-Needed-for-Custom-Elementor-Pro-Websites-1679545" target="_blank" rel="noopener">Backend-Focused WordPress Developer Needed for Custom Elementor Pro Websites</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>STARTING AT $640 per month</span>
+                  <span>$640/mo est.</span>
+                </div>
+                <p>BACKEND-FIRST WORDPRESS DEVELOPER REQUIRED — PLEASE READ BEFORE APPLYING This is not a basic Elementor design role. We are looking for a highly skilled WordPress developer with strong backend development, troubleshooting, custom PHP, webhook integration...</p>
+                <div class="signals">
+                  <span class="skill">PHP</span><span class="skill">Wordpress</span><span class="skill">Javascript</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: website, front-end, wordpress, html, css</li><li>Funnels, CRM, automations: ghl, automation, workflow, api, webhook</li><li>Early-career friendly language: va, templates</li><li>Budget fit: listed around $640/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: advanced, architect</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#15</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://lumesales.com" target="_blank" rel="noopener">Lumesales</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>62</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Detail-Oriented-Virtual-Assistant-Full-Time-Remote-EST-Hours-1680284" target="_blank" rel="noopener">Detail-Oriented Virtual Assistant (Full Time | Remote | EST Hours)</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>5-6</span>
+                  <span>$6/mo est.</span>
+                </div>
+                <p>We are a fast-growing U.S. based digital marketing agency specializing in SEO, content marketing, Google Business Profile management, PPC, and lead generation for home service businesses. We are not looking for a generic virtual assistant. We are looking for...</p>
+                <div class="signals">
+                  <span class="skill">Attention</span><span class="skill">to</span><span class="skill">Detail</span><span class="skill">Organization</span><span class="skill">Time</span><span class="skill">Managment</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: website, wordpress</li><li>Funnels, CRM, automations: ghl, workflow</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, sops</li><li>Budget fit: listed around $6/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#16</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Makarios Marketing - Jaso</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>62</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Local-SEO-Specialist-With-AI-1614377" target="_blank" rel="noopener">Local SEO Specialist - With AI</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>29 hrs/week</span>
+                  <span>800-1200</span>
+                  <span>$1,200/mo est.</span>
+                </div>
+                <p>Local SEO Specialist (MUST HAVE AI AUTOMATION SKILLS IN LOCAL SEO) Full-Time - Makarios Marketing | [Remote] About the Role We&#x27;re not looking for a traditional SEO hire. We&#x27;re looking for a rare hybrid: someone who lives and breathes local SEO and thinks like...</p>
+                <div class="signals">
+                  <span class="skill">Local</span><span class="skill">SEO</span><span class="skill">AI</span><span class="skill">Tools</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, claude code, ai tools, ai automation</li><li>Websites, landing pages, dashboards: dashboard, dashboards</li><li>Funnels, CRM, automations: n8n, automation, workflow</li><li>Early-career friendly language: junior, va</li><li>Near budget: listed around $1,200/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: head of</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#17</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://revivepaintingang.uk" target="_blank" rel="noopener">Revivepaintingang</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>62</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/AI-Builder-Support-Lead-1680404" target="_blank" rel="noopener">AI Builder + Support Lead</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>50,000-70,000 PHP / month</span>
+                  <span>$1,207/mo est.</span>
+                </div>
+                <p>Job Title Full-Time AI Builder for Trades Software Startup (ChatGPT, Claude, Zapier) Job Type Full-time, long-term remote role. Philippines only. Compensation PHP 50,000–70,000/month, depending on experience and fit, plus performance-based bonuses as the...</p>
+                <div class="signals">
+                  <span class="skill">Google</span><span class="skill">Suite</span><span class="skill">Zapier</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, ai automation</li><li>Funnels, CRM, automations: zapier, n8n, automation, workflow, crm</li><li>Early-career friendly language: va, sop, sops</li><li>Near budget: listed around $1,207/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#18</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Kluglino LLC</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>61</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-Retail-Dispensary-Operations-1678113" target="_blank" rel="noopener">Virtual Assistant – Retail &amp; Dispensary Operations</a></h4>
+                <div class="meta">
+                  <span>Jun 28, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$1000/month</span>
+                  <span>$1,000/mo est.</span>
+                </div>
+                <p>Virtual Assistant – Retail &amp; Dispensary Operations About Us We are a fast-growing retail and cannabis company operating multiple dynamic businesses. We are building a strong operational team to support continued growth, maintain compliance, and ensure...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: chatgpt, ai tools</li><li>Funnels, CRM, automations: ghl, zapier, workflow, crm, api</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, sops</li><li>Strong budget fit: listed around $1,000/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>Specialized/non-Arca fit: payroll, compliance</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#19</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://caliberworkforce.com" target="_blank" rel="noopener">Caliberworkforce</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>60</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Revenue-Operations-Home-Services-1679663" target="_blank" rel="noopener">Revenue Operations (Home Services)</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>TBD</span>
+                  <span>Salary unclear</span>
+                </div>
+                <p>Caliber Workforce | Revenue Operations (Home Services) APPLY HERE: www.caliberworkforce.com/aicareers Caliber Workforce is a premium, AI-fluent staffing platform for founder-operators at growth-stage businesses. We don&#x27;t place generic virtual assistants. We...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt</li><li>Funnels, CRM, automations: zapier, automation, workflow, crm, hubspot</li><li>Sales, outbound, lead lists: lead generation, lead gen, outbound</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, templates</li><li>Budget likely reviewable: salary unclear</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>4 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Executive-Integrator-1679577" target="_blank" rel="noopener">Executive Integrator</a> <span>Jun 30, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Marketing-Operator-1679654" target="_blank" rel="noopener">Marketing Operator</a> <span>Jun 30, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Operations-Architect-Home-Services-1679659" target="_blank" rel="noopener">Operations Architect (Home Services)</a> <span>Jun 30, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Senior-Systems-Builder-Home-Services-1679671" target="_blank" rel="noopener">Senior Systems Builder (Home Services)</a> <span>Jun 30, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#20</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://16personalities.com" target="_blank" rel="noopener">GRACE INSPIRED LIFE</a></h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>60</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Junior-Virtual-Assistant-1677893" target="_blank" rel="noopener">Junior Virtual Assistant</a></h4>
+                <div class="meta">
+                  <span>Jun 28, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$550 a month</span>
+                  <span>$550/mo est.</span>
+                </div>
+                <p>We&#x27;re hiring a Junior Virtual Assistant to support Grace Inspired Life — an Amazon Influencer brand built around authentic product reviews, affiliate content, and a growing niche media portfolio. This is an entry-level, long-term, full-time remote role (40...</p>
+                <div class="signals">
+                  <span class="skill">Amazon</span><span class="skill">Wordpress</span><span class="skill">Youtube</span><span class="skill">Marketing</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, canva</li><li>Websites, landing pages, dashboards: website, wordpress</li><li>Funnels, CRM, automations: ghl, workflow</li><li>Early-career friendly language: entry-level, junior, training provided, assistant, va</li><li>Budget fit: listed around $550/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>Specialized/non-Arca fit: compliance</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#21</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Legacy Asset Recovery Group</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>60</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Asset-Recovery-Specialist-1663225" target="_blank" rel="noopener">Asset Recovery Specialist</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$5/hour</span>
+                  <span>$866/mo est.</span>
+                </div>
+                <p>About Us: We are a fast-growing asset recovery company focused on helping individuals recover unclaimed funds, surplus proceeds, and other recoverable assets. We are looking for a highly organized, results-driven Virtual Assistant to support lead generation...</p>
+                <div class="signals">
+                  <span class="skill">CRM</span><span class="skill">Cold</span><span class="skill">Calling</span><span class="skill">English</span><span class="skill">Speaking</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot</li><li>Sales, outbound, lead lists: lead generation, lead gen, outbound, cold calling</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Strong budget fit: listed around $866/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#22</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Moon Media</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>60</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Notion-Systems-Specialist-Automation-1676482" target="_blank" rel="noopener">Notion Systems Specialist + Automation</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$1,000-$1,300</span>
+                  <span>$1,300/mo est.</span>
+                </div>
+                <p>Company: Moon Media Location: Remote Type: Full-Time Working Hours: Monday-Friday, 9:00 AM - 5:00 PM EST Experience Level: Mid-Senior --- About Moon Media We&#x27;re a fast-growing creative agency that helps brands dominate short-form content. Our clients include...</p>
+                <div class="signals">
+                  <span class="skill">Creative</span><span class="skill">Problem</span><span class="skill">Solving</span><span class="skill">Notion</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, ai tools, ai automation</li><li>Websites, landing pages, dashboards: dashboard, dashboards</li><li>Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, zapier</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, sops</li><li>Near budget: listed around $1,300/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: senior, lead, head of, expert</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#23</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Us Boss Builder Academy</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>60</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Member-Success-Enrollment-Coordinator-Community-Lead-Follow-Up-1679447" target="_blank" rel="noopener">Member Success &amp; Enrollment Coordinator (Community &amp; Lead Follow-Up)</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$5 per hour</span>
+                  <span>$866/mo est.</span>
+                </div>
+                <p>Member Success &amp; Enrollment Coordinator About Us Boss Builder Academy is a growing online business education and entrepreneur community helping people build businesses, create multiple income streams, leverage AI and automation, improve their finances, and...</p>
+                <div class="signals">
+                  <span class="skill">Community</span><span class="skill">Moderation</span><span class="skill">Customer</span><span class="skill">Service</span><span class="skill">Appointment</span><span class="skill">Setting</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: ai tools</li><li>Funnels, CRM, automations: gohighlevel, ghl, automation, crm, sms</li><li>Sales, outbound, lead lists: appointment setting</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, sops</li><li>Strong budget fit: listed around $866/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#24</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>CONTACT MARKETERS LLC</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>59</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/B2B-Business-Development-Manager-Lead-Generation-Full-Time-Performance-Bonuses-Long-Term-Role-1627647" target="_blank" rel="noopener">B2B Business Development Manager – Lead Generation Full-Time | Performance Bonuses | Long-Term Role</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$3-5 PER HOUR PLUS MONTHLY BONUSES!</span>
+                  <span>$866/mo est.</span>
+                </div>
+                <p>B2B Business Development Manager – Lead Generation Full-Time | Performance Bonuses | Long-Term Role Overview We are hiring a B2B Business Development Manager to generate qualified leads through LinkedIn outreach, cold email campaigns, and outbound calling. A...</p>
+                <div class="signals">
+                  <span class="skill">Email</span><span class="skill">Marketing</span><span class="skill">LinkedIn</span><span class="skill">Marketing</span><span class="skill">Business</span><span class="skill">development</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: crm, hubspot</li><li>Sales, outbound, lead lists: lead generation, lead gen, prospecting, outbound, cold email</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Strong budget fit: listed around $866/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>3 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Google-Ads-Manager-Lead-Generation-Full-Time-Performance-Bonuses-Long-Term-Role-1625682" target="_blank" rel="noopener">Google Ads Manager – Lead Generation Full-Time | Performance Bonuses | Long-Term Role</a> <span>Jun 26, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Remote-Physician-Liaison-Licensed-Medical-Doctor-MD-Non-Clinical-Healthcare-Medical-Devices-1678375" target="_blank" rel="noopener">Remote Physician Liaison (Licensed Medical Doctor, MD) | Non-Clinical | Healthcare &amp; Medical Devices</a> <span>Jun 29, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Remote-Legal-Liaison-Licensed-Lawyer-Attorney-Law-Firm-Relations-Legal-Services-1678379" target="_blank" rel="noopener">Remote Legal Liaison | Licensed Lawyer / Attorney | Law Firm Relations | Legal Services</a> <span>Jun 29, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#25</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://covrix.com" target="_blank" rel="noopener">Covrix</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>58</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/operations-coordinator-1677879" target="_blank" rel="noopener">operations - coordinator</a></h4>
+                <div class="meta">
+                  <span>Jun 27, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>750</span>
+                  <span>$750/mo est.</span>
+                </div>
+                <p>Virtual Assistant / Success Manager StoicForge | Multi-Brand Ecommerce We Need Someone Who Keeps the Machine Running We&#x27;re StoicForge - a growing ecommerce company running multiple brands in health, beauty, and personal care. We have the products, the...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: dashboard, dashboards</li><li>Funnels, CRM, automations: zapier, automation, workflow, api</li><li>Early-career friendly language: assistant, va, virtual assistant, coachable, sop</li><li>Strong budget fit: listed around $750/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#26</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Southcorp Group, Inc</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>58</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Marketing-Operations-Systems-Manager-Salesforce-Left-Main-1675778" target="_blank" rel="noopener">Marketing Operations &amp; Systems Manager (Salesforce / Left Main)</a></h4>
+                <div class="meta">
+                  <span>Jun 24, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$8-$11/ hour</span>
+                  <span>$11/mo est.</span>
+                </div>
+                <p>About the Role We are a U.S.-based real estate investment company seeking a Marketing Operations &amp; Systems Manager to oversee the technology, marketing systems, lead flow, reporting, and CRM infrastructure that drives our acquisitions business. This role owns...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: dashboard, dashboards</li><li>Funnels, CRM, automations: zapier, automation, workflow, crm, api</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Budget fit: listed around $11/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead, advanced</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#27</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Us Kwackers Kitchen &amp; Sports Bar</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>58</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Content-creatoreditor-Social-Media-Growth-Manager-1678036" target="_blank" rel="noopener">Content creator/editor Social Media Growth Manager</a></h4>
+                <div class="meta">
+                  <span>Jun 28, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>7</span>
+                  <span>$7/mo est.</span>
+                </div>
+                <p>Full-Time | Remote | Philippines | UK Hours Salary: Competitive (Based on Experience) Hours: 40 hours per week Location: Remote (Philippines) Working Hours: UK Time (Flexibility required for major sporting events and campaigns) About Us Kwackers Kitchen &amp;...</p>
+                <div class="signals">
+                  <span class="skill">Social</span><span class="skill">Media</span><span class="skill">Content</span><span class="skill">Creation</span><span class="skill">Social</span><span class="skill">Media</span><span class="skill">Management</span><span class="skill">Social</span><span class="skill">Media</span><span class="skill">Video</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: chatgpt, ai tools, capcut, canva</li><li>Websites, landing pages, dashboards: website, dashboard, dashboards, react</li><li>Funnels, CRM, automations: ghl</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: va</li><li>Budget fit: listed around $7/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#28</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>US Meander Digital</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>58</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Digital-Marketing-Generalist-For-Marketing-Agency-in-Singapore-SGD800-1200-1677983" target="_blank" rel="noopener">Digital Marketing Generalist For Marketing Agency in Singapore (SGD800 - 1,200)</a></h4>
+                <div class="meta">
+                  <span>Jun 28, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>SGD800 - 1200</span>
+                  <span>$1,200/mo est.</span>
+                </div>
+                <p>Content, Creative &amp; Operations Support — for a Growing Singapore-based Digital Agency In plain terms: a hands-on, do-a-bit-of-everything marketer — copywriting-led, with design, video, and light ops support — who helps a lean agency run and grow. Full-Time •...</p>
+                <div class="signals">
+                  <span class="skill">Copywriting</span><span class="skill">Social</span><span class="skill">Media</span><span class="skill">Content</span><span class="skill">Creation</span><span class="skill">Digital</span><span class="skill">Marketing</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: ai tools, capcut, canva</li><li>Websites, landing pages, dashboards: website, landing page, landing pages</li><li>Funnels, CRM, automations: workflow</li><li>Sales, outbound, lead lists: lead generation, lead gen, linkedin</li><li>Early-career friendly language: assistant, va, sop, sops</li><li>Near budget: listed around $1,200/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead, expert</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#29</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://brandm3dia.com" target="_blank" rel="noopener">Brandm3Dia</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>57</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Virtual-Executive-Assistant-to-the-CEO-1668948" target="_blank" rel="noopener">Virtual Executive Assistant to the CEO</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>35,000-45,000</span>
+                  <span>$776/mo est.</span>
+                </div>
+                <p>Virtual Executive Assistant to the CEO Part-Time and Full-Time Opportunities Available About the Role Brand M3dia is seeking a highly organized, proactive, and tech-savvy Virtual Executive Assistant to support our CEO in managing day-to-day operations...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools</li><li>Websites, landing pages, dashboards: website</li><li>Funnels, CRM, automations: ghl, automation, workflow, api</li><li>Sales, outbound, lead lists: linkedin</li><li>Early-career friendly language: assistant, va</li><li>Strong budget fit: listed around $776/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: senior, lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Virtual-Executive-Assistant-to-the-CEO-1680299" target="_blank" rel="noopener">Virtual Executive Assistant to the CEO</a> <span>Jul 1, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#30</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://yobbr.com" target="_blank" rel="noopener">Yobbr</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>57</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Experienced-Sales-Marketing-Customer-Support-Virtual-Assistant-Experience-Required-1680315" target="_blank" rel="noopener">Experienced Sales, Marketing &amp; Customer Support Virtual Assistant | Experience Required</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>Peso 25,000/month</span>
+                  <span>$431/mo est.</span>
+                </div>
+                <p>We are hiring an Experienced Sales, Marketing &amp; Customer Support Virtual Assistant. Please apply only if you have previous experience in sales, customer support, lead follow-up, customer communication, and working with US-based clients. This is not an...</p>
+                <div class="signals">
+                  <span class="skill">Customer</span><span class="skill">Support</span><span class="skill">Lead</span><span class="skill">Generation</span><span class="skill">Sales</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: gohighlevel, ghl, crm, sms, api</li><li>Sales, outbound, lead lists: lead generation, lead gen, outbound</li><li>Early-career friendly language: entry-level, assistant, va, virtual assistant</li><li>Budget fit: listed around $431/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#31</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>ZT (Tutoring Company)</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>57</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-Remote-Position-1677373" target="_blank" rel="noopener">Associate Administrative Assistant | Remote Position</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$7/Hour</span>
+                  <span>$1,212/mo est.</span>
+                </div>
+                <p>We are hiring an assistant with proven experience and a strong background in wearing multiple hats. However, please note that this is not your usual VA role. We need someone who thinks beyond assigned tasks, takes initiative, and actively contributes to...</p>
+                <div class="signals">
+                  <span class="skill">Customer</span><span class="skill">Service</span><span class="skill">Executive</span><span class="skill">Assistance</span><span class="skill">AI</span><span class="skill">Automation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, ai automation</li><li>Funnels, CRM, automations: gohighlevel, ghl, automation, crm</li><li>Early-career friendly language: assistant, va, coachable</li><li>Near budget: listed around $1,212/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Associate-Administrative-Assistant-Full-Time-Remote-Role-1676786" target="_blank" rel="noopener">Associate Administrative Assistant | Full-Time Remote Role</a> <span>Jun 25, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#32</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>GES Inc</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>56</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Lead-Acquisition-Management-Specialist-1669120" target="_blank" rel="noopener">Lead Acquisition &amp; Management Specialist</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>50 hrs/week</span>
+                  <span>$1000 monthly</span>
+                  <span>$1,000/mo est.</span>
+                </div>
+                <p>Now hiring Lead acquisition &amp; management specialist Los Angeles, CA — Remote (PST hours required) · Full-time Compensation $1,000/mo Hours 8 AM – 5 PM PST Schedule Mon – Fri Timezone Pacific (PST) About the role We are a Los Angeles–based company looking for...</p>
+                <div class="signals">
+                  <span class="skill">CRM</span><span class="skill">Lead</span><span class="skill">Generation</span><span class="skill">English</span><span class="skill">Speaking</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: gohighlevel, ghl, automation, workflow, crm</li><li>Sales, outbound, lead lists: lead generation, lead gen, outbound, appointment setting</li><li>Early-career friendly language: va</li><li>Strong budget fit: listed around $1,000/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#33</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://gostaffify.com" target="_blank" rel="noopener">Gostaffify</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>56</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Sales-Virtual-Assistant-Phone-Calls-Lead-Follow-Up-1678610" target="_blank" rel="noopener">Sales Virtual Assistant (Phone Calls &amp; Lead Follow-Up)</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$960</span>
+                  <span>$960/mo est.</span>
+                </div>
+                <p>Location: Remote Job Type: Full-Time / Part-Time Salary: Competitive, based on experience About the Role We are looking for a confident and results-driven Sales Virtual Assistant to join our team. The ideal candidate is comfortable making outbound phone...</p>
+                <div class="signals">
+                  <span class="skill">Sales</span><span class="skill">Management</span><span class="skill">Cold</span><span class="skill">Calling</span><span class="skill">Sales</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot</li><li>Sales, outbound, lead lists: outbound, cold calling, appointment setting</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Strong budget fit: listed around $960/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#34</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Leverage Agent LLC</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>56</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Recruiting-Specialist-1668943" target="_blank" rel="noopener">Recruiting Specialist</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$6 to $7/ hour</span>
+                  <span>$7/mo est.</span>
+                </div>
+                <p>Oz Group | eXp Realty Help Build One of the Fastest-Growing Real Estate Teams in New Jersey Oz Group is on a mission to redefine agent growth and success in real estate. Led by Joe Oz, a member of Zillow&#x27;s Agent Advisory Board, Oz Group is one of New Jersey&#x27;s...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: dashboard, dashboards</li><li>Funnels, CRM, automations: ghl, funnel, crm</li><li>Sales, outbound, lead lists: lead generation, lead gen, prospecting, outbound, linkedin</li><li>Early-career friendly language: va, coachable</li><li>Budget fit: listed around $7/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li><li>Specialized/non-Arca fit: compliance</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Construction-Company-Bookkeeper-Executive-Assistant-1660357" target="_blank" rel="noopener">Construction Company Bookkeeper / Executive Assistant</a> <span>Jun 30, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#35</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Quiresoft Technologies Inc</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score excellent"><strong>56</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Full-Time-Growth-Marketing-Specialist-1677959" target="_blank" rel="noopener">Full-Time Growth &amp; Marketing Specialist</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$600-$900 CAD/Month</span>
+                  <span>$900/mo est.</span>
+                </div>
+                <p>Job Title: Full-Time Growth &amp; Marketing Specialist Company: Quiresoft Technologies Inc. Location: Remote (Philippines-based), working full-time on PST (Pacific Standard Time) hours Type: Full-time, long-term, exclusive (no other clients or side engagements)...</p>
+                <div class="signals">
+                  <span class="skill">Email</span><span class="skill">Marketing</span><span class="skill">Cold</span><span class="skill">Calling</span><span class="skill">Digital</span><span class="skill">Marketing</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Websites, landing pages, dashboards: web design</li><li>Funnels, CRM, automations: gohighlevel, ghl, automation, workflow, crm</li><li>Sales, outbound, lead lists: lead generation, lead gen, outbound, cold calling</li><li>Early-career friendly language: va</li><li>Strong budget fit: listed around $900/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead, 5+ years</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#36</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Whoo Marketing</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>56</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Full-Time-Graphic-Designer-Tech-AI-Savvy-1676535" target="_blank" rel="noopener">Full-Time Graphic Designer (Tech &amp; AI Savvy)</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$400</span>
+                  <span>$400/mo est.</span>
+                </div>
+                <p>JOB TITLE: Full-Time Graphic Designer SHIFT: 8:20 AM EST – 4:20 PM EST (Monday–Friday) Note: The 8:20 AM EST clock-in time is strict and essential for this role. HOURS: 40 Hours per Week SALARY: $400 USD per Month ABOUT THE ROLE: We are a US-based digital...</p>
+                <div class="signals">
+                  <span class="skill">Graphic</span><span class="skill">Design</span><span class="skill">Packaging</span><span class="skill">&amp;</span><span class="skill">Brand</span><span class="skill">Idenity</span><span class="skill">Design</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: canva</li><li>Websites, landing pages, dashboards: website, web design, wordpress</li><li>Funnels, CRM, automations: ghl, workflow</li><li>Early-career friendly language: va</li><li>Budget fit: listed around $400/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#37</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://acadium.com" target="_blank" rel="noopener">Acadium</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score excellent"><strong>55</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-100-WFH-1599985" target="_blank" rel="noopener">Lead Generation Specialist (100% WFH)</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$600/month + commission</span>
+                  <span>$600/mo est.</span>
+                </div>
+                <p>We’re looking for a motivated and results-driven Lead Generation Specialist to help grow our sales pipeline and expand our customer base. As a BDR, you’ll be on the front lines of our sales efforts, identifying potential clients, generating leads, and...</p>
+                <div class="signals">
+                  <span class="skill">LinkedIn</span><span class="skill">Marketing</span><span class="skill">Sales</span><span class="skill">Digital</span><span class="skill">Marketing</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: crm, hubspot</li><li>Sales, outbound, lead lists: lead generation, lead gen, prospecting, sales development, linkedin</li><li>Early-career friendly language: entry-level, va</li><li>Budget fit: listed around $600/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>7 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-Business-Development-Representative-1599984" target="_blank" rel="noopener">Lead Generation Specialist / Business Development Representative</a> <span>Jun 30, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Lead-Generation-Specialist-Business-Development-Representative-1602671" target="_blank" rel="noopener">Lead Generation Specialist / Business Development Representative</a> <span>Jun 30, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Non-voice-Business-Development-Representative-Lead-Generation-Specialist-100-WFH-1561942" target="_blank" rel="noopener">Non-voice Business Development Representative / Lead Generation Specialist (100% WFH)</a> <span>Jun 30, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Non-voice-Business-Development-Representative-Lead-Generation-Specialist-100-WFH-1602669" target="_blank" rel="noopener">Non-voice Business Development Representative / Lead Generation Specialist (100% WFH)</a> <span>Jun 30, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#38</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Beyond Brighter Minds, Inc</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score excellent"><strong>55</strong><span>Excellent</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Recruitment-Marketing-Talent-Acquisition-Specialist-Healthcare-Recruitment-1679334" target="_blank" rel="noopener">Recruitment Marketing &amp; Talent Acquisition Specialist (Healthcare Recruitment)</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$8/hour-$10/hour</span>
+                  <span>$1,732/mo est.</span>
+                </div>
+                <p>Employment Type: Full-time (40 hours/ week from 9 am to 5 pm M-F Pacific Standard Time Initial Engagement: 90-day performance-based contract with the opportunity to transition into a permanent full-time position based on results. Bonuses are available for...</p>
+                <div class="signals">
+                  <span class="skill">Facebook</span><span class="skill">Ads</span><span class="skill">US</span><span class="skill">recruiting</span><span class="skill">Lead</span><span class="skill">Generation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: chatgpt, ai tools, capcut, canva</li><li>Websites, landing pages, dashboards: landing page, landing pages, dashboard, dashboards</li><li>Funnels, CRM, automations: ghl, funnel, funnels, crm, api</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: va</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>Above Arca budget: listed around $1,732/month</li><li>May be too senior: manager, lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#39</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://apps.apple.com" target="_blank" rel="noopener">Apps</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score strong"><strong>54</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/AI-Video-Creator-Prompt-Engineer-Video-Editor-1-Week-Full-Time-Project-1678202" target="_blank" rel="noopener">AI Video Creator / Prompt Engineer / Video Editor – 1-Week Full-Time Project</a></h4>
+                <div class="meta">
+                  <span>Jun 28, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>100 usd</span>
+                  <span>$100/mo est.</span>
+                </div>
+                <p>We are looking for a highly skilled AI Video Creator who can help us create a large number of short-form videos for our travel app. This is a 1-week full-time project, starting ASAP. Salary: USD 100 for 1 week of full-time work. About Us We are InfoAlanya, a...</p>
+                <div class="signals">
+                  <span class="skill">Prompt</span><span class="skill">Engineering</span><span class="skill">AI</span><span class="skill">Video</span><span class="skill">Generation</span><span class="skill">AI</span><span class="skill">Video</span><span class="skill">Creation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: chatgpt, ai tools, veo, runway, elevenlabs</li><li>Funnels, CRM, automations: ghl</li><li>Early-career friendly language: va</li><li>Budget fit: listed around $100/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#40</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://testedrecruits.com" target="_blank" rel="noopener">Testedrecruits</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score strong"><strong>54</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Remote-Front-End-Developer-1665784" target="_blank" rel="noopener">Remote Front End Developer</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$$$</span>
+                  <span>Salary unclear</span>
+                </div>
+                <p>You must apply via the link to be considered for the role: app.testedrecruits.com/posting/16636 WHY YOU SHOULD APPLY: Coalition Technologies is devoted to delivering clients the highest quality work while providing our team a fun, thriving, and innovative...</p>
+                <div class="signals">
+                  <span class="skill">SCSS</span><span class="skill">HTML</span><span class="skill">PSD</span><span class="skill">to</span><span class="skill">HTML</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: cursor, ai tools</li><li>Websites, landing pages, dashboards: website, frontend, wordpress, shopify, html</li><li>Funnels, CRM, automations: ghl, workflow, api</li><li>Early-career friendly language: va, templates</li><li>Budget likely reviewable: salary unclear</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: expert</li></ul>
+                  </section>
+                </div>
+                <details><summary>3 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Remote-Web-Designer-1665777" target="_blank" rel="noopener">Remote Web Designer</a> <span>Jun 29, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Remote-SEO-Analyst-1665809" target="_blank" rel="noopener">Remote SEO Analyst</a> <span>Jun 29, 2026</span></li><li><a href="https://www.onlinejobs.ph/jobseekers/job/Remote-Graphic-Designer-1665801" target="_blank" rel="noopener">Remote Graphic Designer</a> <span>Jun 29, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#41</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Virtual Luxe Solutions, LLC</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score strong"><strong>54</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Full-Time-Real-Estate-Marketing-Operations-Virtual-Assistant-1592068" target="_blank" rel="noopener">Full-Time Real Estate Marketing &amp; Operations Virtual Assistant</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>960</span>
+                  <span>$960/mo est.</span>
+                </div>
+                <p>Virtual Luxe Solutions is seeking a highly organized, proactive Real Estate Marketing &amp; Operations Virtual Assistant to support a growing realtor in FL. This is a full-time, long-term opportunity for someone who thrives in real estate, loves structure, and...</p>
+                <div class="signals">
+                  <span class="skill">Real</span><span class="skill">Estate</span><span class="skill">Marketing</span><span class="skill">Operation</span><span class="skill">Management</span><span class="skill">Executive</span><span class="skill">Assistance</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: canva</li><li>Websites, landing pages, dashboards: website</li><li>Funnels, CRM, automations: ghl, workflow, crm</li><li>Early-career friendly language: assistant, va, virtual assistant, sop, sops</li><li>Strong budget fit: listed around $960/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#42</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://123test.com" target="_blank" rel="noopener">123Test</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score strong"><strong>53</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Real-Estate-Virtual-Assistant-1678646" target="_blank" rel="noopener">Real Estate - Virtual Assistant</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$400-$900 / Month</span>
+                  <span>$900/mo est.</span>
+                </div>
+                <p>I run a real estate brokerage in San Antonio, TX helping military families relocate. Air Force veteran — I move fast and run tight systems. I need a sharp, creative operator who can run my systems, use AI to do the heavy lifting, and deliver marketing that...</p>
+                <div class="signals">
+                  <span class="skill">Email</span><span class="skill">Marketing</span><span class="skill">Real</span><span class="skill">Estate</span><span class="skill">Marketing</span><span class="skill">Local</span><span class="skill">SEO</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, canva</li><li>Funnels, CRM, automations: crm</li><li>Early-career friendly language: assistant, va, virtual assistant, templates</li><li>Strong budget fit: listed around $900/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/AI-Automation-Workflow-Development-Specialist-1677172" target="_blank" rel="noopener">AI Automation &amp; Workflow Development Specialist</a> <span>Jun 26, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#43</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>A boutique luxury fine-art photography studio in New York City</h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score strong"><strong>53</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Business-Operations-Manager-AI-Augmented-Studio-Full-Time-Remote-1676754" target="_blank" rel="noopener">Business Operations Manager — AI-Augmented Studio (Full-Time, Remote)</a></h4>
+                <div class="meta">
+                  <span>Jun 25, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$10 or more based on skills</span>
+                  <span>$10/mo est.</span>
+                </div>
+                <p>APPLY : docs.google.com/forms/d/e/1FAIpQLSfaJ5r-r9_3NSiesN0eT8j-HR0_3oIAwQ8AqqMpo5niIMS1Qw/viewform?usp=sharing&amp;ouid=112704830944857851752 Project Management · Asana · Operations Management · Team Management · AI Tools · Prompt Writing · Task Delegation ·...</p>
+                <div class="signals">
+                  
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, ai automation</li><li>Websites, landing pages, dashboards: webflow</li><li>Funnels, CRM, automations: automation, workflow, crm</li><li>Early-career friendly language: va</li><li>Budget fit: listed around $10/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Business-Operations-Manager-AI-Augmented-Studio-Full-Time-Remote-1663077" target="_blank" rel="noopener">Business Operations Manager — AI-Augmented Studio (Full-Time, Remote)</a> <span>Jun 25, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#44</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>JESSE</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score strong"><strong>53</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Virtual-Assistant-VA-for-Customer-ResponseLead-Generation-1173851" target="_blank" rel="noopener">Virtual Assistant (VA) for Customer Response/Lead Generation</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>48 hrs/week</span>
+                  <span>$300-1000/month + commission</span>
+                  <span>$1,000/mo est.</span>
+                </div>
+                <p>Key Responsibilities: 1. Market Expansion and Customer Maintenance Proactively search for potential customers through trade platforms, search engines, and other channels, and send out prospecting emails Regularly update content on social media platforms like...</p>
+                <div class="signals">
+                  <span class="skill">Social</span><span class="skill">Media</span><span class="skill">Management</span><span class="skill">Lead</span><span class="skill">Generation</span><span class="skill">Customer</span><span class="skill">Service</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: crm</li><li>Sales, outbound, lead lists: lead generation, lead gen, prospecting, linkedin</li><li>Early-career friendly language: assistant, va, virtual assistant</li><li>Strong budget fit: listed around $1,000/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                <details><summary>1 other matching full-time job posts</summary><ul><li><a href="https://www.onlinejobs.ph/jobseekers/job/Digital-Marketing-Assistant-for-Leads-Generation-1164073" target="_blank" rel="noopener">Digital Marketing Assistant for Leads Generation</a> <span>Jun 26, 2026</span></li></ul></details>
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#45</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://apollo.io" target="_blank" rel="noopener">TBD</a></h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score strong"><strong>53</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Growth-Marketing-Lead-Outbound-Paid-Ads-GTM-1678875" target="_blank" rel="noopener">Growth Marketing Lead — Outbound, Paid Ads &amp; GTM</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>45 hrs/week</span>
+                  <span>$1,500+/month (fixed + variable)</span>
+                  <span>$1,500/mo est.</span>
+                </div>
+                <p>GROWTH MARKETING LEAD — OUTBOUND, PAID ADS &amp; GTM Full-time | Remote | Base + Variable | PST hours + weekends as needed ABOUT THIS ROLE You will join our outbound and paid acquisition team— finding the right people, reaching them fast, and converting attention...</p>
+                <div class="signals">
+                  <span class="skill">Copywriting</span><span class="skill">Lead</span><span class="skill">Generation</span><span class="skill">Digital</span><span class="skill">Marketing</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude</li><li>Websites, landing pages, dashboards: landing page, landing pages, webflow</li><li>Funnels, CRM, automations: automation, workflow, crm, hubspot, email sequence</li><li>Sales, outbound, lead lists: lead generation, lead gen, outbound, cold email, linkedin</li><li>Early-career friendly language: va</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>Above Arca budget: listed around $1,500/month</li><li>May be too senior: manager, lead, expert</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#46</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://theinvestorsagency.com.au" target="_blank" rel="noopener">TIA The Investors Agency</a></h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score strong"><strong>53</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Content-Social-Media-Marketer-1679911" target="_blank" rel="noopener">Content &amp; Social Media Marketer</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>TBD hrs/week</span>
+                  <span>?60000</span>
+                  <span>$1,034/mo est.</span>
+                </div>
+                <p>About TIA The Investors Agency is a buyers agency that helps everyday Australians build wealth through strategic property investment. We&#x27;ve helped hundreds of clients secure investment properties across the country, and our marketing reaches tens of thousands...</p>
+                <div class="signals">
+                  <span class="skill">Content</span><span class="skill">Creation</span><span class="skill">Social</span><span class="skill">Media</span><span class="skill">Management</span><span class="skill">Digital</span><span class="skill">Marketing</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, lovable, chatgpt, capcut, canva</li><li>Websites, landing pages, dashboards: website, landing page, landing pages, react</li><li>Funnels, CRM, automations: gohighlevel, ghl, funnel, automation, workflow</li><li>Sales, outbound, lead lists: linkedin</li><li>Early-career friendly language: va</li><li>Near budget: listed around $1,034/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: senior, manager, lead, head of</li><li>Specialized/non-Arca fit: compliance</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#47</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://aurify.com" target="_blank" rel="noopener">Aurify</a></h3>
+                    <p class="source">inferred from domain</p>
+                  </div>
+                  <div class="score strong"><strong>52</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/AI-Prompt-Engineer-Creative-Product-1679156" target="_blank" rel="noopener">AI Prompt Engineer — Creative &amp; Product</a></h4>
+                <div class="meta">
+                  <span>Jun 30, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$5-7</span>
+                  <span>$7/mo est.</span>
+                </div>
+                <p>About the Role Aurify is looking for a Creative AI Prompt Engineer to join our product team. You&#x27;ll build and refine prompts and workflows across generative AI tools (Higgsfield, ElevenLabs, image/video/voice models, and more) to produce content with real...</p>
+                <div class="signals">
+                  <span class="skill">Influencer</span><span class="skill">Content</span><span class="skill">Creation</span><span class="skill">Ads</span><span class="skill">Creation</span><span class="skill">AI</span><span class="skill">Video</span><span class="skill">Creation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: ai tools, higgsfield, elevenlabs</li><li>Funnels, CRM, automations: workflow, api</li><li>Early-career friendly language: va, templates</li><li>Budget fit: listed around $7/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>No major concerns flagged by this heuristic.</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#48</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3><a href="https://bodhitreegroup.com.au" target="_blank" rel="noopener">Bodhitree Property Group</a></h3>
+                    <p class="source">inferred from description</p>
+                  </div>
+                  <div class="score strong"><strong>52</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Virtual-Marketing-Sales-Representative-1680053" target="_blank" rel="noopener">Virtual Marketing &amp; Sales Representative</a></h4>
+                <div class="meta">
+                  <span>Jul 1, 2026</span>
+                  <span>45 hrs/week</span>
+                  <span>Aus $1000</span>
+                  <span>$1,000/mo est.</span>
+                </div>
+                <p># Virtual Marketing &amp; Sales Representative (Property Management) Location:Remote (Work from Home) Company: Bodhitree Property Group (Australia) Our goal is to help you earn AUD $1,500–$2,000+ per month—and even more as you grow with us.** * **Base Salary:**...</p>
+                <div class="signals">
+                  <span class="skill">Email</span><span class="skill">Marketing</span><span class="skill">English</span><span class="skill">Sales</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Funnels, CRM, automations: gohighlevel, ghl, crm, hubspot, api</li><li>Sales, outbound, lead lists: outbound, cold calling, linkedin</li><li>Early-career friendly language: va</li><li>Strong budget fit: listed around $1,000/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#49</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Jason - Makarios Marketing</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score strong"><strong>52</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Graphic-Designer-SEO-Minded-Web-Builder-Full-Time-1677263" target="_blank" rel="noopener">Graphic Designer &amp; SEO-Minded Web Builder (Full-Time)</a></h4>
+                <div class="meta">
+                  <span>Jun 26, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>1000</span>
+                  <span>$1,000/mo est.</span>
+                </div>
+                <p>Makarios Marketing — Remote About the Role Makarios Marketing is an SEO agency serving local service businesses and ecommerce brands across the US. We&#x27;re hiring a full-time Graphic Designer who can build beautiful, conversion-focused websites and brand assets...</p>
+                <div class="signals">
+                  <span class="skill">Graphic</span><span class="skill">Design</span><span class="skill">Packaging</span><span class="skill">&amp;</span><span class="skill">Brand</span><span class="skill">Idenity</span><span class="skill">Design</span><span class="skill">Web</span><span class="skill">Design</span><span class="skill">&amp;</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude</li><li>Websites, landing pages, dashboards: website, web design, wordpress, shopify, wix</li><li>Funnels, CRM, automations: workflow</li><li>Early-career friendly language: va</li><li>Strong budget fit: listed around $1,000/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: lead, expert</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+            <article class="match-card">
+              <div class="rank">#50</div>
+              <div class="match-main">
+                <div class="card-top">
+                  <div>
+                    <h3>Keys 2 Freedom</h3>
+                    <p class="source">exposed company or brand</p>
+                  </div>
+                  <div class="score strong"><strong>52</strong><span>Strong</span></div>
+                </div>
+                <h4><a href="https://www.onlinejobs.ph/jobseekers/job/Experienced-Social-Media-Manager-Community-Manager-Car-Rental-Automotive-Niche-Full-Time-Long-Term-1667197" target="_blank" rel="noopener">Experienced Social Media Manager &amp; Community Manager — Car Rental / Automotive Niche (Full-Time, Long-Term)</a></h4>
+                <div class="meta">
+                  <span>Jun 29, 2026</span>
+                  <span>40 hrs/week</span>
+                  <span>$480 - $640 Month</span>
+                  <span>$640/mo est.</span>
+                </div>
+                <p>ABOUT US: We run a fast-growing economy car rental business in Dallas, TX that rents vehicles to rideshare and gig economy workers (Uber, Lyft, Amazon Flex, medical couriers). We also run a coaching/education brand teaching others how to build the same...</p>
+                <div class="signals">
+                  <span class="skill">Content</span><span class="skill">Creation</span><span class="skill">Social</span><span class="skill">Media</span><span class="skill">Management</span><span class="skill">Community</span><span class="skill">Moderation</span>
+                </div>
+                <div class="columns">
+                  <section>
+                    <h5>Why this matches Arca</h5>
+                    <ul><li>Modern AI/tooling: claude, chatgpt, ai tools, capcut, canva</li><li>Funnels, CRM, automations: gohighlevel, ghl, funnel, funnels, automation</li><li>Sales, outbound, lead lists: lead generation, lead gen</li><li>Early-career friendly language: va, templates</li><li>Budget fit: listed around $640/month</li></ul>
+                  </section>
+                  <section>
+                    <h5>Review notes</h5>
+                    <ul><li>May be too senior: manager, lead, head of, advanced</li></ul>
+                  </section>
+                </div>
+                
+              </div>
+            </article>
+            
+  </main>
+</body>
+</html>
