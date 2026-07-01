@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-30T22:13:48",
+  "generated_at": "2026-07-01T18:24:07",
   "database": "/Users/gaul/Documents/Codex/shared/onlinejobs/jobs.sqlite",
   "date_filter": {
     "field": "date_updated",
     "start_inclusive": "2026-06-24",
     "end_inclusive": "2026-07-01"
   },
-  "total_jobs": 4145,
-  "full_time_jobs": 2257,
+  "total_jobs": 4886,
+  "full_time_jobs": 2666,
   "type_of_work_counts": {
-    "Part Time": 914,
-    "Full Time": 2257,
-    "Any": 810,
-    "Gig": 161,
-    "Freelance": 3
+    "Part Time": 1077,
+    "Full Time": 2666,
+    "Any": 936,
+    "Gig": 203,
+    "Freelance": 4
   },
   "user_taxonomy_primary": [
     {
       "category": "General VA / Admin / Ops",
-      "all_jobs": 1512,
-      "all_pct": 36.5,
-      "full_time_jobs": 862,
-      "full_time_pct": 38.2,
+      "all_jobs": 1799,
+      "all_pct": 36.8,
+      "full_time_jobs": 1032,
+      "full_time_pct": 38.7,
       "examples": [
         {
           "title": "Bilignual Virtual Assistant (English & Spanish)",
@@ -175,10 +175,10 @@
     },
     {
       "category": "Creative / Content Production",
-      "all_jobs": 1132,
+      "all_jobs": 1336,
       "all_pct": 27.3,
-      "full_time_jobs": 517,
-      "full_time_pct": 22.9,
+      "full_time_jobs": 617,
+      "full_time_pct": 23.1,
       "examples": [
         {
           "title": "Real Estate Graphics Designer Needed!",
@@ -335,10 +335,10 @@
     },
     {
       "category": "Sales / Outbound / Cold Call",
-      "all_jobs": 685,
-      "all_pct": 16.5,
-      "full_time_jobs": 424,
-      "full_time_pct": 18.8,
+      "all_jobs": 792,
+      "all_pct": 16.2,
+      "full_time_jobs": 482,
+      "full_time_pct": 18.1,
       "examples": [
         {
           "title": "Senior GEO + Branded-Search Specialist (Skincare, Shopify)",
@@ -491,10 +491,10 @@
     },
     {
       "category": "Automation / Funnels / GHL",
-      "all_jobs": 369,
+      "all_jobs": 436,
       "all_pct": 8.9,
-      "full_time_jobs": 170,
-      "full_time_pct": 7.5,
+      "full_time_jobs": 203,
+      "full_time_pct": 7.6,
       "examples": [
         {
           "title": "Operations Executive - US Market",
@@ -654,9 +654,9 @@
     },
     {
       "category": "Customer Service / Support",
-      "all_jobs": 260,
-      "all_pct": 6.3,
-      "full_time_jobs": 188,
+      "all_jobs": 305,
+      "all_pct": 6.2,
+      "full_time_jobs": 220,
       "full_time_pct": 8.3,
       "examples": [
         {
@@ -811,9 +811,9 @@
     },
     {
       "category": "Software Engineering",
-      "all_jobs": 131,
-      "all_pct": 3.2,
-      "full_time_jobs": 61,
+      "all_jobs": 153,
+      "all_pct": 3.1,
+      "full_time_jobs": 72,
       "full_time_pct": 2.7,
       "examples": [
         {
@@ -947,10 +947,10 @@
     },
     {
       "category": "Vibe Coder / AI Web Builder",
-      "all_jobs": 56,
-      "all_pct": 1.4,
-      "full_time_jobs": 35,
-      "full_time_pct": 1.6,
+      "all_jobs": 65,
+      "all_pct": 1.3,
+      "full_time_jobs": 40,
+      "full_time_pct": 1.5,
       "examples": [
         {
           "title": "OPERATIONS MANAGER - Finance, Systems & Scale",
@@ -1076,61 +1076,1008 @@
   "user_taxonomy_multilabel": [
     {
       "category": "General VA / Admin / Ops",
-      "all_jobs": 4145,
+      "all_jobs": 4886,
       "all_pct": 100.0,
-      "full_time_jobs": 2257,
+      "full_time_jobs": 2666,
       "full_time_pct": 100.0
     },
     {
       "category": "Automation / Funnels / GHL",
-      "all_jobs": 2579,
-      "all_pct": 62.2,
-      "full_time_jobs": 1481,
-      "full_time_pct": 65.6
+      "all_jobs": 3027,
+      "all_pct": 62.0,
+      "full_time_jobs": 1746,
+      "full_time_pct": 65.5
     },
     {
       "category": "Creative / Content Production",
-      "all_jobs": 2203,
-      "all_pct": 53.1,
-      "full_time_jobs": 1061,
-      "full_time_pct": 47.0
+      "all_jobs": 2598,
+      "all_pct": 53.2,
+      "full_time_jobs": 1267,
+      "full_time_pct": 47.5
     },
     {
       "category": "Customer Service / Support",
-      "all_jobs": 2178,
-      "all_pct": 52.5,
-      "full_time_jobs": 1357,
+      "all_jobs": 2559,
+      "all_pct": 52.4,
+      "full_time_jobs": 1602,
       "full_time_pct": 60.1
     },
     {
       "category": "Sales / Outbound / Cold Call",
-      "all_jobs": 2144,
-      "all_pct": 51.7,
-      "full_time_jobs": 1307,
-      "full_time_pct": 57.9
+      "all_jobs": 2514,
+      "all_pct": 51.5,
+      "full_time_jobs": 1527,
+      "full_time_pct": 57.3
     },
     {
       "category": "Software Engineering",
-      "all_jobs": 554,
+      "all_jobs": 656,
       "all_pct": 13.4,
-      "full_time_jobs": 295,
-      "full_time_pct": 13.1
+      "full_time_jobs": 347,
+      "full_time_pct": 13.0
     },
     {
       "category": "Vibe Coder / AI Web Builder",
-      "all_jobs": 56,
-      "all_pct": 1.4,
-      "full_time_jobs": 35,
-      "full_time_pct": 1.6
+      "all_jobs": 65,
+      "all_pct": 1.3,
+      "full_time_jobs": 40,
+      "full_time_pct": 1.5
     }
   ],
+  "general_admin_ops_breakdown": {
+    "source_category": "General VA / Admin / Ops",
+    "total_jobs": 1799,
+    "full_time_jobs": 1032,
+    "subcategories": [
+      {
+        "category": "Recruiting / HR / Staffing",
+        "all_jobs": 526,
+        "all_pct": 29.2,
+        "full_time_jobs": 297,
+        "full_time_pct": 28.8,
+        "examples": [
+          {
+            "title": "Female Remote US Healthcare Recruiter \u2013 Elderly Care",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Recruiting Healthcare Psychology",
+            "hits": "recruiting, recruiter, hr, candidate, candidates, interview"
+          },
+          {
+            "title": "SEWP Federal Contract Operations Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "hr, interview, talent"
+          },
+          {
+            "title": "Recruitment Operations & Client Success VA",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Administrative Management Customer Service Virtual Assistant",
+            "hits": "hr, candidate, candidates, interview, onboarding, hiring"
+          },
+          {
+            "title": "Live video blogger",
+            "type": "Full Time",
+            "hours": "30",
+            "skills": "",
+            "hits": "talent"
+          },
+          {
+            "title": "Hiring IT Fresher \u2013 Website Development (Remote)",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "CSS HTML",
+            "hits": "hiring, talent"
+          },
+          {
+            "title": "Home Care Operations Coordinator / Scheduler",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "hr, candidate, interview, interviews, onboarding, staffing"
+          },
+          {
+            "title": "Creative Product Design Assistant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "candidate, talent"
+          },
+          {
+            "title": "Vendor Account Specialist",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Accounts Receivable Events Management Internal Auditing",
+            "hits": "recruiting, hr, onboarding, talent"
+          },
+          {
+            "title": "IT Support Technician",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "onboarding, talent"
+          },
+          {
+            "title": "Hospitality Accounting Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Analysis Accounting",
+            "hits": "hr, candidate, candidates, talent"
+          },
+          {
+            "title": "Vendor Account Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Accounts Receivable Events Management Team Leadership",
+            "hits": "recruiting, hr, onboarding, talent"
+          },
+          {
+            "title": "Promo Scheduler Manager (Training Provided)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Data Analytics English Team Leadership",
+            "hits": "hr, talent"
+          }
+        ],
+        "desc": "Recruiting assistants, HR admin, candidate sourcing, interviews, onboarding, staff coordination."
+      },
+      {
+        "category": "Data Entry / Admin Processing",
+        "all_jobs": 426,
+        "all_pct": 23.7,
+        "full_time_jobs": 253,
+        "full_time_pct": 24.5,
+        "examples": [
+          {
+            "title": "Compliance Operations Coordinator (US Workforce)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "HR Management Claims Processing",
+            "hits": "document, records, processing"
+          },
+          {
+            "title": "Full Time Executive Virtual Assistant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Google Ads Website Builder Microsoft 365",
+            "hits": "administrative, document, documents, forms, google sheets, excel"
+          },
+          {
+            "title": "Virtual Assistant to Listing Manager",
+            "type": "Full Time",
+            "hours": "39",
+            "skills": "Real Estate Office and Administration Google Workspace",
+            "hits": "data entry, administrative, document, documents, forms"
+          },
+          {
+            "title": "Remote Marketing & Administrative Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Content Creation Digital Marketing Executive Assistance",
+            "hits": "data entry, administrative, forms, excel"
+          },
+          {
+            "title": "Executive Assistant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Attention to Detail Organization Time Managment",
+            "hits": "administrative assistant, administrative, document, documents, forms, google sheets"
+          },
+          {
+            "title": "Executive Assistant",
+            "type": "Full Time",
+            "hours": "32",
+            "skills": "Attention to Detail Google Workspace Organization",
+            "hits": "administrative, document, documents, spreadsheet, spreadsheets, google sheets"
+          },
+          {
+            "title": "Admin Assistant - Medical Insurance",
+            "type": "Full Time",
+            "hours": "25",
+            "skills": "Medical Insurance English Proficiency",
+            "hits": "admin assistant, administrative assistant, administrative"
+          },
+          {
+            "title": "Junior Bookkeeper | Experience with US-Based Real Estate Client Required | Up to $7/hr. | Apply Now!",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "data entry, administrative, document, documents, forms, spreadsheet"
+          },
+          {
+            "title": "Administrative Virtual Assistant (Bookkeeping Support)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "administrative assistant, administrative, document, documents, spreadsheet, spreadsheets"
+          },
+          {
+            "title": "Bookkeeping Administrator",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "data entry, forms, google sheets, excel, records"
+          },
+          {
+            "title": "Operations-Focused Virtual Assistant for Rapidly Growing Interior Design & Installation Company",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Microsoft Excel Customer Service Multitasking",
+            "hits": "document, spreadsheet, spreadsheets, google sheets, excel"
+          },
+          {
+            "title": "Accountant - Xero Europe (Reports to: CEO and CFO)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Xero Accounting Management Notion",
+            "hits": "document, excel, records, processing"
+          }
+        ],
+        "desc": "Data entry, document processing, forms, spreadsheets, CRM updates, repetitive admin execution."
+      },
+      {
+        "category": "Generalist VA / Misc Admin",
+        "all_jobs": 259,
+        "all_pct": 14.4,
+        "full_time_jobs": 121,
+        "full_time_pct": 11.7,
+        "examples": [
+          {
+            "title": "ISA manager",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "CRM Microsoft Excel English Speaking",
+            "hits": "admin, \\bva\\b"
+          },
+          {
+            "title": "Sales Manager & Support Assistant",
+            "type": "Full Time",
+            "hours": "48",
+            "skills": "",
+            "hits": "assistant, \\bva\\b"
+          },
+          {
+            "title": "Executive Assistant",
+            "type": "Full Time",
+            "hours": "30",
+            "skills": "Asana Office and Administration Executive Assistance",
+            "hits": "assistant, admin, \\bva\\b"
+          },
+          {
+            "title": "Ebay proExperienced eBay Listing Specialist - (Ready to Start Immediately)duct",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Ebay Listing Management Photo Editing",
+            "hits": "assistant, \\bva\\b"
+          },
+          {
+            "title": "Executive Assistant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "English Speaking Research Virtual Assistant",
+            "hits": "virtual assistant, assistant, miscellaneous, \\bva\\b"
+          },
+          {
+            "title": "Personal Assistant - Marketing & Operations (Full-Time Remote)",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Communication English Proficiency",
+            "hits": "assistant, \\bva\\b"
+          },
+          {
+            "title": "Digital Marketing Specialist & Team Lead - Growing US Business (Remote, Full-Time)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "assistant, \\bva\\b"
+          },
+          {
+            "title": "Instagram VA - Editing & posting / scheduling content",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Instagram marketing Social Media Video Editing Post Scheduling",
+            "hits": "virtual assistant, assistant, \\bva\\b"
+          },
+          {
+            "title": "HIRING VIRTUAL ASSISTANT for REAL ESTATE INVESTMENT COMPANY",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Real Estate Communication Logical Reasoning",
+            "hits": "virtual assistant, assistant, admin, administrative support, \\bva\\b"
+          },
+          {
+            "title": "Virtual Assistant",
+            "type": "Full Time",
+            "hours": "56",
+            "skills": "",
+            "hits": "virtual assistant, assistant, \\bva\\b"
+          },
+          {
+            "title": "Spanish Healthcare or Medical intake",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Healthcare Spanish Bilingual Medical Virtual Assistant",
+            "hits": "virtual assistant, assistant, \\bva\\b"
+          },
+          {
+            "title": "Reddit VA",
+            "type": "Full Time",
+            "hours": "30",
+            "skills": "Marketing Online Forum Posting Virtual Assistant",
+            "hits": "virtual assistant, assistant, \\bva\\b"
+          }
+        ],
+        "desc": "Broad virtual assistant roles that mix multiple admin duties without one dominant specialty."
+      },
+      {
+        "category": "Real Estate / Property / STR Ops",
+        "all_jobs": 163,
+        "all_pct": 9.1,
+        "full_time_jobs": 109,
+        "full_time_pct": 10.6,
+        "examples": [
+          {
+            "title": "Construction Estimator - Remote",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "str, tenant, lease"
+          },
+          {
+            "title": "Team Lead Estimator / Estimating Manager (Remote)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "str, tenant, lease"
+          },
+          {
+            "title": "Guest Communication - Owner Rez, Airbnb, VRBO, Booking.com.",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Short Term Rentals Airbnb Vrbo",
+            "hits": "property management, airbnb, short term rental, short-term rental, str, guest"
+          },
+          {
+            "title": "Spanish Property Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Construction Project Manager Property Management Spanish Bilingual",
+            "hits": "property management, property manager, str, lease"
+          },
+          {
+            "title": "Remote Resident Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "property management, property manager, str, tenant, tenants, lease"
+          },
+          {
+            "title": "Virtual Assistant for Short-Term Rental Host with Hospitable.com Experience",
+            "type": "Full Time",
+            "hours": "50",
+            "skills": "Short Term Rentals Airbnb Hotel Booking",
+            "hits": "airbnb, short term rental, short-term rental, str, guest, guests"
+          },
+          {
+            "title": "Assistant Property Manager (Yardi Voyager)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Property Management Commercial Real Estate Yardi",
+            "hits": "real estate, property management, property manager, str, tenant, tenants"
+          },
+          {
+            "title": "Roofing Take off",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Planswift Quantity Takeoff",
+            "hits": "str, lease"
+          },
+          {
+            "title": "AirBnB Sales & Booking Trailblazer",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "SEO Short Term Rentals Airbnb",
+            "hits": "property management, airbnb, short term rental, str, guest, guests"
+          },
+          {
+            "title": "Property Portfolio Operations, Lettings and Compliance Manager",
+            "type": "Full Time",
+            "hours": "38",
+            "skills": "Attention to Detail Communication Reliability",
+            "hits": "real estate, property management, property manager, str, tenant, lease"
+          },
+          {
+            "title": "Senior Accounting and Bookkeeping Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Financial Accounting Bookkeeping",
+            "hits": "real estate, property management, airbnb, short-term rental, str, guest"
+          },
+          {
+            "title": "Virtual Assistant for Laundry & Property Management Businesses",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Real Estate Marketing Lead Generation Customer Support",
+            "hits": "real estate, property management, airbnb, str, tenant, tenants"
+          }
+        ],
+        "desc": "Real estate admin, Airbnb and short-term rental operations, property management support."
+      },
+      {
+        "category": "Ecommerce / Marketplace Admin",
+        "all_jobs": 97,
+        "all_pct": 5.4,
+        "full_time_jobs": 58,
+        "full_time_pct": 5.6,
+        "examples": [
+          {
+            "title": "Wholesale Operations Coordinator",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "FBA Wholesale Sourcing Purchasing",
+            "hits": "amazon, ebay, orders, inventory, marketplace"
+          },
+          {
+            "title": "Remote Parts Coordinator",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "orders, inventory"
+          },
+          {
+            "title": "Amazon FBA, Brand Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Amazon Ads FBA Amazon PPC",
+            "hits": "amazon, inventory"
+          },
+          {
+            "title": "Director of Supply Chain",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Logistics Management Process Improvement Supply Chain Management",
+            "hits": "shopify, amazon, e-commerce, inventory, marketplace"
+          },
+          {
+            "title": "Experienced Wholesale Operations Coordinator",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "FBA Product Sourcing Wholesale Sourcing",
+            "hits": "amazon, ebay, orders, inventory, marketplace"
+          },
+          {
+            "title": "Demand Planner",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Inventory Management Capacity Planning Forecasting",
+            "hits": "shopify, amazon, e-commerce, inventory, marketplace, seller central"
+          },
+          {
+            "title": "Amazon Store Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Seller Central Amazon PPC",
+            "hits": "amazon, product listing, product listings, inventory, marketplace, seller central"
+          },
+          {
+            "title": "E-commerce Platform Manager",
+            "type": "Full Time",
+            "hours": "45",
+            "skills": "Ecommerce Microsoft Excel Data Entry",
+            "hits": "ecommerce, e-commerce"
+          },
+          {
+            "title": "Personal Assistant [Nigh Shift] PH",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Personal Assistant Operation Management Back Office Support",
+            "hits": "shopify, ecommerce, product listing, product listings, orders"
+          },
+          {
+            "title": "Amazon Operations Specialist",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Amazon Catalog Management Seller Central",
+            "hits": "amazon, product listing, product listings, marketplace, seller central"
+          },
+          {
+            "title": "Chinese-Speaking Ecommerce Operations Assistant (Remote)",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "",
+            "hits": "ecommerce, orders, customer orders"
+          },
+          {
+            "title": "Ecommerce Assitant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Product Research Ecommerce Communication",
+            "hits": "ecommerce, product listing, product listings, marketplace"
+          }
+        ],
+        "desc": "Shopify/Amazon/Etsy/eBay admin, orders, product listings, inventory, marketplace operations."
+      },
+      {
+        "category": "Operations / Business Management",
+        "all_jobs": 95,
+        "all_pct": 5.3,
+        "full_time_jobs": 63,
+        "full_time_pct": 6.1,
+        "examples": [
+          {
+            "title": "Lead Administrator / Integrator",
+            "type": "Full Time",
+            "hours": "38",
+            "skills": "",
+            "hits": "process improvement, sop, sops, systems, workflow"
+          },
+          {
+            "title": "Supply Chain & Logistics Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "process improvement, systems, workflow"
+          },
+          {
+            "title": "Telephone operator, USA Time",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "",
+            "hits": "operator"
+          },
+          {
+            "title": "Walmart Operations Lead",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "sop, sops, systems, workflow, operator"
+          },
+          {
+            "title": "IT Manager / Field Supervisor",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "process improvement, workflow"
+          },
+          {
+            "title": "Manager, Creator Partnerships and UGC",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "sop, sops, systems, workflow, \\bops\\b"
+          },
+          {
+            "title": "eBay Listing & Marketplace Operations Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "operations manager, sop, sops, workflow"
+          },
+          {
+            "title": "Executive Assistant / NOTION + CANVA Operations SOP Architect",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Bpo Operations Management Notion Executive Assistance",
+            "hits": "sop, sops, systems, workflow"
+          },
+          {
+            "title": "EXECUTIVE ASSISTANT & NOTION DEVELOPMENT",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Bpo Operations Management Negotation Executive Assistance",
+            "hits": "operations manager, sop, sops, systems, daily operations"
+          },
+          {
+            "title": "WANTED: The World's Most Relentless Growth-Focused SEO Account Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Local SEO Communication Elementor",
+            "hits": "operations manager, process improvement, sop, sops, systems, workflow"
+          },
+          {
+            "title": "Remote Operations Manager \u2013 Bear Brothers Cleaning \u2013 $1K+ Quick Earning Potential",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Inbound Sales Customer Service Operation Management",
+            "hits": "operations manager, operation management, operator, \\bops\\b"
+          },
+          {
+            "title": "Marketing Research Support VA",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "workflow"
+          }
+        ],
+        "desc": "Operations managers, business process ownership, SOPs, systems, reporting, internal coordination."
+      },
+      {
+        "category": "Healthcare / Insurance Admin",
+        "all_jobs": 75,
+        "all_pct": 4.2,
+        "full_time_jobs": 43,
+        "full_time_pct": 4.2,
+        "examples": [
+          {
+            "title": "Bilignual Virtual Assistant (English & Spanish)",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Office and Administration English Spanish Bilingual",
+            "hits": "healthcare, clinic, patient, appointment, appointments, health"
+          },
+          {
+            "title": "NOW HIRING: Insurance Verification Specialist & Dental Biller \u2013 DENTAL Endodontic Practice",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Dental Insurance Dental Billing Medical Virtual Assistant",
+            "hits": "healthcare, medical, clinic, dental, patient, patients"
+          },
+          {
+            "title": "Inside Sales Assistant / Lead Intake Specialist (Remote \u2013 Full Time)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "English Speaking English Proficiency Outbound Calls",
+            "hits": "appointment, appointments"
+          },
+          {
+            "title": "Customer Success & Partnerships Coordinator Full remote",
+            "type": "Full Time",
+            "hours": "45",
+            "skills": "Customer Support Management Microsoft Excel English Speaking",
+            "hits": "healthcare, health"
+          },
+          {
+            "title": "Senior AI Delivery Coordinator: Australian Healthcare Technology Firm",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Project Management Jira AI Automation",
+            "hits": "healthcare, medical, insurance, health"
+          },
+          {
+            "title": "Revenue Cycle & Medical Billing Specialist (Remote)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Medical Insurance Medical Billing Revenue Cycle Management",
+            "hits": "healthcare, medical, clinic, patient, insurance, claims"
+          },
+          {
+            "title": "Virtual Medical Assistant with Insurance Verification and Prior Authorization Experience",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "medical, clinic, patient, patients, insurance, appointment"
+          },
+          {
+            "title": "Microsoft Power Platform Engineer",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Power BI Microsoft 365 AI Automation",
+            "hits": "healthcare, billing, health"
+          },
+          {
+            "title": "VIRTUAL INTAKE LEADER (HOME CARE)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "healthcare, clinic, patient, patients, insurance, therapy"
+          },
+          {
+            "title": "Executive virtual assistant job!",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Performance Marketing CRM Salesforce",
+            "hits": "healthcare, medical, insurance, appointment, appointments, health"
+          },
+          {
+            "title": "Credentialing & Insurance Contracting Specialist (Healthcare)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "healthcare, medical, insurance, claims, billing, health"
+          },
+          {
+            "title": "Property and Casualty Commercial and Personal lines rep.",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Insurance",
+            "hits": "insurance"
+          }
+        ],
+        "desc": "Clinic, medical, dental, wellness, insurance, patient, billing, claims, appointment admin."
+      },
+      {
+        "category": "Executive / Personal Assistant",
+        "all_jobs": 67,
+        "all_pct": 3.7,
+        "full_time_jobs": 40,
+        "full_time_pct": 3.9,
+        "examples": [
+          {
+            "title": "Virtual Assistant | Dance Academy Owner",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Research Executive Assistance Virtual Assistant",
+            "hits": "executive assistant, personal assistant, founder, ceo, calendar, inbox"
+          },
+          {
+            "title": "Executive Assistant - Notion Specialist | High Fashion Brand",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Sop Writing Notion Executive Assistance",
+            "hits": "executive assistant, ceo, calendar, travel"
+          },
+          {
+            "title": "Founder Executive Assistant / Operations Assistant",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "",
+            "hits": "executive assistant, founder, ceo, calendar, inbox, travel"
+          },
+          {
+            "title": "Executive Assistant / Operator for CEO",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "executive assistant, founder, ceo, calendar, inbox, travel"
+          },
+          {
+            "title": "Executive Assistant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "executive assistant, calendar, email management, travel, appointments"
+          },
+          {
+            "title": "Executive Assistant",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "executive assistant, calendar, appointments, reminders"
+          },
+          {
+            "title": "CEO Assistant for Chain Spa in US",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Project Management Recruiting HR Management",
+            "hits": "executive assistant, ceo, calendar, travel, \\bea\\b"
+          },
+          {
+            "title": "Executive Virtual Assistant \u2014 Social Media, Operations & Personal Assistant (Notion + AI Tools)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Social Media Management Notion Virtual Assistant",
+            "hits": "personal assistant, founder, calendar, travel, \\bea\\b"
+          },
+          {
+            "title": "Lifestyle Manager at a Fast-Growing AI Startup",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Systems Administration Executive Assistance Travel Management",
+            "hits": "executive assistant, founder, ceo, travel"
+          },
+          {
+            "title": "Executive Assistant / Chief of Staff for US Founder (Sales + CRM)",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "",
+            "hits": "executive assistant, founder, calendar, inbox, travel, reminders"
+          },
+          {
+            "title": "Executive Assistant (Operations | Real Estate | Night Shift)",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Real Estate Operation Management Executive Assistance",
+            "hits": "executive assistant, ceo, calendar, inbox, reminders"
+          },
+          {
+            "title": "Full-Time Personal VA for Founder \u2014 Remote, Long-Term",
+            "type": "Full Time",
+            "hours": "48",
+            "skills": "",
+            "hits": "founder, calendar, inbox, travel, appointments, \\bea\\b"
+          }
+        ],
+        "desc": "Founder support, inbox/calendar, travel, reminders, personal admin, executive coordination."
+      },
+      {
+        "category": "Project / Client Coordination",
+        "all_jobs": 55,
+        "all_pct": 3.1,
+        "full_time_jobs": 34,
+        "full_time_pct": 3.3,
+        "examples": [
+          {
+            "title": "Virtual Assistant - Operations & Customer Service",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Organization Scheduling Client Relationship Management",
+            "hits": "project management, asana, monday.com, timeline"
+          },
+          {
+            "title": "Construction Project Coordinator",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Construction Project Manager",
+            "hits": "project manager, project management, project coordinator, asana, timeline"
+          },
+          {
+            "title": "Digital Marketing Operations Coordinator",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Marketing Project Management Web Development",
+            "hits": "project management, client communication, asana, clickup"
+          },
+          {
+            "title": "Social Media Content and Paid Ads Specialist",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "project management, task management, clickup"
+          },
+          {
+            "title": "Electrical Engineer / Quantity Surveyor - Remote UK & Ireland Projects (Tradify Experience Required)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "project manager, project management, client communication, client management"
+          },
+          {
+            "title": "Project Manager - HubSpot expert",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Marketing CRM Process Mapping",
+            "hits": "project manager, client communication"
+          },
+          {
+            "title": "Designer Architect Quantity Surveyor For Australian Commercial Office Space",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Architectural Services Construction Project Manager Design",
+            "hits": "project manager, project management"
+          },
+          {
+            "title": "Full-Time Etsy SEO & Ecommerce Manager",
+            "type": "Full Time",
+            "hours": "35",
+            "skills": "Etsy",
+            "hits": "project management, monday.com"
+          },
+          {
+            "title": "Technical Project Manager",
+            "type": "Full Time",
+            "hours": "8",
+            "skills": "Project Management Software Software Development Project Manager",
+            "hits": "project manager, project management"
+          },
+          {
+            "title": "RCM Project Manager",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "project manager, project management, timeline, deliverables"
+          },
+          {
+            "title": "Remote Social Media Manager",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "",
+            "hits": "project management, client communication, deliverables"
+          },
+          {
+            "title": "Project Coordinator (Construction)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Construction Project Manager Project Management",
+            "hits": "project manager, project management, project coordinator"
+          }
+        ],
+        "desc": "Project managers, client coordinators, task tracking, delivery timelines, account coordination."
+      },
+      {
+        "category": "Research / Lead List Building",
+        "all_jobs": 36,
+        "all_pct": 2.0,
+        "full_time_jobs": 14,
+        "full_time_pct": 1.4,
+        "examples": [
+          {
+            "title": "Truck & Parts Sourcing Specialist",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "sourcing, \\bresearch\\b"
+          },
+          {
+            "title": "Talent Research & Recruitment Virtual Assistant (SAP & Interim Management)",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Lead Generation Data Entry Research",
+            "hits": "research assistant, lead generation, sourcing, \\bresearch\\b"
+          },
+          {
+            "title": "Music curator / Music analyst",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "contact information, \\bresearch\\b"
+          },
+          {
+            "title": "Amazon Wholesale Product Sourcing VA",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "FBA Product Research Product Sourcing",
+            "hits": "sourcing, \\bresearch\\b"
+          },
+          {
+            "title": "Experienced Amazon WHOLSALE Product Sourcing VA",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "FBA Product Sourcing Wholesale Sourcing",
+            "hits": "sourcing, \\bresearch\\b"
+          },
+          {
+            "title": "Product Sourcing Specialist",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "",
+            "hits": "online research, market research, sourcing, \\bresearch\\b"
+          },
+          {
+            "title": "Product research VA - Ads library",
+            "type": "Full Time",
+            "hours": "25",
+            "skills": "Facebook Ads Product Research Market Research",
+            "hits": "online research, market research, \\bresearch\\b"
+          },
+          {
+            "title": "Amazon Virtual Assistant (Long-Term Opportunity Spots)",
+            "type": "Full Time",
+            "hours": "30",
+            "skills": "Amazon Product Research Adaptability",
+            "hits": "online research, lead list, lead lists, lead generation, \\bresearch\\b"
+          },
+          {
+            "title": "Venture Builder",
+            "type": "Full Time",
+            "hours": "50",
+            "skills": "Google Ads Local SEO Digital Marketing",
+            "hits": "market research, sourcing, \\bresearch\\b"
+          },
+          {
+            "title": "Legal VA",
+            "type": "Full Time",
+            "hours": "40",
+            "skills": "Legal Services Case Management Legal Research",
+            "hits": "\\bresearch\\b"
+          },
+          {
+            "title": "Paralegal with excellent legal writing and legal research skills",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "",
+            "hits": "\\bresearch\\b"
+          },
+          {
+            "title": "Creator & Performance Marketing Manager",
+            "type": "Full Time",
+            "hours": "TBD",
+            "skills": "Influencer Marketing Data scraping",
+            "hits": "sourcing, \\bresearch\\b"
+          }
+        ],
+        "desc": "Online research, lead lists, contact finding, web research, sourcing information."
+      }
+    ]
+  },
   "recommended_taxonomy_primary": [
     {
       "category": "General VA / Admin / Ops",
-      "all_jobs": 1014,
-      "all_pct": 24.5,
-      "full_time_jobs": 610,
-      "full_time_pct": 27.0,
+      "all_jobs": 1211,
+      "all_pct": 24.8,
+      "full_time_jobs": 730,
+      "full_time_pct": 27.4,
       "examples": [
         {
           "title": "Bilignual Virtual Assistant (English & Spanish)",
@@ -1285,10 +2232,10 @@
     },
     {
       "category": "Creative / Content Production",
-      "all_jobs": 948,
+      "all_jobs": 1120,
       "all_pct": 22.9,
-      "full_time_jobs": 431,
-      "full_time_pct": 19.1,
+      "full_time_jobs": 515,
+      "full_time_pct": 19.3,
       "examples": [
         {
           "title": "Real Estate Graphics Designer Needed!",
@@ -1450,10 +2397,10 @@
     },
     {
       "category": "Sales / Outbound / Cold Call",
-      "all_jobs": 543,
-      "all_pct": 13.1,
-      "full_time_jobs": 338,
-      "full_time_pct": 15.0,
+      "all_jobs": 627,
+      "all_pct": 12.8,
+      "full_time_jobs": 383,
+      "full_time_pct": 14.4,
       "examples": [
         {
           "title": "Social Media Sales Manager | DM Setter & Closer",
@@ -1615,10 +2562,10 @@
     },
     {
       "category": "Automation / Funnels / GHL",
-      "all_jobs": 292,
-      "all_pct": 7.0,
-      "full_time_jobs": 124,
-      "full_time_pct": 5.5,
+      "all_jobs": 345,
+      "all_pct": 7.1,
+      "full_time_jobs": 150,
+      "full_time_pct": 5.6,
       "examples": [
         {
           "title": "Operations Executive - US Market",
@@ -1788,10 +2735,10 @@
     },
     {
       "category": "Data / Research / Analytics",
-      "all_jobs": 249,
-      "all_pct": 6.0,
-      "full_time_jobs": 132,
-      "full_time_pct": 5.8,
+      "all_jobs": 290,
+      "all_pct": 5.9,
+      "full_time_jobs": 156,
+      "full_time_pct": 5.9,
       "examples": [
         {
           "title": "Supply Chain & Logistics Manager",
@@ -1940,176 +2887,11 @@
       "desc": "Data scraping, analysis, reporting, lead list research and spreadsheet-heavy research."
     },
     {
-      "category": "Finance / Bookkeeping",
-      "all_jobs": 191,
-      "all_pct": 4.6,
-      "full_time_jobs": 119,
-      "full_time_pct": 5.3,
-      "examples": [
-        {
-          "title": "Are You a Rockstar Accountant Ready to Master a New, High-Stakes Niche?",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Accounting Quickbooks Financial Accounting",
-          "hits": [
-            "bookkeeping",
-            "accounting",
-            "accountant",
-            "quickbooks",
-            "xero",
-            "financial accounting"
-          ]
-        },
-        {
-          "title": "U.S. Enrolled Agent (EA)",
-          "type": "Full Time",
-          "hours": "TBD",
-          "skills": "Financial Accounting Tax Preparation",
-          "hits": [
-            "bookkeeping",
-            "accounting",
-            "quickbooks",
-            "financial accounting"
-          ]
-        },
-        {
-          "title": "Junior Bookkeeper | Experience with US-Based Real Estate Client Required | Up to $7/hr. | Apply Now!",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "",
-          "hits": [
-            "bookkeeping",
-            "bookkeeper",
-            "accounting",
-            "quickbooks",
-            "accounts payable",
-            "accounts receivable"
-          ]
-        },
-        {
-          "title": "Bookkeeper",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Accounting Quickbooks Bookkeeping",
-          "hits": [
-            "bookkeeping",
-            "bookkeeper",
-            "accounting",
-            "accountant",
-            "quickbooks",
-            "payroll"
-          ]
-        },
-        {
-          "title": "Bookkeeper",
-          "type": "Full Time",
-          "hours": "TBD",
-          "skills": "",
-          "hits": [
-            "bookkeeping",
-            "bookkeeper",
-            "accounting",
-            "quickbooks",
-            "xero",
-            "accounts payable"
-          ]
-        },
-        {
-          "title": "Accounts Receivable Specialist",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Accounts Receivable Invoicing Collection",
-          "hits": [
-            "accounts receivable",
-            "invoicing"
-          ]
-        },
-        {
-          "title": "Accountant - Xero Europe (Reports to: CEO and CFO)",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Xero Accounting Management Notion",
-          "hits": [
-            "bookkeeping",
-            "accounting",
-            "accountant",
-            "xero",
-            "payroll",
-            "accounts payable"
-          ]
-        },
-        {
-          "title": "Accountant \u2013 Australian Tax Law | CA or CPA (advantageous)",
-          "type": "Full Time",
-          "hours": "38",
-          "skills": "Accounting Bookkeeping Tax Preparation",
-          "hits": [
-            "bookkeeping",
-            "accounting",
-            "accountant",
-            "quickbooks",
-            "xero",
-            "reconciliation"
-          ]
-        },
-        {
-          "title": "CPA With US Tax Preparation Experience",
-          "type": "Full Time",
-          "hours": "30",
-          "skills": "Microsoft Excel Tax Preparation",
-          "hits": [
-            "accounting"
-          ]
-        },
-        {
-          "title": "Senior Financial Analyst",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Financial Accounting Financial Analysis Financial Reporting",
-          "hits": [
-            "accounting",
-            "xero",
-            "financial accounting",
-            "reconciliation"
-          ]
-        },
-        {
-          "title": "Staff Accountant (Sage Intacct)",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Accounting Accounts Payable Sage Intacct",
-          "hits": [
-            "accounting",
-            "accountant",
-            "quickbooks",
-            "payroll",
-            "accounts payable",
-            "reconciliation"
-          ]
-        },
-        {
-          "title": "Staff Accountant (Full-Time, Remote)",
-          "type": "Full Time",
-          "hours": "40",
-          "skills": "Quickbooks Accounts Payable Microsoft Excel",
-          "hits": [
-            "accounting",
-            "accountant",
-            "quickbooks",
-            "payroll",
-            "accounts payable",
-            "reconciliation"
-          ]
-        }
-      ],
-      "desc": "Bookkeeping, accounting, QuickBooks, payroll, AR/AP and finance admin."
-    },
-    {
       "category": "Paid Ads / Performance Marketing",
-      "all_jobs": 191,
-      "all_pct": 4.6,
-      "full_time_jobs": 106,
-      "full_time_pct": 4.7,
+      "all_jobs": 229,
+      "all_pct": 4.7,
+      "full_time_jobs": 123,
+      "full_time_pct": 4.6,
       "examples": [
         {
           "title": "Senior Media Buyer - Facebook & Google Ads",
@@ -2274,11 +3056,176 @@
       "desc": "Meta/Facebook/Google/TikTok ads, media buying, campaign optimization and reporting."
     },
     {
-      "category": "Customer Service / Support",
-      "all_jobs": 190,
+      "category": "Finance / Bookkeeping",
+      "all_jobs": 227,
       "all_pct": 4.6,
-      "full_time_jobs": 139,
-      "full_time_pct": 6.2,
+      "full_time_jobs": 142,
+      "full_time_pct": 5.3,
+      "examples": [
+        {
+          "title": "Are You a Rockstar Accountant Ready to Master a New, High-Stakes Niche?",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Accounting Quickbooks Financial Accounting",
+          "hits": [
+            "bookkeeping",
+            "accounting",
+            "accountant",
+            "quickbooks",
+            "xero",
+            "financial accounting"
+          ]
+        },
+        {
+          "title": "U.S. Enrolled Agent (EA)",
+          "type": "Full Time",
+          "hours": "TBD",
+          "skills": "Financial Accounting Tax Preparation",
+          "hits": [
+            "bookkeeping",
+            "accounting",
+            "quickbooks",
+            "financial accounting"
+          ]
+        },
+        {
+          "title": "Junior Bookkeeper | Experience with US-Based Real Estate Client Required | Up to $7/hr. | Apply Now!",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "",
+          "hits": [
+            "bookkeeping",
+            "bookkeeper",
+            "accounting",
+            "quickbooks",
+            "accounts payable",
+            "accounts receivable"
+          ]
+        },
+        {
+          "title": "Bookkeeper",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Accounting Quickbooks Bookkeeping",
+          "hits": [
+            "bookkeeping",
+            "bookkeeper",
+            "accounting",
+            "accountant",
+            "quickbooks",
+            "payroll"
+          ]
+        },
+        {
+          "title": "Bookkeeper",
+          "type": "Full Time",
+          "hours": "TBD",
+          "skills": "",
+          "hits": [
+            "bookkeeping",
+            "bookkeeper",
+            "accounting",
+            "quickbooks",
+            "xero",
+            "accounts payable"
+          ]
+        },
+        {
+          "title": "Accounts Receivable Specialist",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Accounts Receivable Invoicing Collection",
+          "hits": [
+            "accounts receivable",
+            "invoicing"
+          ]
+        },
+        {
+          "title": "Accountant - Xero Europe (Reports to: CEO and CFO)",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Xero Accounting Management Notion",
+          "hits": [
+            "bookkeeping",
+            "accounting",
+            "accountant",
+            "xero",
+            "payroll",
+            "accounts payable"
+          ]
+        },
+        {
+          "title": "Accountant \u2013 Australian Tax Law | CA or CPA (advantageous)",
+          "type": "Full Time",
+          "hours": "38",
+          "skills": "Accounting Bookkeeping Tax Preparation",
+          "hits": [
+            "bookkeeping",
+            "accounting",
+            "accountant",
+            "quickbooks",
+            "xero",
+            "reconciliation"
+          ]
+        },
+        {
+          "title": "CPA With US Tax Preparation Experience",
+          "type": "Full Time",
+          "hours": "30",
+          "skills": "Microsoft Excel Tax Preparation",
+          "hits": [
+            "accounting"
+          ]
+        },
+        {
+          "title": "Senior Financial Analyst",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Financial Accounting Financial Analysis Financial Reporting",
+          "hits": [
+            "accounting",
+            "xero",
+            "financial accounting",
+            "reconciliation"
+          ]
+        },
+        {
+          "title": "Staff Accountant (Sage Intacct)",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Accounting Accounts Payable Sage Intacct",
+          "hits": [
+            "accounting",
+            "accountant",
+            "quickbooks",
+            "payroll",
+            "accounts payable",
+            "reconciliation"
+          ]
+        },
+        {
+          "title": "Staff Accountant (Full-Time, Remote)",
+          "type": "Full Time",
+          "hours": "40",
+          "skills": "Quickbooks Accounts Payable Microsoft Excel",
+          "hits": [
+            "accounting",
+            "accountant",
+            "quickbooks",
+            "payroll",
+            "accounts payable",
+            "reconciliation"
+          ]
+        }
+      ],
+      "desc": "Bookkeeping, accounting, QuickBooks, payroll, AR/AP and finance admin."
+    },
+    {
+      "category": "Customer Service / Support",
+      "all_jobs": 221,
+      "all_pct": 4.5,
+      "full_time_jobs": 161,
+      "full_time_pct": 6.0,
       "examples": [
         {
           "title": "HIRING! Remote Customer Support Agents \u2014 $500/month base + performance bonus | Long-term",
@@ -2439,10 +3386,10 @@
     },
     {
       "category": "Social Media / Community",
-      "all_jobs": 174,
+      "all_jobs": 203,
       "all_pct": 4.2,
-      "full_time_jobs": 69,
-      "full_time_pct": 3.1,
+      "full_time_jobs": 84,
+      "full_time_pct": 3.2,
       "examples": [
         {
           "title": "Social Media Outreach & Manager",
@@ -2596,10 +3543,10 @@
     },
     {
       "category": "Ecommerce / Marketplace Ops",
-      "all_jobs": 119,
+      "all_jobs": 141,
       "all_pct": 2.9,
-      "full_time_jobs": 67,
-      "full_time_pct": 3.0,
+      "full_time_jobs": 82,
+      "full_time_pct": 3.1,
       "examples": [
         {
           "title": "Senior GEO + Branded-Search Specialist (Skincare, Shopify)",
@@ -2745,9 +3692,9 @@
     },
     {
       "category": "Software Engineering",
-      "all_jobs": 103,
+      "all_jobs": 122,
       "all_pct": 2.5,
-      "full_time_jobs": 49,
+      "full_time_jobs": 58,
       "full_time_pct": 2.2,
       "examples": [
         {
@@ -2883,10 +3830,10 @@
     },
     {
       "category": "Recruiting / HR",
-      "all_jobs": 75,
-      "all_pct": 1.8,
-      "full_time_jobs": 38,
-      "full_time_pct": 1.7,
+      "all_jobs": 85,
+      "all_pct": 1.7,
+      "full_time_jobs": 42,
+      "full_time_pct": 1.6,
       "examples": [
         {
           "title": "Supply Chain Planner",
@@ -3021,10 +3968,10 @@
     },
     {
       "category": "Vibe Coder / AI Web Builder",
-      "all_jobs": 56,
-      "all_pct": 1.4,
-      "full_time_jobs": 35,
-      "full_time_pct": 1.6,
+      "all_jobs": 65,
+      "all_pct": 1.3,
+      "full_time_jobs": 40,
+      "full_time_pct": 1.5,
       "examples": [
         {
           "title": "OPERATIONS MANAGER - Finance, Systems & Scale",
@@ -3150,94 +4097,94 @@
   "recommended_taxonomy_multilabel": [
     {
       "category": "General VA / Admin / Ops",
-      "all_jobs": 4145,
+      "all_jobs": 4886,
       "all_pct": 100.0,
-      "full_time_jobs": 2257,
+      "full_time_jobs": 2666,
       "full_time_pct": 100.0
     },
     {
       "category": "Data / Research / Analytics",
-      "all_jobs": 2732,
-      "all_pct": 65.9,
-      "full_time_jobs": 1619,
-      "full_time_pct": 71.7
+      "all_jobs": 3194,
+      "all_pct": 65.4,
+      "full_time_jobs": 1887,
+      "full_time_pct": 70.8
     },
     {
       "category": "Automation / Funnels / GHL",
-      "all_jobs": 2579,
-      "all_pct": 62.2,
-      "full_time_jobs": 1481,
-      "full_time_pct": 65.6
+      "all_jobs": 3027,
+      "all_pct": 62.0,
+      "full_time_jobs": 1746,
+      "full_time_pct": 65.5
     },
     {
       "category": "Creative / Content Production",
-      "all_jobs": 2203,
-      "all_pct": 53.1,
-      "full_time_jobs": 1061,
-      "full_time_pct": 47.0
+      "all_jobs": 2598,
+      "all_pct": 53.2,
+      "full_time_jobs": 1267,
+      "full_time_pct": 47.5
     },
     {
       "category": "Customer Service / Support",
-      "all_jobs": 2178,
-      "all_pct": 52.5,
-      "full_time_jobs": 1357,
+      "all_jobs": 2559,
+      "all_pct": 52.4,
+      "full_time_jobs": 1602,
       "full_time_pct": 60.1
     },
     {
       "category": "Sales / Outbound / Cold Call",
-      "all_jobs": 2144,
-      "all_pct": 51.7,
-      "full_time_jobs": 1307,
-      "full_time_pct": 57.9
+      "all_jobs": 2514,
+      "all_pct": 51.5,
+      "full_time_jobs": 1527,
+      "full_time_pct": 57.3
     },
     {
       "category": "Social Media / Community",
-      "all_jobs": 1591,
-      "all_pct": 38.4,
-      "full_time_jobs": 792,
-      "full_time_pct": 35.1
+      "all_jobs": 1862,
+      "all_pct": 38.1,
+      "full_time_jobs": 922,
+      "full_time_pct": 34.6
     },
     {
       "category": "Recruiting / HR",
-      "all_jobs": 1407,
+      "all_jobs": 1654,
       "all_pct": 33.9,
-      "full_time_jobs": 868,
-      "full_time_pct": 38.5
+      "full_time_jobs": 1018,
+      "full_time_pct": 38.2
     },
     {
       "category": "Paid Ads / Performance Marketing",
-      "all_jobs": 1163,
-      "all_pct": 28.1,
-      "full_time_jobs": 636,
-      "full_time_pct": 28.2
+      "all_jobs": 1357,
+      "all_pct": 27.8,
+      "full_time_jobs": 749,
+      "full_time_pct": 28.1
     },
     {
       "category": "Ecommerce / Marketplace Ops",
-      "all_jobs": 941,
-      "all_pct": 22.7,
-      "full_time_jobs": 483,
-      "full_time_pct": 21.4
+      "all_jobs": 1115,
+      "all_pct": 22.8,
+      "full_time_jobs": 581,
+      "full_time_pct": 21.8
     },
     {
       "category": "Software Engineering",
-      "all_jobs": 554,
+      "all_jobs": 656,
       "all_pct": 13.4,
-      "full_time_jobs": 295,
-      "full_time_pct": 13.1
+      "full_time_jobs": 347,
+      "full_time_pct": 13.0
     },
     {
       "category": "Finance / Bookkeeping",
-      "all_jobs": 436,
-      "all_pct": 10.5,
-      "full_time_jobs": 282,
-      "full_time_pct": 12.5
+      "all_jobs": 526,
+      "all_pct": 10.8,
+      "full_time_jobs": 337,
+      "full_time_pct": 12.6
     },
     {
       "category": "Vibe Coder / AI Web Builder",
-      "all_jobs": 56,
-      "all_pct": 1.4,
-      "full_time_jobs": 35,
-      "full_time_pct": 1.6
+      "all_jobs": 65,
+      "all_pct": 1.3,
+      "full_time_jobs": 40,
+      "full_time_pct": 1.5
     }
   ]
 }
